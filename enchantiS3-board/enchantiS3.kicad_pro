@@ -103,7 +103,7 @@
         "silk_text_thickness": 0.1016,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.127
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -618,6 +618,22 @@
       {
         "netclass": "Signal",
         "pattern": "/SDA"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "SYS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3_AUX"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "CAN_RX"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "CAN_TX"
       }
     ]
   },
