@@ -634,6 +634,10 @@
       {
         "netclass": "Signal",
         "pattern": "CAN_TX"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "CHRG+"
       }
     ]
   },
