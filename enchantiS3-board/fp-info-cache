@@ -1,4 +1,4 @@
-21940434418763937
+21955906705568682
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,27 @@ audio belton reverb
 0
 7
 7
+BQ25185-footprints
+WSON10_DLH_TEX
+
+BQ25185DLHR 
+0
+11
+11
+BQ25185-footprints
+WSON10_DLH_TEX-L
+
+BQ25185DLHR 
+0
+11
+11
+BQ25185-footprints
+WSON10_DLH_TEX-M
+
+BQ25185DLHR 
+0
+11
+11
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -63573,6 +63594,27 @@ NCP167AMX330TBG
 0
 5
 5
+NCV8187-footprints
+NCV8187AMT330TAG_ONS
+
+NCV8187AMT330TAG 
+0
+7
+7
+NCV8187-footprints
+NCV8187AMT330TAG_ONS-L
+
+NCV8187AMT330TAG 
+0
+7
+7
+NCV8187-footprints
+NCV8187AMT330TAG_ONS-M
+
+NCV8187AMT330TAG 
+0
+7
+7
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -85315,6 +85357,27 @@ Logo WEEE
 0
 0
 0
+TCAN3413-footprints
+VSON8-DRB_TEX
+
+PTCAN3413DRBR 
+0
+9
+9
+TCAN3413-footprints
+VSON8-DRB_TEX-L
+
+PTCAN3413DRBR 
+0
+9
+9
+TCAN3413-footprints
+VSON8-DRB_TEX-M
+
+PTCAN3413DRBR 
+0
+9
+9
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -90948,5 +91011,5 @@ board-layout
 
 
 0
-17
-17
+18
+18

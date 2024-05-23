@@ -6,4 +6,7 @@
   (lib (name "max17262")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MAX17262REWL_T/max17262.kicad_sym")(options "")(descr ""))
   (lib (name "IIS2MDCTR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/IIS2MDCTR/IIS2MDCTR.kicad_sym")(options "")(descr ""))
   (lib (name "LSM6DSV16XTR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LSM6DSV16XTR/LSM6DSV16XTR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25185")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BQ25185/BQ25185.kicad_sym")(options "")(descr ""))
+  (lib (name "NCV8187")(type "KiCad")(uri "${KIPRJMOD}/Libraries/NCV8187AMT330TAG/NCV8187.kicad_sym")(options "")(descr ""))
+  (lib (name "TCAN3413")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TCAN3413/TCAN3413.kicad_sym")(options "")(descr ""))
 )

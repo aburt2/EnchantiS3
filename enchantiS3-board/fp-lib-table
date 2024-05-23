@@ -7,4 +7,7 @@
   (lib (name "LSM6DSV16XTR-footprints")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LSM6DSV16XTR/LSM6DSV16XTR-footprints.pretty")(options "")(descr ""))
   (lib (name "MCP251863T-footprints")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MCP251863T_H_9PXVAO/MCP251863T-footprints.pretty")(options "")(descr ""))
   (lib (name "logos")(type "KiCad")(uri "${KIPRJMOD}/Libraries/board-layout/logos.pretty")(options "")(descr ""))
+  (lib (name "NCV8187-footprints")(type "KiCad")(uri "${KIPRJMOD}/Libraries/NCV8187AMT330TAG/NCV8187-footprints.pretty")(options "")(descr ""))
+  (lib (name "BQ25185-footprints")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BQ25185/BQ25185-footprints.pretty")(options "")(descr ""))
+  (lib (name "TCAN3413-footprints")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TCAN3413/TCAN3413-footprints.pretty")(options "")(descr ""))
 )
