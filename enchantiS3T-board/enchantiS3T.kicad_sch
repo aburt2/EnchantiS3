@@ -11,257 +11,6 @@
 		(company "Albert Niyonsenga")
 	)
 	(lib_symbols
-		(symbol "BC075-03-A-L-A_REVC2:BC075-03-A-L-A_REVC2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "BC075-03-A-L-A_REVC2"
-				(at -5.08 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BC075-03-A-L-A_REVC2:GCT_BC075-03-A-L-A_REVC2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "GCT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/BC075-03-A-L-A/Global+Connector+Technology/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "C2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BC075-03-A-L-A/Global+Connector+Technology/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "BC075-03-A-L-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n3 Position Receptacle Connector 0.039 (1.00mm) Surface Mount, Right Angle Gold\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "GCT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "BC075-03-A-L-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "BC075-03-A-L-A_REVC2_0_0"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "BQ25185:BQ25185DLHR"
 			(pin_names
 				(offset 0.254)
@@ -3365,6 +3114,300 @@
 				)
 				(pin passive line
 					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_MountingPin"
+				(at 1.27 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -9.652) (xy 1.016 -9.652)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -9.271 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
 					(length 3.048)
 					(name "MountPin"
 						(effects
@@ -9202,12 +9245,6 @@
 		(uuid "2c89f802-fdbd-4cfb-a5d8-9cfcf0c256ad")
 	)
 	(junction
-		(at 327.025 266.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d1e2637-d1dd-492a-9f23-1f9a2b011666")
-	)
-	(junction
 		(at 113.03 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9278,6 +9315,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89a8a598-98a2-4dba-8b14-eb7800df2edd")
+	)
+	(junction
+		(at 327.66 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cfe3bb7-e8be-4742-b649-7fb4e0daee64")
 	)
 	(junction
 		(at 63.5 300.99)
@@ -9402,16 +9445,6 @@
 			(type default)
 		)
 		(uuid "0377e7a1-ca80-4c5f-9191-4a097f732501")
-	)
-	(wire
-		(pts
-			(xy 330.2 109.22) (xy 334.01 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "054610a4-aef9-419d-bb3e-4834501a50ab")
 	)
 	(wire
 		(pts
@@ -9885,6 +9918,16 @@
 	)
 	(wire
 		(pts
+			(xy 509.27 148.59) (xy 521.97 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249aef3f-a945-4e74-b7d6-e85c8fb4bbb1")
+	)
+	(wire
+		(pts
 			(xy 33.02 252.73) (xy 25.4 252.73)
 		)
 		(stroke
@@ -9892,6 +9935,16 @@
 			(type default)
 		)
 		(uuid "24b1a318-d7b1-42e7-bad2-50255efb533b")
+	)
+	(wire
+		(pts
+			(xy 509.27 146.05) (xy 521.97 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2515addd-4d4e-4753-aa21-8a84890daa90")
 	)
 	(wire
 		(pts
@@ -9955,7 +10008,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.025 266.7) (xy 327.025 268.605)
+			(xy 327.66 260.985) (xy 327.66 269.24)
 		)
 		(stroke
 			(width 0)
@@ -10585,16 +10638,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.025 257.81) (xy 327.025 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f4935a4-0830-46d8-9bd9-02a88b0abc4f")
-	)
-	(wire
-		(pts
 			(xy 118.11 231.14) (xy 125.73 231.14)
 		)
 		(stroke
@@ -10865,16 +10908,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.025 266.7) (xy 341.63 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "660b9070-c974-4733-8592-0b77efc428f3")
-	)
-	(wire
-		(pts
 			(xy 22.86 330.2) (xy 22.86 334.01)
 		)
 		(stroke
@@ -10902,6 +10935,16 @@
 			(type default)
 		)
 		(uuid "68f294b6-72ab-426e-81bd-1ddfc86b8d3d")
+	)
+	(wire
+		(pts
+			(xy 509.27 143.51) (xy 521.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f6b85c-e9ac-400c-9a5e-5cb9118ea57d")
 	)
 	(wire
 		(pts
@@ -11015,16 +11058,6 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 134.62) (xy 496.57 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7132a3eb-a9ce-406c-9c32-9c2c4588fcb6")
-	)
-	(wire
-		(pts
 			(xy 191.77 342.9) (xy 191.77 346.71)
 		)
 		(stroke
@@ -11075,16 +11108,6 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 139.7) (xy 505.46 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743053a5-4eca-455f-9968-39b2018ac48b")
-	)
-	(wire
-		(pts
 			(xy 35.56 330.2) (xy 35.56 334.01)
 		)
 		(stroke
@@ -11112,6 +11135,16 @@
 			(type default)
 		)
 		(uuid "753d0b6c-45e4-44a7-a9ed-37e6a28bd2a0")
+	)
+	(wire
+		(pts
+			(xy 509.27 151.13) (xy 521.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75af1978-08f3-46ab-b6c0-51a4d495d818")
 	)
 	(wire
 		(pts
@@ -11365,16 +11398,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 137.16) (xy 496.57 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8534857b-d259-4e19-b313-a61902cdf4b1")
-	)
-	(wire
-		(pts
 			(xy 88.9 207.01) (xy 95.25 207.01)
 		)
 		(stroke
@@ -11392,6 +11415,16 @@
 			(type default)
 		)
 		(uuid "861c09b3-6536-44fd-9d10-d69ecfa0f596")
+	)
+	(wire
+		(pts
+			(xy 327.66 269.24) (xy 341.63 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86929347-3110-498d-8a8c-3317e39b5e06")
 	)
 	(wire
 		(pts
@@ -11422,6 +11455,16 @@
 			(type default)
 		)
 		(uuid "8972c4c0-527f-489c-a0d1-2ef9c8f13d47")
+	)
+	(wire
+		(pts
+			(xy 330.2 109.22) (xy 334.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89859c23-3ad6-4922-9ad0-452f12984830")
 	)
 	(polyline
 		(pts
@@ -11465,16 +11508,6 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 170.18) (xy 506.73 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d9c4dda-3ead-42b1-a89f-ef8f14a86827")
-	)
-	(wire
-		(pts
 			(xy 33.02 275.59) (xy 25.4 275.59)
 		)
 		(stroke
@@ -11502,6 +11535,16 @@
 			(type default)
 		)
 		(uuid "8e323f70-f905-4980-b8f7-4e5ce88d7c0f")
+	)
+	(wire
+		(pts
+			(xy 521.97 138.43) (xy 509.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef9cb0c-60ce-45db-9686-564e748b647a")
 	)
 	(wire
 		(pts
@@ -11795,6 +11838,16 @@
 	)
 	(wire
 		(pts
+			(xy 509.27 140.97) (xy 521.97 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f975dbe-4bd6-4dca-9255-6b1fff691f7e")
+	)
+	(wire
+		(pts
 			(xy 425.45 71.12) (xy 433.07 71.12)
 		)
 		(stroke
@@ -11852,16 +11905,6 @@
 			(type default)
 		)
 		(uuid "a1c9018f-f1c4-44c9-a227-d61373d98f84")
-	)
-	(wire
-		(pts
-			(xy 330.2 111.76) (xy 334.01 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2fcfe7c-9579-41a9-b2d5-3fa8226c98a1")
 	)
 	(wire
 		(pts
@@ -11995,6 +12038,16 @@
 	)
 	(wire
 		(pts
+			(xy 509.27 135.89) (xy 509.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad494cb5-ffaa-45a3-b2b6-a2470d40de6a")
+	)
+	(wire
+		(pts
 			(xy 166.37 332.74) (xy 177.8 332.74)
 		)
 		(stroke
@@ -12062,6 +12115,16 @@
 			(type default)
 		)
 		(uuid "b1e49f41-ad22-4777-afc0-77ce54c398a6")
+	)
+	(wire
+		(pts
+			(xy 330.2 111.76) (xy 334.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1eddce7-6d39-48cd-b34d-b9edde155a6e")
 	)
 	(wire
 		(pts
@@ -12303,16 +12366,6 @@
 		)
 		(uuid "c0a4a283-2a01-42f5-81eb-d797aae3b809")
 	)
-	(wire
-		(pts
-			(xy 341.63 269.24) (xy 334.645 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c191d4fd-8684-4da0-81b8-95da6846f0a7")
-	)
 	(polyline
 		(pts
 			(xy 447.04 195.58) (xy 581.66 195.58)
@@ -12495,6 +12548,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 266.7) (xy 341.63 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd67fc7d-4634-4ce5-8c25-8d63404d8ca8")
+	)
+	(wire
+		(pts
 			(xy 335.28 363.22) (xy 335.28 364.49)
 		)
 		(stroke
@@ -12615,7 +12678,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.025 276.225) (xy 327.025 278.13)
+			(xy 327.66 279.4) (xy 327.66 281.305)
 		)
 		(stroke
 			(width 0)
@@ -12705,13 +12768,13 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 167.64) (xy 506.73 167.64)
+			(xy 327.66 269.24) (xy 327.66 271.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd4d64f0-a1d1-4533-8e6c-7c09401d2eb5")
+		(uuid "de8f7353-d24a-49e8-917b-a33dc58b97a7")
 	)
 	(wire
 		(pts
@@ -12803,16 +12866,6 @@
 		)
 		(uuid "e630b2f7-58fe-4911-9628-c911da239ffe")
 	)
-	(wire
-		(pts
-			(xy 496.57 142.24) (xy 505.46 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e630c16a-08ca-4678-ae00-abb3bba794eb")
-	)
 	(polyline
 		(pts
 			(xy 361.315 232.41) (xy 447.04 232.41)
@@ -12825,6 +12878,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 156.21) (xy 527.05 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e821cee6-e1e0-42d3-853e-b2f725e4051c")
+	)
+	(wire
+		(pts
 			(xy 359.41 193.04) (xy 359.41 195.58)
 		)
 		(stroke
@@ -12832,16 +12895,6 @@
 			(type default)
 		)
 		(uuid "e869f178-64d4-4e8a-ac9c-9fc0eea420ed")
-	)
-	(wire
-		(pts
-			(xy 497.84 172.72) (xy 506.73 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87f31fb-fe4c-432d-a22c-bc9abd4999ec")
 	)
 	(wire
 		(pts
@@ -13387,17 +13440,6 @@
 		)
 		(uuid "850c4fd0-724d-418c-88a3-8cec2353fd33")
 	)
-	(text "BLUE LED == Connected to Wifi"
-		(exclude_from_sim no)
-		(at 499.872 150.876 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a2db7b3-6a8a-4f1f-a4f5-73636f035071")
-	)
 	(text "3.3V - AUX Regulator\n\n\n"
 		(exclude_from_sim no)
 		(at 352.425 255.27 0)
@@ -13432,6 +13474,17 @@
 			(justify left bottom)
 		)
 		(uuid "a5dc04da-80bd-44a3-8aaf-d81cfa82504e")
+	)
+	(text "Connect to Frontplate"
+		(exclude_from_sim no)
+		(at 515.366 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab569eb8-2d55-4724-b0de-e4f751b81f40")
 	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
@@ -13514,17 +13567,6 @@
 			(justify left bottom)
 		)
 		(uuid "e4888e7e-8e32-40fd-a6eb-63d11143b58b")
-	)
-	(text "ORANGE LED == Setting up/Fail State"
-		(exclude_from_sim no)
-		(at 499.364 148.082 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5fda197-81b6-4ac0-9269-490e876d01dc")
 	)
 	(text "CAN TRANSCEIVER"
 		(exclude_from_sim no)
@@ -13825,7 +13867,7 @@
 		)
 		(uuid "2a547819-7f22-4e70-9e8c-bdbafa06c9b8")
 	)
-	(label "BLUELED"
+	(label "LED1"
 		(at 332.74 106.68 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14254,6 +14296,17 @@
 		)
 		(uuid "51422dbd-b711-4273-8869-6f3f7850a4f9")
 	)
+	(label "STAT2"
+		(at 521.97 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "517d2705-d387-454e-ba1f-bd8e463bb350")
+	)
 	(label "IO0"
 		(at 431.8 58.42 0)
 		(fields_autoplaced yes)
@@ -14398,7 +14451,7 @@
 		(uuid "5e8d754b-bc75-4579-a74a-66b3dca032ff")
 	)
 	(label "LDO_EN"
-		(at 340.36 269.24 180)
+		(at 339.09 266.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14441,6 +14494,17 @@
 		)
 		(uuid "6728275e-2d63-4d11-b019-0d3490e6bf0d")
 	)
+	(label "LED2"
+		(at 521.97 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "674df0f4-5f45-4d88-8a5f-d5c99e6183ec")
+	)
 	(label "COPI3"
 		(at 431.8 83.82 0)
 		(fields_autoplaced yes)
@@ -14473,17 +14537,6 @@
 			(justify left bottom)
 		)
 		(uuid "6be3f463-8c3d-4bc4-993b-bce4bfc9a5b3")
-	)
-	(label "SDA2"
-		(at 332.74 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6c9c7ce0-f362-4e59-8a5b-ee51c529023c")
 	)
 	(label "MSC012"
 		(at 125.73 233.68 180)
@@ -14726,6 +14779,17 @@
 			(justify right bottom)
 		)
 		(uuid "7ed6cf66-ac04-483c-b20a-10414f2e99f6")
+	)
+	(label "STAT1"
+		(at 521.97 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82a64abb-85e5-4eeb-9c43-7e6ffe617017")
 	)
 	(label "MSC009"
 		(at 125.73 226.06 180)
@@ -14991,17 +15055,6 @@
 		)
 		(uuid "a20afb7d-c3f0-4a69-bfdc-9417c8058332")
 	)
-	(label "BLUELED"
-		(at 502.92 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a24183d4-ed17-43b3-b946-12e2c9abed64")
-	)
 	(label "SDA"
 		(at 535.94 322.58 0)
 		(fields_autoplaced yes)
@@ -15046,7 +15099,7 @@
 		)
 		(uuid "a5b43441-22f2-4eec-bdf7-5ae1490c536f")
 	)
-	(label "IO2"
+	(label "SDA2"
 		(at 431.8 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15101,17 +15154,6 @@
 		)
 		(uuid "abb5dd6d-cf1e-4dd3-a5c6-48185d99498f")
 	)
-	(label "STAT2"
-		(at 505.46 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abf7c5b3-64e4-4d8e-b3c2-276536c9cefa")
-	)
 	(label "MSC001"
 		(at 125.73 187.96 180)
 		(fields_autoplaced yes)
@@ -15145,7 +15187,7 @@
 		)
 		(uuid "b832c6e5-895a-4490-8ab8-34df15995884")
 	)
-	(label "ORANGELED"
+	(label "LED2"
 		(at 332.74 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15200,6 +15242,17 @@
 		)
 		(uuid "c1f2c117-926b-4e06-91f8-dd991a63228f")
 	)
+	(label "BTN"
+		(at 521.97 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c500a86d-7c4f-40cf-b16e-7d133d64ecc3")
+	)
 	(label "USBD+"
 		(at 393.7 181.61 0)
 		(fields_autoplaced yes)
@@ -15221,17 +15274,6 @@
 			(justify left bottom)
 		)
 		(uuid "ced96a85-6ab7-41f8-8313-368e79157c85")
-	)
-	(label "ORANGELED"
-		(at 502.92 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf3ce640-8d4f-4e43-be37-cacca66770b8")
 	)
 	(label "MSC010"
 		(at 125.73 228.6 180)
@@ -15343,6 +15385,17 @@
 		)
 		(uuid "d8b091d3-0a45-4708-b6f8-92e2ad9222cd")
 	)
+	(label "LED1"
+		(at 521.97 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8b97e13-0513-48c2-9f94-88d693673155")
+	)
 	(label "MSC103"
 		(at 125.73 208.28 180)
 		(fields_autoplaced yes)
@@ -15453,17 +15506,6 @@
 		)
 		(uuid "e97b8272-a702-4105-a8ef-efacbb1dd1e3")
 	)
-	(label "STAT1"
-		(at 505.46 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ea29a17a-c11e-46ff-ba4a-d9a6a6326cfc")
-	)
 	(label "MSC011"
 		(at 125.73 231.14 180)
 		(fields_autoplaced yes)
@@ -15486,7 +15528,7 @@
 		)
 		(uuid "ee9515ca-0886-4f1e-bb50-20f34b5c74e1")
 	)
-	(label "IO1"
+	(label "SCL2"
 		(at 431.8 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15530,17 +15572,6 @@
 		)
 		(uuid "f6812641-e952-4461-abf9-ab7091da5f4c")
 	)
-	(label "BTN"
-		(at 505.46 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f77a4c8a-77be-4e67-aa4d-fc5e5dfcaf2e")
-	)
 	(label "MSC130"
 		(at 125.73 213.36 180)
 		(fields_autoplaced yes)
@@ -15562,17 +15593,6 @@
 			(justify right bottom)
 		)
 		(uuid "f939ee9f-f354-4d9f-985a-7bf59dbe3a91")
-	)
-	(label "SCL2"
-		(at 332.74 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fb400044-04d9-4439-bbae-70f85df247be")
 	)
 	(label "MSC001"
 		(at 33.02 222.25 180)
@@ -15704,7 +15724,7 @@
 			(uuid "290d6e6c-c078-4d13-b9e1-74a522fb112f")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R2")
 					(unit 1)
@@ -15843,7 +15863,7 @@
 			(uuid "e0ee00e0-9c79-441b-aac2-fbeee02e91be")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "U7")
 					(unit 1)
@@ -15915,7 +15935,7 @@
 			(uuid "2d471c2e-06bd-441f-8f11-6b5e181aae5e")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#VUSB014")
 					(unit 1)
@@ -15987,7 +16007,7 @@
 			(uuid "c77b079e-9027-4fb3-b056-f373c500afb3")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR023")
 					(unit 1)
@@ -16086,7 +16106,7 @@
 			(uuid "5eb80e83-0845-4595-8875-d6f33faf2ce7")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "SYS7")
 					(unit 1)
@@ -16158,7 +16178,7 @@
 			(uuid "0cf5020c-bf88-4033-83d3-a17d7d166f21")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#VUSB08")
 					(unit 1)
@@ -16245,7 +16265,7 @@
 			(uuid "9d354b2b-fd26-4e7b-9663-8c5040856fc4")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C24")
 					(unit 1)
@@ -16350,7 +16370,7 @@
 			(uuid "1b5bdf4d-0719-4070-82cd-f8e13438a19f")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C21")
 					(unit 1)
@@ -16450,7 +16470,7 @@
 			(uuid "cdf6834f-cf4a-4e60-89c3-705735930200")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C8")
 					(unit 1)
@@ -16565,7 +16585,7 @@
 			(uuid "158670d6-a78d-4dbd-b910-9bde56b72b60")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "TOUCH1")
 					(unit 1)
@@ -16581,7 +16601,7 @@
 	)
 	(symbol
 		(lib_id "power-symbols:VSYS")
-		(at 327.025 257.81 0)
+		(at 327.66 260.985 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16589,7 +16609,7 @@
 		(dnp no)
 		(uuid "1962584d-322d-4af6-99ec-ddbc45314cba")
 		(property "Reference" "SYS4"
-			(at 327.025 251.46 0)
+			(at 327.66 254.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16598,7 +16618,7 @@
 			)
 		)
 		(property "Value" "SYS"
-			(at 325.755 254 0)
+			(at 326.39 257.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16607,7 +16627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.025 257.81 0)
+			(at 327.66 260.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16616,7 +16636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.025 257.81 0)
+			(at 327.66 260.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16625,7 +16645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.025 257.81 0)
+			(at 327.66 260.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16634,7 +16654,7 @@
 			)
 		)
 		(property "Description Value Pkg" ""
-			(at 327.025 257.81 0)
+			(at 327.66 260.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16643,7 +16663,7 @@
 			)
 		)
 		(property "Mfg Part #" ""
-			(at 327.025 257.81 0)
+			(at 327.66 260.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16652,7 +16672,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 327.025 257.81 0)
+			(at 327.66 260.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16664,7 +16684,7 @@
 			(uuid "92b17ef6-04c1-4409-9162-838f04521f1c")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "SYS4")
 					(unit 1)
@@ -16776,7 +16796,7 @@
 			(uuid "e486142a-8ae5-45fa-9f5a-c62ee1c43721")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C22")
 					(unit 1)
@@ -16879,7 +16899,7 @@
 			)
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "H2")
 					(unit 1)
@@ -16994,7 +17014,7 @@
 			(uuid "3150b5c4-07ed-4c23-a8df-ae7a8d6cd72f")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR082")
 					(unit 1)
@@ -17061,7 +17081,7 @@
 			(uuid "110802a0-35a5-4105-a584-5b12cb21feb9")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR030")
 					(unit 1)
@@ -17176,7 +17196,7 @@
 			(uuid "ba05c0da-b0c1-470d-9e31-f25205988f06")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R5")
 					(unit 1)
@@ -17243,7 +17263,7 @@
 			(uuid "e0b531b4-4247-4ef0-b669-b85d685933ed")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR069")
 					(unit 1)
@@ -17323,7 +17343,7 @@
 			(uuid "10dbb444-e79c-4320-b875-bee09130f968")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR089")
 					(unit 1)
@@ -17389,7 +17409,7 @@
 			(uuid "64fa7f03-bf57-4849-82c4-f7c7976162f9")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR24")
 					(unit 1)
@@ -17456,7 +17476,7 @@
 			(uuid "634646b3-8eef-496e-b830-2097e421f188")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR062")
 					(unit 1)
@@ -17528,7 +17548,7 @@
 			(uuid "60c5285d-e080-49e2-9e1c-8efcd60c03eb")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#VUSB01")
 					(unit 1)
@@ -17595,7 +17615,7 @@
 			(uuid "f02dc2cd-9f18-409e-ab70-1296b4c015fd")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR098")
 					(unit 1)
@@ -17673,9 +17693,130 @@
 			(uuid "b820f0b8-186c-4219-98b3-9cb269dc5f07")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(at 527.05 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f29db5d-1813-4010-8622-a6054c505d2a")
+		(property "Reference" "FP1"
+			(at 532.384 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST-SH-1x04 1.0mm"
+			(at 525.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
+			(at 527.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 527.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description Value Pkg" "Connector Header Surface Mount 4 position 0.039\" (1.00mm)"
+			(at 527.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "BM06B-SRSS-TB"
+			(at 527.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 527.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "BM04B-SRSS-TB"
+			(at 527.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f71b956-e9e1-4626-bef6-d02a84b47b6e")
+		)
+		(pin "2"
+			(uuid "f5b36e91-f9d6-4d98-a2d3-7c976d111181")
+		)
+		(pin "3"
+			(uuid "cb948513-76ae-41ce-8654-9c7db60b90ef")
+		)
+		(pin "4"
+			(uuid "a3a80500-238c-4e82-afc8-710180492085")
+		)
+		(pin "MP"
+			(uuid "c9352b17-559c-43cb-aa1d-ae21dfb4b88a")
+		)
+		(pin "5"
+			(uuid "90cf039f-02ad-4b05-94a4-8a8eb6bc5488")
+		)
+		(pin "6"
+			(uuid "8742a000-a610-4844-ba22-147586b490d7")
+		)
+		(instances
+			(project "enchantiS3T"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
+					(reference "FP1")
 					(unit 1)
 				)
 			)
@@ -17782,7 +17923,7 @@
 			(uuid "c49455a7-d9d8-4179-931d-e70904db6441")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "ANG3")
 					(unit 1)
@@ -17894,7 +18035,7 @@
 			(uuid "6670f354-9dd0-4ead-a5fc-834bd25f8ea8")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C20")
 					(unit 1)
@@ -17972,7 +18113,7 @@
 			(uuid "c50a684e-0a43-4944-b33b-36636ca4f4af")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR03")
 					(unit 1)
@@ -18038,7 +18179,7 @@
 			(uuid "56a17c67-838a-4f01-ad0a-a7f7fbd8c7cd")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR064")
 					(unit 1)
@@ -18110,7 +18251,7 @@
 			(uuid "6b621592-fb7d-4d7a-a63b-c73c0497325f")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR094")
 					(unit 1)
@@ -18225,7 +18366,7 @@
 			(uuid "dfe682a8-24bc-4599-ae73-2a9e3600b450")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "ANG1")
 					(unit 1)
@@ -18318,7 +18459,7 @@
 			(uuid "7c7bc773-5f85-4a5a-a0ee-052baa602cda")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C25")
 					(unit 1)
@@ -18385,7 +18526,7 @@
 			(uuid "1ee3847d-0406-4309-8e5c-22a5522d614e")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR051")
 					(unit 1)
@@ -18452,7 +18593,7 @@
 			(uuid "b2e3e3e9-ed82-44db-b053-6c9eb92f3509")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR096")
 					(unit 1)
@@ -18567,7 +18708,7 @@
 			(uuid "db805326-d7a1-4eb9-a789-65a4935f1c50")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R9")
 					(unit 1)
@@ -18826,7 +18967,7 @@
 			(uuid "1aeb79d5-0b4d-4e6d-9288-e5e84ed85d63")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "U9")
 					(unit 1)
@@ -18932,7 +19073,7 @@
 			(uuid "48b21669-02c2-426f-aef1-24708c571abb")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C6")
 					(unit 1)
@@ -19005,7 +19146,7 @@
 			(uuid "f9f920ed-7ee6-4257-aad0-ceb4c5670ce2")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR06")
 					(unit 1)
@@ -19071,7 +19212,7 @@
 			(uuid "802e9d53-e4a4-4536-bbdf-c1929c8fe72c")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR032")
 					(unit 1)
@@ -19180,7 +19321,7 @@
 			(uuid "1ef389d6-d212-4d10-abeb-6839385f0c8d")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R4")
 					(unit 1)
@@ -19246,7 +19387,7 @@
 			(uuid "a8657d7a-ce1b-4f1c-8972-adfdfe0012af")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR37")
 					(unit 1)
@@ -19312,7 +19453,7 @@
 			(uuid "90de3b8b-84d3-46f9-80fa-88169c371a8f")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR071")
 					(unit 1)
@@ -19421,7 +19562,7 @@
 			(uuid "5f0f64d5-155e-4989-966a-ee8d6ae33ef8")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R12")
 					(unit 1)
@@ -19500,7 +19641,7 @@
 			(uuid "ced13898-b98c-4d53-8a0e-01db67a4778e")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR08")
 					(unit 1)
@@ -19594,7 +19735,7 @@
 			(uuid "60f96fa1-e4f8-4b23-84d5-5790702d712c")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C7")
 					(unit 1)
@@ -19660,7 +19801,7 @@
 			(uuid "08fab262-5c3e-4689-8a9f-873fea2e5b9d")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#VUSB012")
 					(unit 1)
@@ -19732,7 +19873,7 @@
 			(uuid "cfcc3158-693a-4086-bae2-2a9653fd0137")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR12")
 					(unit 1)
@@ -19799,7 +19940,7 @@
 			(uuid "6314eda0-90f5-4338-8c92-07a0d59431a0")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR080")
 					(unit 1)
@@ -19865,7 +20006,7 @@
 			(uuid "78417f4e-96b6-42bf-a281-dfc9268398a6")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#VUSB09")
 					(unit 1)
@@ -19931,9 +20072,76 @@
 			(uuid "748f74db-5b33-4707-8da6-24c6a9529e73")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 527.05 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c11403e-0373-4db3-969e-e1ac5f3d9e82")
+		(property "Reference" "#PWR034"
+			(at 527.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 527.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 527.05 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 527.05 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 527.05 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "396c32f2-e9a7-4733-84fa-789560ed7d7c")
+		)
+		(instances
+			(project "enchantiS3T"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -20111,7 +20319,7 @@
 			(uuid "9ee88bea-1373-42da-a1bd-35298417486c")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "TOUCH2")
 					(unit 1)
@@ -20177,7 +20385,7 @@
 			(uuid "2ed4fe37-97ba-49a6-8734-1081251b1d72")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR029")
 					(unit 1)
@@ -20249,7 +20457,7 @@
 			(uuid "ab3ba635-2837-4a88-b5bd-32230895832d")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR101")
 					(unit 1)
@@ -20315,7 +20523,7 @@
 			(uuid "333f98d8-c128-408c-8399-39d487d4e7fb")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR41")
 					(unit 1)
@@ -20381,7 +20589,7 @@
 			(uuid "f8764fc4-a603-4142-aa61-f56c8e9d66f0")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR20")
 					(unit 1)
@@ -20486,7 +20694,7 @@
 			(uuid "465892f9-ea8b-48f1-bb0c-3545d5d5378f")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C27")
 					(unit 1)
@@ -20552,7 +20760,7 @@
 			(uuid "367ebb15-6cea-42f9-86fd-64e552f9d888")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR02")
 					(unit 1)
@@ -20663,7 +20871,7 @@
 			(uuid "161959e2-c721-49b8-9253-a1129ec2342a")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "SW1")
 					(unit 1)
@@ -20735,7 +20943,7 @@
 			(uuid "2d2e8eb3-e1c3-44ed-a1a1-e40ede100950")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR50")
 					(unit 1)
@@ -20838,7 +21046,7 @@
 			(uuid "c21b7f05-ec3f-4b7c-83f1-e8a07690e28e")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R46")
 					(unit 1)
@@ -20944,7 +21152,7 @@
 			(uuid "b9bc19dd-4441-42cb-ad01-bc846c24e470")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C18")
 					(unit 1)
@@ -20972,7 +21180,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 327.025 272.415 0)
+		(at 327.66 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20981,7 +21189,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dca2ed3-2d18-449b-a3b2-cb8479da0195")
 		(property "Reference" "C4"
-			(at 330.835 271.145 0)
+			(at 331.47 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20990,7 +21198,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 330.835 273.685 0)
+			(at 331.47 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20999,7 +21207,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 327.9902 276.225 0)
+			(at 328.6252 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21008,7 +21216,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
-			(at 327.025 272.415 0)
+			(at 327.66 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21017,7 +21225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.025 272.415 0)
+			(at 327.66 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21026,7 +21234,7 @@
 			)
 		)
 		(property "Description Value Pkg" "1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 327.025 272.415 0)
+			(at 327.66 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21035,7 +21243,7 @@
 			)
 		)
 		(property "Mfg Part #" "CL05A105KO5NNNC"
-			(at 327.025 272.415 0)
+			(at 327.66 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21044,7 +21252,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 327.025 272.415 0)
+			(at 327.66 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21053,7 +21261,7 @@
 			)
 		)
 		(property "mpn" "CL05A105KO5NNNC"
-			(at 327.025 272.415 0)
+			(at 327.66 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21068,7 +21276,7 @@
 			(uuid "fa9b3ed2-66e8-4b3a-8737-178a7d31728c")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C4")
 					(unit 1)
@@ -21183,7 +21391,7 @@
 			(uuid "8933ab97-02bd-406f-b353-6c4b25271670")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R19")
 					(unit 1)
@@ -21268,7 +21476,7 @@
 			(uuid "953cc24a-29f3-474b-ad3f-04c11adcf588")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR088")
 					(unit 1)
@@ -21371,7 +21579,7 @@
 			(uuid "15e401ec-3871-49fe-8ee8-84de0b33c53b")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "U11")
 					(unit 1)
@@ -21464,7 +21672,7 @@
 			(uuid "4f25b43b-45a8-40c5-ba73-874ffb4eaf4f")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "SYS8")
 					(unit 1)
@@ -21537,7 +21745,7 @@
 			(uuid "26fad759-a9d1-4477-9133-dadc029b0e9a")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR047")
 					(unit 1)
@@ -21609,7 +21817,7 @@
 			(uuid "1c7f4f8a-189b-4985-bfce-d55794874591")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR55")
 					(unit 1)
@@ -21675,7 +21883,7 @@
 			(uuid "2be7f4ab-68e7-4ff7-bd99-e27859af0c7c")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR028")
 					(unit 1)
@@ -21747,7 +21955,7 @@
 			(uuid "6dff4de9-6c75-4a87-8810-6b70e35b1c47")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR102")
 					(unit 1)
@@ -21850,7 +22058,7 @@
 			(uuid "ba1cd3ad-f87a-4060-885a-a0050797eedc")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR090")
 					(unit 1)
@@ -21916,7 +22124,7 @@
 			(uuid "eaebf41a-9076-4c14-b4f9-9ca1700dfd8a")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR057")
 					(unit 1)
@@ -22025,7 +22233,7 @@
 			(uuid "2f78c0a3-d4ed-4199-9d9c-7e236565d593")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R20")
 					(unit 1)
@@ -22109,7 +22317,7 @@
 			(uuid "fbc5349b-1ed2-442c-a646-403d7b805dec")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR036")
 					(unit 1)
@@ -22176,7 +22384,7 @@
 			(uuid "bc5582ee-2c4b-4d05-a816-2f877d509d3a")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR046")
 					(unit 1)
@@ -22249,7 +22457,7 @@
 			(uuid "77415400-6097-4847-bbdc-9695140b912d")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR097")
 					(unit 1)
@@ -22327,7 +22535,7 @@
 			(uuid "e0e3c948-6f1b-4a79-a0fb-d7b90513fa3a")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR022")
 					(unit 1)
@@ -22393,7 +22601,7 @@
 			(uuid "b61e2e4c-a679-4c1c-ac49-ffaf929b4299")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR060")
 					(unit 1)
@@ -22499,7 +22707,7 @@
 			(uuid "2d09656d-f36d-49eb-9541-4009b5de34d0")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C15")
 					(unit 1)
@@ -22577,7 +22785,7 @@
 			(uuid "0dddfb79-26a3-4770-ad96-190c4b783892")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR035")
 					(unit 1)
@@ -22643,7 +22851,7 @@
 			(uuid "48552295-1bdb-4e9d-be3b-f9084ae81bc9")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR027")
 					(unit 1)
@@ -22710,7 +22918,7 @@
 			(uuid "e7784379-304c-4cef-ac31-2c52349dab6e")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR045")
 					(unit 1)
@@ -22782,7 +22990,7 @@
 			(uuid "a1ea2bfd-2b30-44c7-972b-48028b8e06d1")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR16")
 					(unit 1)
@@ -22848,7 +23056,7 @@
 			(uuid "2ba0dba1-a56f-46c2-afff-b3d4a2f355b1")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR86")
 					(unit 1)
@@ -22942,7 +23150,7 @@
 			(uuid "8646f81a-b3f4-4490-97c4-d7d7060633b5")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "TP1")
 					(unit 1)
@@ -23045,7 +23253,7 @@
 			(uuid "69c9cfa6-e842-43cc-a456-7f294358c2f3")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R7")
 					(unit 1)
@@ -23118,7 +23326,7 @@
 			(uuid "07b69d3d-e5fb-4f89-8291-402e8ed31070")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR053")
 					(unit 1)
@@ -23197,7 +23405,7 @@
 			(uuid "01db3a37-2a67-448a-a1f4-c057e9723b0e")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR074")
 					(unit 1)
@@ -23290,7 +23498,7 @@
 			(uuid "d4b67ccd-dc4f-4a34-8d62-d63a2e4dc82d")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C10")
 					(unit 1)
@@ -23393,7 +23601,7 @@
 			(uuid "8db80c48-7db3-44fd-bdb4-8818c7353169")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR084")
 					(unit 1)
@@ -23461,7 +23669,7 @@
 			(uuid "77dd9dd1-7361-4fa9-8805-ad71df4100bd")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR0100")
 					(unit 1)
@@ -23528,7 +23736,7 @@
 			(uuid "5e5fae74-dcc7-4c22-9e07-c68755406557")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR048")
 					(unit 1)
@@ -23600,7 +23808,7 @@
 			(uuid "9fec0945-63f2-450b-b9af-0d0f490fa734")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR040")
 					(unit 1)
@@ -23687,7 +23895,7 @@
 			(uuid "d9105595-0e6c-4c63-a5a3-9390e8269278")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C16")
 					(unit 1)
@@ -23790,7 +23998,7 @@
 			(uuid "60658957-8876-44e7-9d41-c0b71ee90a10")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R6")
 					(unit 1)
@@ -23799,6 +24007,72 @@
 			(project "tstick_pcb"
 				(path "/ecdbf224-0069-4dc3-a7df-492909ab59c7"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbols:3V3_AUX")
+		(at 509.27 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "951cca0a-b57f-4a85-9cb0-87c539bbf016")
+		(property "Reference" "#PWR25"
+			(at 509.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_AUX"
+			(at 509.27 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 509.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 509.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 509.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a7ab3f0-93d9-4df6-90be-cc97dc5f870f")
+		)
+		(instances
+			(project "enchantiS3T"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -23862,7 +24136,7 @@
 			(uuid "00273692-3bb7-49b6-916b-b0451ed8bebc")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR56")
 					(unit 1)
@@ -23928,7 +24202,7 @@
 			(uuid "c36c8d96-a839-434c-a8d4-15003c50b21c")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR070")
 					(unit 1)
@@ -23994,7 +24268,7 @@
 			(uuid "06a45668-5dd0-4fc0-8861-8a1409cc9009")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR87")
 					(unit 1)
@@ -24060,7 +24334,7 @@
 			(uuid "a4b9a725-c7c5-435f-b78d-055d69898e11")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR81")
 					(unit 1)
@@ -24178,7 +24452,7 @@
 			(uuid "2b9a4ec8-8fe6-4cbb-abba-860736008948")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "U6")
 					(unit 1)
@@ -24244,7 +24518,7 @@
 			(uuid "524d86a5-83a4-4fc3-b3ba-7e8296458be3")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR104")
 					(unit 1)
@@ -24349,7 +24623,7 @@
 			(uuid "e04574d6-10e3-472d-8e21-6dcc4cbe2631")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "SW2")
 					(unit 1)
@@ -24423,7 +24697,7 @@
 			(uuid "2ec878b1-9004-49e2-a0f4-f06c592a77b4")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR010")
 					(unit 1)
@@ -24532,7 +24806,7 @@
 			(uuid "847063ac-60d7-4706-bd4d-ae1685391eb6")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR014")
 					(unit 1)
@@ -24605,7 +24879,7 @@
 			(uuid "658ace23-fbf3-4c1a-b668-c9379ce954c6")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR078")
 					(unit 1)
@@ -24671,7 +24945,7 @@
 			(uuid "12bc6bf2-e37b-4e04-b2ff-c6be916b7c72")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR011")
 					(unit 1)
@@ -24784,7 +25058,7 @@
 			(uuid "7baa8a3c-6486-4e55-8937-57173f77c996")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "J2")
 					(unit 1)
@@ -24851,7 +25125,7 @@
 			(uuid "25413f32-97a4-4d44-82ca-5780bec77177")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR0103")
 					(unit 1)
@@ -24930,7 +25204,7 @@
 			(uuid "591bc94f-66f7-4c10-89a2-c642d4cc6e66")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR07")
 					(unit 1)
@@ -25060,7 +25334,7 @@
 			(uuid "f3e56710-783d-4b46-85cb-755e4fd10397")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "U10")
 					(unit 1)
@@ -25134,7 +25408,7 @@
 			(uuid "70a9f858-9726-4d77-bb6f-156a5c99ac5f")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR091")
 					(unit 1)
@@ -25201,7 +25475,7 @@
 			(uuid "89ce0030-8d6a-41f8-ac81-9b418a0b2c75")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR09")
 					(unit 1)
@@ -25349,7 +25623,7 @@
 			(uuid "3e304998-7118-4175-a428-81788c179d62")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "J1")
 					(unit 1)
@@ -25415,7 +25689,7 @@
 			(uuid "46a2a0c4-c760-4268-b203-fa6dbf086541")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR059")
 					(unit 1)
@@ -25481,240 +25755,9 @@
 			(uuid "4a5f6b8b-d42e-4fc3-b7a3-55751a40a135")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BC075-03-A-L-A_REVC2:BC075-03-A-L-A_REVC2")
-		(at 516.89 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b335755e-7c82-4c2d-87f4-18538538ff7c")
-		(property "Reference" "J5"
-			(at 523.24 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC075-03-A-L-A_REVC2"
-			(at 523.24 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BC075-footprint:GCT_BC075-03-A-L-A_REVC2"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "GCT"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BC075-03-A-L-A/Global+Connector+Technology/view-part/?ref=eda"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "C2"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BC075-03-A-L-A/Global+Connector+Technology/view-part/?ref=snap"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BC075-03-A-L-A"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n3 Position Receptacle Connector 0.039 (1.00mm) Surface Mount, Right Angle Gold\n"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "GCT"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "BC075-03-A-L-A"
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description Value Pkg" ""
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" ""
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 516.89 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ff421e5-069d-4355-9ae4-61f4e6726dbe")
-		)
-		(pin "1"
-			(uuid "6c9c4b21-716d-4c51-aa84-53f346affd9e")
-		)
-		(pin "3"
-			(uuid "d64caf28-7f8d-470a-a72f-468bcf48ec5e")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -25779,7 +25822,7 @@
 			(uuid "52d6af28-a700-457b-8fad-2578c287af80")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR0105")
 					(unit 1)
@@ -25845,7 +25888,7 @@
 			(uuid "c737e6e7-2b72-4ed0-9dd3-690f4d08e58a")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR019")
 					(unit 1)
@@ -25954,7 +25997,7 @@
 			(uuid "9271ec71-c00d-4c9d-a8a9-9b78a12784e0")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "BT1")
 					(unit 1)
@@ -26027,7 +26070,7 @@
 			(uuid "74e391f9-8918-4c16-ae75-c5bb7dc01202")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR031")
 					(unit 1)
@@ -26105,7 +26148,7 @@
 			(uuid "6e230df5-06ae-4995-b5ef-629b7c5487b0")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR85")
 					(unit 1)
@@ -26208,7 +26251,7 @@
 			(uuid "dfba40c3-4709-4b11-a55f-5961d5af8861")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R13")
 					(unit 1)
@@ -26286,7 +26329,7 @@
 			(uuid "acb6b965-f647-446f-a035-6cce3ca29831")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR5")
 					(unit 1)
@@ -26379,7 +26422,7 @@
 			(uuid "f1b49591-516b-4a86-9756-4aca704a4f99")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "SYS3")
 					(unit 1)
@@ -26446,7 +26489,7 @@
 			(uuid "9480a6fe-e2c5-464f-b572-a135b43d98c8")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR095")
 					(unit 1)
@@ -26561,7 +26604,7 @@
 			(uuid "5149a8d1-a6b7-4b72-ad90-a748b504a18d")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R21")
 					(unit 1)
@@ -26639,7 +26682,7 @@
 			(uuid "ca7d8021-1bb4-4622-883b-74a399945349")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR92")
 					(unit 1)
@@ -26742,7 +26785,7 @@
 			(uuid "1f22d159-7005-4fb7-9198-bff61952e6f5")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR018")
 					(unit 1)
@@ -26814,7 +26857,7 @@
 			(uuid "4536a4cd-86d6-4882-bedc-790807aad6ad")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR26")
 					(unit 1)
@@ -26880,7 +26923,7 @@
 			(uuid "36a65196-2393-4d7a-b830-de240499a420")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR015")
 					(unit 1)
@@ -26989,7 +27032,7 @@
 			(uuid "fe0f58bd-bac6-4dd4-a414-b175801f0ab1")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R14")
 					(unit 1)
@@ -27061,7 +27104,7 @@
 			(uuid "7e67581e-c12c-4648-8278-9a97e665f30b")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR21")
 					(unit 1)
@@ -27152,7 +27195,7 @@
 			)
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "H1")
 					(unit 1)
@@ -27273,7 +27316,7 @@
 			(uuid "a6f4691e-836e-4f32-9857-1af34583fc63")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "J3")
 					(unit 1)
@@ -27379,7 +27422,7 @@
 			(uuid "13004279-a466-4d73-84ad-39bedf45a7f6")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C26")
 					(unit 1)
@@ -27445,7 +27488,7 @@
 			(uuid "dc42bb99-9352-4280-96fe-7d239ba2c1e6")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR033")
 					(unit 1)
@@ -27566,7 +27609,7 @@
 			(uuid "51c598d8-bac2-42c0-a4b7-44c67786ae30")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "U1")
 					(unit 1)
@@ -27640,7 +27683,7 @@
 			(uuid "5575c8bb-6cf0-4b93-ac18-84abf00e9973")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "D1")
 					(unit 1)
@@ -27746,7 +27789,7 @@
 			(uuid "79df81dd-13e0-46ed-9d03-464341241e31")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C13")
 					(unit 1)
@@ -27851,7 +27894,7 @@
 			(uuid "a6ede42a-3e96-43bc-bf34-cf889945c5d3")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C23")
 					(unit 1)
@@ -27928,7 +27971,7 @@
 			(uuid "01b476ed-3d83-462b-9622-b32abbac2a05")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR042")
 					(unit 1)
@@ -28000,7 +28043,7 @@
 			(uuid "9888a134-033c-43cd-b498-fae636cb7893")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR13")
 					(unit 1)
@@ -28067,7 +28110,7 @@
 			(uuid "b5f9217f-0720-40ed-a37b-b572323c3275")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR093")
 					(unit 1)
@@ -28145,7 +28188,7 @@
 			(uuid "5aa0185e-ffc6-41d9-8016-0987dd5a6cec")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR4")
 					(unit 1)
@@ -28250,7 +28293,7 @@
 			(uuid "7a78427a-b61b-4e07-ae7a-36c44734974f")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C19")
 					(unit 1)
@@ -28337,7 +28380,7 @@
 			(uuid "74723411-036f-4e10-8023-1cfb29b9cb76")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C3")
 					(unit 1)
@@ -28443,7 +28486,7 @@
 			(uuid "204ad645-6967-4d01-b279-e43a608fb2c9")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C5")
 					(unit 1)
@@ -28542,7 +28585,7 @@
 			(uuid "aeb58bd4-1bc4-4906-aa23-ec6ce5bf4ea9")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C17")
 					(unit 1)
@@ -28619,7 +28662,7 @@
 			(uuid "197be6ca-a5c4-458f-a4ae-05630fdbabb8")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "U2")
 					(unit 1)
@@ -28685,7 +28728,7 @@
 			(uuid "a96974fe-ccca-462a-b19f-a7627cd9a322")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR073")
 					(unit 1)
@@ -28696,7 +28739,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 327.025 278.13 0)
+		(at 327.66 281.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28704,7 +28747,7 @@
 		(dnp no)
 		(uuid "e759aa34-10db-4fde-b294-2ffbe66170ec")
 		(property "Reference" "#PWR017"
-			(at 327.025 284.48 0)
+			(at 327.66 287.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28713,7 +28756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.025 283.21 0)
+			(at 327.66 286.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28721,7 +28764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.025 278.13 0)
+			(at 327.66 281.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28730,7 +28773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.025 278.13 0)
+			(at 327.66 281.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28739,7 +28782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.025 278.13 0)
+			(at 327.66 281.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28751,7 +28794,7 @@
 			(uuid "45b044a1-94ab-4ded-8327-8f585be25efd")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR017")
 					(unit 1)
@@ -28829,75 +28872,9 @@
 			(uuid "fa5a79ba-62dc-44de-a8e9-8fd8f92538a7")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power-symbols:3V3_AUX")
-		(at 496.57 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb909f21-0c27-43b3-a91b-57b9a1d5b47f")
-		(property "Reference" "#PWR106"
-			(at 496.57 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3_AUX"
-			(at 496.57 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 496.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 496.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 496.57 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a482a56a-33a1-4f2b-8c87-75abceb4b0e8")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
-					(reference "#PWR106")
 					(unit 1)
 				)
 			)
@@ -29000,7 +28977,7 @@
 			(uuid "fbeba853-5516-45d6-a274-078185176e76")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "R1")
 					(unit 1)
@@ -29094,7 +29071,7 @@
 			(uuid "71314c41-b024-4324-9311-ac083a94af3b")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C14")
 					(unit 1)
@@ -29200,7 +29177,7 @@
 			(uuid "f17ca8cf-1032-4b8d-876f-5f281d7cb378")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C1")
 					(unit 1)
@@ -29489,240 +29466,9 @@
 			(uuid "980bd272-b753-40e9-9067-b36a1628d58e")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BC075-03-A-L-A_REVC2:BC075-03-A-L-A_REVC2")
-		(at 515.62 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1ba71e8-b9d7-47a5-8e87-ef28a52aed00")
-		(property "Reference" "J4"
-			(at 521.97 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC075-03-A-L-A_REVC2"
-			(at 521.97 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BC075-footprint:GCT_BC075-03-A-L-A_REVC2"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "GCT"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BC075-03-A-L-A/Global+Connector+Technology/view-part/?ref=eda"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "C2"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BC075-03-A-L-A/Global+Connector+Technology/view-part/?ref=snap"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BC075-03-A-L-A"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n3 Position Receptacle Connector 0.039 (1.00mm) Surface Mount, Right Angle Gold\n"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "GCT"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "BC075-03-A-L-A"
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description Value Pkg" ""
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" ""
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 515.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b1414d9-eb14-4b33-a792-513efeb5b7b2")
-		)
-		(pin "3"
-			(uuid "9a214a71-ab3d-4823-9071-7e62f0a45d93")
-		)
-		(pin "2"
-			(uuid "6a63f10e-e3fe-445c-827d-b8d3ee32e8ce")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -29823,7 +29569,7 @@
 			(uuid "3e867938-e82a-4ea6-8e93-5e851330d124")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR075")
 					(unit 1)
@@ -29928,7 +29674,7 @@
 			(uuid "072ec5db-bebd-4871-9a9c-6471ccb334c3")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "SYS1")
 					(unit 1)
@@ -29994,7 +29740,7 @@
 			(uuid "339848dd-e069-4cf2-a587-811cd176b4fd")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR54")
 					(unit 1)
@@ -30061,7 +29807,7 @@
 			(uuid "eef5ff8f-8cab-40fd-bc03-74d083ae4ce3")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR099")
 					(unit 1)
@@ -30178,7 +29924,7 @@
 			(uuid "8f1a08e1-2836-42b3-901b-a23f0df4e3a4")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C9")
 					(unit 1)
@@ -30257,7 +30003,7 @@
 			(uuid "bbbf071d-eed1-4824-b95e-cc10b19bae3c")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "U3")
 					(unit 1)
@@ -30324,7 +30070,7 @@
 			(uuid "1a527023-fd4b-4432-b70b-ec36c3947f17")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR072")
 					(unit 1)
@@ -30436,7 +30182,7 @@
 			(uuid "cfd59796-5c63-42df-be12-300f32d3fa83")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "C2")
 					(unit 1)
@@ -30508,7 +30254,7 @@
 			(uuid "692c2574-418c-46c4-ad9a-179a41fa4c14")
 		)
 		(instances
-			(project "enchantiS3"
+			(project "enchantiS3T"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR83")
 					(unit 1)
