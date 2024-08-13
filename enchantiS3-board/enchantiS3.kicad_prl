@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 36,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -64,14 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "ce4f7ff_ffffffff",
+    "visible_layers": "fe4ffff_ffffffff",
     "zone_display_mode": 0
-  },
-  "git": {
-    "repo_password": "",
-    "repo_type": "",
-    "repo_username": "",
-    "ssh_key": ""
   },
   "meta": {
     "filename": "enchantiS3.kicad_prl",

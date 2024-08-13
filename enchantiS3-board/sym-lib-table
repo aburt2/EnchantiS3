@@ -9,8 +9,4 @@
   (lib (name "BQ25185")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BQ25185/BQ25185.kicad_sym")(options "")(descr ""))
   (lib (name "NCV8187")(type "KiCad")(uri "${KIPRJMOD}/Libraries/NCV8187AMT330TAG/NCV8187.kicad_sym")(options "")(descr ""))
   (lib (name "TCAN3413")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TCAN3413/TCAN3413.kicad_sym")(options "")(descr ""))
-  (lib (name "CY8C414X_TQFP48")(type "Altium")(uri "${KIPRJMOD}/Libraries/CY8C4149AZI-S593/CY8C414X_TQFP48.SchLib")(options "")(descr ""))
-  (lib (name "CY8C414X_TQFP64")(type "Altium")(uri "${KIPRJMOD}/Libraries/CY8C4149AZI-S575/CY8C414X_TQFP64.SchLib")(options "")(descr ""))
-  (lib (name "BC075-04-A-L-A_REVC2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BC075/BC075-04-A-L-A_REVC2.kicad_sym")(options "")(descr ""))
-  (lib (name "BC075-03-A-L-A_REVC2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/BC075/BC075-03-A-L-A_REVC2.kicad_sym")(options "")(descr ""))
 )
