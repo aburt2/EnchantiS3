@@ -116,9 +116,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "footprint_type_mismatch|96410000|60325000|ca5b37cd-21a2-46e9-b28f-6a2a928db83e|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -529,7 +527,9 @@
       "ENCHANTI_regulators",
       "ENCHANTI_switches",
       "ENCHANTI_transceivers",
-      "ENCHANTI_WiFi"
+      "ENCHANTI_WiFi",
+      "ENCHANTI-leds",
+      "ENCHANTI_leds"
     ],
     "pinned_symbol_libs": [
       "ENCHANTI_battery-management",
@@ -542,7 +542,9 @@
       "ENCHANTI_switches",
       "ENCHANTI_transceivers",
       "ENCHANTI_WiFi",
-      "ENCHANTI_enchanti_board_symbols"
+      "ENCHANTI_enchanti_board_symbols",
+      "leds",
+      "ENCHANTI_leds"
     ]
   },
   "meta": {
