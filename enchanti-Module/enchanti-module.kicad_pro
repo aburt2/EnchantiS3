@@ -529,7 +529,8 @@
       "ENCHANTI_transceivers",
       "ENCHANTI_WiFi",
       "ENCHANTI-leds",
-      "ENCHANTI_leds"
+      "ENCHANTI_leds",
+      "ENCHANTI_crystals-resonators"
     ],
     "pinned_symbol_libs": [
       "ENCHANTI_battery-management",
@@ -544,7 +545,8 @@
       "ENCHANTI_WiFi",
       "ENCHANTI_enchanti_board_symbols",
       "leds",
-      "ENCHANTI_leds"
+      "ENCHANTI_leds",
+      "ENCHANTI_wifi"
     ]
   },
   "meta": {
