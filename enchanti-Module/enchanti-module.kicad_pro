@@ -116,7 +116,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|83009999|82700000|7eff82c5-c133-4604-b1ce-605f31f56cd6|a2139fb1-26b3-46d1-a8d6-387fde03d347",
+        "clearance|85160000|70345000|a77a3c0e-fed7-4414-a355-ab0b98b37cb2|42c677f1-81ed-4362-99bf-26203abd3e17"
+      ],
       "meta": {
         "version": 2
       },
@@ -713,6 +716,10 @@
       {
         "netclass": "Power",
         "pattern": "CHRG+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
       }
     ]
   },
