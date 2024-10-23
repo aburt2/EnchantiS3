@@ -117,7 +117,7 @@
         }
       ],
       "drc_exclusions": [
-        "footprint_type_mismatch|96393000|60919100|ca5b37cd-21a2-46e9-b28f-6a2a928db83e|00000000-0000-0000-0000-000000000000"
+        "footprint_type_mismatch|95393000|60919100|ca5b37cd-21a2-46e9-b28f-6a2a928db83e|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -139,6 +139,7 @@
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -517,8 +518,34 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "ENCHANTI_battery-management",
+      "ENCHANTI_connectors",
+      "ENCHANTI_crystals-resonators",
+      "ENCHANTI_enchanti-board-symbols",
+      "ENCHANTI_mcus",
+      "ENCHANTI_leds",
+      "ENCHANTI_memory",
+      "ENCHANTI_MEMS",
+      "ENCHANTI_regulators",
+      "ENCHANTI_switches",
+      "ENCHANTI_transceivers",
+      "ENCHANTI_WiFi"
+    ],
+    "pinned_symbol_libs": [
+      "ENCHANTI_battery-management",
+      "ENCHANTI_connectors",
+      "ENCHANTI_crystals-resonators",
+      "ENCHANTI_enchanti_board_symbols",
+      "ENCHANTI_mcus",
+      "ENCHANTI_leds",
+      "ENCHANTI_memory",
+      "ENCHANTI_mems",
+      "ENCHANTI_regulators",
+      "ENCHANTI_transceivers",
+      "ENCHANTI_switches",
+      "ENCHANTI_wifi"
+    ]
   },
   "meta": {
     "filename": "enchantiS3.kicad_pro",
@@ -703,6 +730,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "enchantiS3-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -719,26 +747,14 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
+          "label": "Mfg Part #",
+          "name": "Mfg Part #",
           "show": true
         },
         {
@@ -749,16 +765,64 @@
         },
         {
           "group_by": true,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Value",
+          "name": "Value",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description Value Pkg",
+          "name": "Description Value Pkg",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mpn",
+          "name": "mpn",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Description",
+          "name": "Description",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Manufacturer"
     },
     "connection_grid_size": 50.0,
     "drawing": {
