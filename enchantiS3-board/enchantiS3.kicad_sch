@@ -14035,90 +14035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 170.18 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c02c418-6dc3-4d6b-a654-7f8fe25390e5")
-		(property "Reference" "#PWR070"
-			(at 170.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT_SYS"
-			(at 170.18 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 170.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" ""
-			(at 170.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 170.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "003a7fcc-684e-46a3-ae2f-e82ab136fe62")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power-symbols:CHARGE+")
 		(at 38.1 128.27 0)
 		(unit 1)
@@ -15908,6 +15824,72 @@
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbols:CHARGE+")
+		(at 170.18 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64396a1e-1f9e-4e26-b333-50009edb42c8")
+		(property "Reference" "#PWR07"
+			(at 170.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CHRG+"
+			(at 170.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dc546b4-e1ed-43d6-8c9f-b2a13ab59d26")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19842,15 +19824,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description Value Pkg" ""
-			(at 158.75 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mfg Part #" "BM04B-SRSS-TB"
 			(at 157.48 265.176 0)
 			(effects
@@ -19860,7 +19833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Manufacturer" "JST Sales America Inc."
 			(at 157.48 265.176 0)
 			(effects
 				(font
