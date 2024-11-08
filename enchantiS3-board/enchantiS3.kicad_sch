@@ -7457,16 +7457,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 246.38) (xy 226.06 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37141ef2-1208-4bf0-be5c-f751f002f365")
-	)
-	(wire
-		(pts
 			(xy 123.19 278.13) (xy 123.19 280.67)
 		)
 		(stroke
@@ -7664,6 +7654,16 @@
 			(type default)
 		)
 		(uuid "4a6522bb-18c5-4f1a-857a-4a71ae31e5e9")
+	)
+	(wire
+		(pts
+			(xy 208.28 246.38) (xy 208.28 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b97d330-9613-4e05-a2f0-ce037cb16881")
 	)
 	(wire
 		(pts
@@ -8704,6 +8704,16 @@
 			(type default)
 		)
 		(uuid "afa1884e-0c4f-494d-b139-26d208e49e64")
+	)
+	(wire
+		(pts
+			(xy 208.28 246.38) (xy 226.06 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00d294a-6569-4036-a458-ea998357f8cd")
 	)
 	(wire
 		(pts
@@ -9989,7 +9999,7 @@
 		)
 		(uuid "20e186a4-1687-458a-b014-7c31bd180e88")
 	)
-	(label "SCL"
+	(label "SCL2"
 		(at 125.73 259.08 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10055,7 +10065,7 @@
 		)
 		(uuid "28527a86-e1b7-4713-a3e2-bb295e757309")
 	)
-	(label "SDA"
+	(label "SDA2"
 		(at 149.86 256.54 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10165,7 +10175,7 @@
 		)
 		(uuid "425f6a95-3388-4481-8ce9-90399d0345dc")
 	)
-	(label "SDA2"
+	(label "SDA"
 		(at 312.42 85.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10220,7 +10230,7 @@
 		)
 		(uuid "58a4b294-ded1-428d-a4dc-22531adb9300")
 	)
-	(label "SCL2"
+	(label "SCL"
 		(at 312.42 82.55 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10275,7 +10285,7 @@
 		)
 		(uuid "65db50a0-a9b4-4b7f-a3d2-087d5c7aa4d3")
 	)
-	(label "SDA2"
+	(label "SDA"
 		(at 289.56 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10396,17 +10406,6 @@
 		)
 		(uuid "90e8ab3f-2984-4abb-9ea7-37aa9e2be9b5")
 	)
-	(label "BTN_FP"
-		(at 226.06 246.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96ea31ac-0181-46a1-bcaa-ee59ecf2c325")
-	)
 	(label "D+"
 		(at 196.85 194.31 0)
 		(fields_autoplaced yes)
@@ -10473,7 +10472,7 @@
 		)
 		(uuid "9f129c24-d7fd-467f-884c-ced6d8869dcf")
 	)
-	(label "SDA"
+	(label "SDA2"
 		(at 128.27 280.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10550,7 +10549,7 @@
 		)
 		(uuid "ae7263bb-c94a-4793-ba7e-b8a9424e25e9")
 	)
-	(label "SCL2"
+	(label "SCL"
 		(at 287.02 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10748,7 +10747,7 @@
 		)
 		(uuid "f0b53d32-6049-4e8d-b2bc-6902f7282219")
 	)
-	(label "SCL"
+	(label "SCL2"
 		(at 149.86 259.08 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12911,6 +12910,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power-symbols:3V3_AUX")
+		(at 123.19 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28e9b835-e753-4c86-862e-d28eb8708598")
+		(property "Reference" "#PWR16"
+			(at 123.19 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_AUX"
+			(at 123.19 262.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f3a888b-31eb-494c-bdb8-c17243f895c2")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
+					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 76.2 144.78 0)
@@ -13866,72 +13931,6 @@
 			(project "tstick_pcb"
 				(path "/ecdbf224-0069-4dc3-a7df-492909ab59c7"
 					(reference "QWIIC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 213.36 241.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39d9a4c2-531b-4c80-adce-c7437aa71fe2")
-		(property "Reference" "#PWR011"
-			(at 213.36 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 214.63 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1633b3fa-82ce-4861-ac9f-1d2cad75371a")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -17388,84 +17387,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 123.19 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d04b0c8-212c-44f5-9a95-d1de406286b7")
-		(property "Reference" "#PWR054"
-			(at 123.19 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 124.46 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee32e76f-81eb-4659-9d1d-de8c73ea40b9")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-			(project "tstick-4gw-prosumer-pcb"
-				(path "/862dba4e-7e1a-4a09-a4d1-a8449ad175cb"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-			(project "tstick_pcb"
-				(path "/ecdbf224-0069-4dc3-a7df-492909ab59c7"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 153.67 203.2 0)
@@ -17533,6 +17454,72 @@
 			(project "tstick_pcb"
 				(path "/ecdbf224-0069-4dc3-a7df-492909ab59c7"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VUSB:VUSB")
+		(at 213.36 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "818c70b7-9de4-4a5f-8971-2d58c6b4c4e2")
+		(property "Reference" "#VUSB03"
+			(at 213.36 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 210.82 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc8b6475-705a-425d-8bdf-17efc1a4bd75")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
+					(reference "#VUSB03")
 					(unit 1)
 				)
 			)
@@ -17870,6 +17857,72 @@
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbols:3V3_AUX")
+		(at 121.92 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8658bb16-9c3a-4a61-bb67-8c1ad3c1c6d7")
+		(property "Reference" "#PWR15"
+			(at 121.92 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_AUX"
+			(at 121.92 239.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c402218-9de1-424a-8cf7-789c840a9c15")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -19326,6 +19379,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 208.28 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d801064-2136-4295-ba72-a5c2696b3a06")
+		(property "Reference" "#PWR011"
+			(at 208.28 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a38a8a57-1de9-4729-9a0e-6a42cd231cba")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_2")
 		(lib_id "power:+3V3")
 		(at 384.81 162.56 0)
@@ -19952,84 +20072,6 @@
 			(project "tstick_pcb"
 				(path "/ecdbf224-0069-4dc3-a7df-492909ab59c7"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 121.92 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae545d4a-da51-43a7-8478-389c0e6dffdf")
-		(property "Reference" "#PWR055"
-			(at 121.92 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 123.19 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0da18bef-aa27-41bd-bd75-f682bd056124")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-			(project "tstick-4gw-prosumer-pcb"
-				(path "/862dba4e-7e1a-4a09-a4d1-a8449ad175cb"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-			(project "tstick_pcb"
-				(path "/ecdbf224-0069-4dc3-a7df-492909ab59c7"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
