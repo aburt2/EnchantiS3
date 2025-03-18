@@ -117,7 +117,38 @@
         }
       ],
       "drc_exclusions": [
-        "footprint_type_mismatch|95393000|60919100|ca5b37cd-21a2-46e9-b28f-6a2a928db83e|00000000-0000-0000-0000-000000000000"
+        [
+          "footprint_type_mismatch|95393000|60919100|ca5b37cd-21a2-46e9-b28f-6a2a928db83e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|116857000|45085000|e8b1dafc-97a0-44e0-a6b0-717970e811e0|461124bd-0e51-4149-aa7e-539db0351a9a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|121577000|45085000|e8b1dafc-97a0-44e0-a6b0-717970e811e0|a6dc62a5-594d-4612-bb4b-6ac4ecefdf3c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|153670000|57680700|08bfb40b-77a0-4138-a7a7-2f539fcb2250|b8d7d6bd-96a5-4907-885b-fcc7869e0859",
+          ""
+        ],
+        [
+          "silk_edge_clearance|153670000|75680700|08bfb40b-77a0-4138-a7a7-2f539fcb2250|ed0aabea-8d0d-4a5c-9746-b6d070b1e019",
+          ""
+        ],
+        [
+          "silk_edge_clearance|153683200|75680700|08bfb40b-77a0-4138-a7a7-2f539fcb2250|3a4ce1b9-aa72-4df4-9ffb-a258df73e2f0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|92710000|56249100|6cc01b01-44ac-4f2e-9b00-0052303eb281|56b8c65b-0957-44c4-88d6-8672ab486177",
+          ""
+        ],
+        [
+          "silk_edge_clearance|92710000|65589100|6cc01b01-44ac-4f2e-9b00-0052303eb281|0ba7a79a-2592-48a4-88c4-9ff3b08cedac",
+          ""
+        ]
       ],
       "meta": {
         "version": 2
@@ -129,16 +160,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "warning",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -149,9 +183,11 @@
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
@@ -166,7 +202,9 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -179,6 +217,7 @@
         "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.17,
         "min_hole_to_hole": 0.15,
         "min_microvia_diameter": 0.2,
@@ -198,10 +237,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
