@@ -22806,16 +22806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description Value Pkg" ""
-			(at 210.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "ESP32-S3-WROOM-2-N32R8V"
+		(property "Mfg Part #" "ESP32-S3-WROOM-2-N32R16V"
 			(at 210.82 71.12 0)
 			(effects
 				(font
@@ -22825,15 +22816,6 @@
 			)
 		)
 		(property "Manufacturer" "Espressif Systems"
-			(at 210.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" "ESP32-S3-WROOM-2-N32R8V"
 			(at 210.82 71.12 0)
 			(effects
 				(font
