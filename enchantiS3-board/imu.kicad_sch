@@ -2383,7 +2383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.4852 142.24 0)
 			(effects
 				(font
@@ -2401,7 +2401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 96.52 138.43 0)
 			(effects
 				(font
@@ -2410,7 +2410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "CL05A106MP8NUB8"
+		(property "Mfg Part #" "GRT188R61C106KE13D"
 			(at 96.52 138.43 0)
 			(effects
 				(font
@@ -2419,7 +2419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 96.52 138.43 0)
 			(effects
 				(font

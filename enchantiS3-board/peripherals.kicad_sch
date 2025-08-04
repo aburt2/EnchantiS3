@@ -3219,7 +3219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Orange 605nm LED Indication - Discrete 2.2V 0603 (1608 Metric)"
+		(property "Description" "Orange 605nm LED Indication - Discrete 2.1V 0603 (1608 Metric)"
 			(at 63.5 162.56 0)
 			(effects
 				(font
@@ -3228,7 +3228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "APT1608SECK/J4-PRV"
+		(property "Mfg Part #" "APT1608SECK"
 			(at 63.5 162.56 0)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 49.53 140.97 0)
 			(effects
 				(font
@@ -3322,7 +3322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ERJ-2RKF1001X"
+		(property "Mfg Part #" "RC0402FR-071KL"
 			(at 49.53 140.97 0)
 			(effects
 				(font
@@ -3331,7 +3331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
+		(property "Manufacturer" "YAGEO"
 			(at 49.53 140.97 0)
 			(effects
 				(font
@@ -3407,7 +3407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ERJ-2RKF1001X"
+		(property "Mfg Part #" "RC0402FR-071KL"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -3425,7 +3425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
+		(property "Manufacturer" "YAGEO"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "APT1608EC"
+		(property "Mfg Part #" "APT1608LVBC/D"
 			(at 63.5 140.97 0)
 			(effects
 				(font
@@ -3987,7 +3987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -3996,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ERJ-2RKF1001X"
+		(property "Mfg Part #" "RC0402FR-071KL"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -4005,7 +4005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -4172,7 +4172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -4190,7 +4190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ERJ-2RKF1001X"
+		(property "Mfg Part #" "RC0402FR-071KL"
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -4199,7 +4199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
+		(property "Manufacturer" "YAGEO"
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -4749,7 +4749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 44.45 97.79 0)
 			(effects
 				(font
@@ -4767,7 +4767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ERJ-2RKF2201X"
+		(property "Mfg Part #" "RC0402FR-072K2L"
 			(at 44.45 97.79 0)
 			(effects
 				(font
@@ -4776,7 +4776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
+		(property "Manufacturer" "YAGEO"
 			(at 44.45 97.79 0)
 			(effects
 				(font
@@ -5552,7 +5552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 66.04 97.79 0)
 			(effects
 				(font
@@ -5570,7 +5570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ERJ-2RKF2201X"
+		(property "Mfg Part #" "RC0402FR-072K2L"
 			(at 66.04 97.79 0)
 			(effects
 				(font
@@ -5579,7 +5579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
+		(property "Manufacturer" "YAGEO"
 			(at 66.04 97.79 0)
 			(effects
 				(font
@@ -6038,106 +6038,6 @@
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/8b66653b-979a-4284-8ed1-040b15bccc65"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 157.48 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb7e5356-382f-4d0d-8f36-39f66d1bb427")
-		(property "Reference" "H3"
-			(at 160.02 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 160.02 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 157.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description Value Pkg" ""
-			(at 157.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" ""
-			(at 157.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" ""
-			(at 157.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 157.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/8b66653b-979a-4284-8ed1-040b15bccc65"
-					(reference "H3")
 					(unit 1)
 				)
 			)

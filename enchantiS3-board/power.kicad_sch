@@ -4453,7 +4453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1%  0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 236.22 38.1 0)
 			(effects
 				(font
@@ -4471,7 +4471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ERJ-2RKF1002X"
+		(property "Mfg Part #" "RC0402FR-0710KL"
 			(at 236.22 38.1 0)
 			(effects
 				(font
@@ -4480,7 +4480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
+		(property "Manufacturer" "YAGEO"
 			(at 236.22 38.1 0)
 			(effects
 				(font
@@ -4584,7 +4584,7 @@
 		(at 236.22 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4627,6 +4627,24 @@
 		)
 		(property "Description" "Test Point"
 			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" ""
+			(at 236.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 236.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 81.28 124.46 0)
 			(effects
 				(font
@@ -4931,7 +4949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ERJ-2RKF2201X"
+		(property "Mfg Part #" "RC0402FR-072K2L"
 			(at 81.28 124.46 0)
 			(effects
 				(font
@@ -4940,7 +4958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
+		(property "Manufacturer" "YAGEO"
 			(at 81.28 124.46 0)
 			(effects
 				(font
@@ -7922,7 +7940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -7940,7 +7958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ERJ-2RKF2201X"
+		(property "Mfg Part #" "RC0402FR-072K2L"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -7949,7 +7967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
+		(property "Manufacturer" "YAGEO"
 			(at 100.33 124.46 0)
 			(effects
 				(font
