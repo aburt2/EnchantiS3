@@ -106,7 +106,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1524
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -118,7 +118,23 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_type_mismatch|95393000|60919100|ca5b37cd-21a2-46e9-b28f-6a2a928db83e|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|141615000|60919100|4feb93b7-643d-4ae1-80cc-e13776a8d96b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|134060000|49515000|dac435cb-1665-4e94-b64b-84495c08b24e|00000000-0000-0000-0000-000000000000",
+          "No courtyard needed"
+        ],
+        [
+          "silk_edge_clearance|148590000|51919100|08bfb40b-77a0-4138-a7a7-2f539fcb2250|2c624ec8-8f69-4638-a83a-562e17cabe28",
+          ""
+        ],
+        [
+          "silk_edge_clearance|148590000|69919100|08bfb40b-77a0-4138-a7a7-2f539fcb2250|138256e3-9a0d-4144-b944-4104ebd70bc6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|148615000|69919100|08bfb40b-77a0-4138-a7a7-2f539fcb2250|5811d4fc-74f6-48e6-85ce-3a3676cee09b",
           ""
         ]
       ],
@@ -156,7 +172,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
@@ -165,12 +181,13 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -186,7 +203,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1524,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
@@ -194,12 +211,12 @@
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1016,
+        "min_track_width": 0.1524,
         "min_via_annular_width": 0.1016,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -260,7 +277,8 @@
         0.254,
         0.3048,
         0.508,
-        0.762
+        0.762,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -583,9 +601,9 @@
       {
         "bus_width": 12,
         "clearance": 0.1524,
-        "diff_pair_gap": 0.1524,
+        "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1524,
+        "diff_pair_width": 0.2794,
         "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
@@ -593,52 +611,199 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "track_width": 0.2032,
+        "via_diameter": 0.508,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.1524,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.1524,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.2794,
         "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
-        "name": "Power_1",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3048,
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1524,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.1524,
-        "line_style": 0,
-        "microvia_diameter": 0.4572,
-        "microvia_drill": 0.254,
-        "name": "Power_2",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "track_width": 0.3048,
+        "via_diameter": 0.5588,
+        "via_drill": 0.3048,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.2794,
+        "line_style": 0,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2032,
+        "via_diameter": 0.508,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.2794,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2794,
+        "via_diameter": 0.508,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "+3V3": [
+        "Power"
+      ],
+      "/MCU/I2C_SCL_AUX": [
+        "Signal"
+      ],
+      "/MCU/I2C_SCL_MAIN": [
+        "Signal"
+      ],
+      "/MCU/I2C_SDA_AUX": [
+        "Signal"
+      ],
+      "/MCU/I2C_SDA_MAIN": [
+        "Signal"
+      ],
+      "/MCU/IMU_CIPO": [
+        "Signal"
+      ],
+      "/MCU/IMU_COPI": [
+        "Signal"
+      ],
+      "/MCU/IMU_CS": [
+        "Signal"
+      ],
+      "/MCU/IMU_SCLK": [
+        "Signal"
+      ],
+      "/MCU/MAG_CIPO": [
+        "Signal"
+      ],
+      "/MCU/MAG_COPI": [
+        "Signal"
+      ],
+      "/MCU/MAG_CS": [
+        "Signal"
+      ],
+      "/MCU/MAG_SCLK": [
+        "Signal"
+      ],
+      "/MCU/RXD": [
+        "Signal"
+      ],
+      "/MCU/TXD": [
+        "Signal"
+      ],
+      "/MCU/USBD+": [
+        "USB"
+      ],
+      "/MCU/USBD-": [
+        "USB"
+      ],
+      "/Motion Sensing/IMU_CIPO": [
+        "Signal"
+      ],
+      "/Motion Sensing/IMU_COPI": [
+        "Signal"
+      ],
+      "/Motion Sensing/IMU_CS": [
+        "Signal"
+      ],
+      "/Motion Sensing/IMU_SCLK": [
+        "Signal"
+      ],
+      "/Motion Sensing/MAG_CIPO": [
+        "Signal"
+      ],
+      "/Motion Sensing/MAG_COPI": [
+        "Signal"
+      ],
+      "/Motion Sensing/MAG_CS": [
+        "Signal"
+      ],
+      "/Motion Sensing/MAG_SCLK": [
+        "Signal"
+      ],
+      "/Motion Sensing/VDDIO_IMU": [
+        "Power"
+      ],
+      "/Motion Sensing/VDD_IMU": [
+        "Power"
+      ],
+      "/Motion Sensing/VDD_MAG": [
+        "Power"
+      ],
+      "/Motion Sensing/VIO_MAG": [
+        "Power"
+      ],
+      "/Peripherals/SCL2": [
+        "Signal"
+      ],
+      "/Peripherals/SDA2": [
+        "Signal"
+      ],
+      "/Power System/VBUS": [
+        "Power"
+      ],
+      "/Power System/VBUSOUT": [
+        "Power"
+      ],
+      "/USB/D+": [
+        "USB"
+      ],
+      "/USB/D-": [
+        "USB"
+      ],
+      "/USB/USBD+": [
+        "USB"
+      ],
+      "/USB/USBD-": [
+        "USB"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VUSB"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "SYS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -759,11 +924,6 @@
       "default_text_size": 50.0,
       "field_names": [
         {
-          "name": "Description Value Pkg",
-          "url": false,
-          "visible": false
-        },
-        {
           "name": "Mfg Part #",
           "url": false,
           "visible": false
@@ -819,6 +979,26 @@
     [
       "1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1",
       "Root"
+    ],
+    [
+      "ee30c7d7-fa17-4757-a347-33eaa73dc899",
+      "Power System"
+    ],
+    [
+      "001ed733-d444-4b83-8b85-543863e7be2f",
+      "MCU"
+    ],
+    [
+      "68bf694a-7233-4b2a-9ad1-21724c3b9d05",
+      "USB"
+    ],
+    [
+      "bd129300-83b3-4f49-b419-55e8d0985e15",
+      "Motion Sensing"
+    ],
+    [
+      "8b66653b-979a-4284-8ed1-040b15bccc65",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
