@@ -3933,16 +3933,6 @@
 		)
 		(uuid "fe4c52c8-aab0-43e2-afa6-af4dab948a60")
 	)
-	(label "RESET"
-		(at 50.8 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d6bbb1d-648e-49b2-8bcb-d57b2cd22fb4")
-	)
 	(label "LED1"
 		(at 57.15 175.26 180)
 		(effects
@@ -3951,27 +3941,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "84054317-68a6-4e4e-b9d7-ad92cf2d0c51")
-	)
-	(label "LED0"
-		(at 54.61 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8adc5110-9ae2-4e2e-8f9b-849bc609ce92")
-	)
-	(label "LED0"
-		(at 57.15 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7dfbff9-e48c-44de-945a-721846842d1e")
+		(uuid "2acf9006-3040-46ca-97ce-181634a64abe")
 	)
 	(label "PG"
 		(at 228.6 43.18 0)
@@ -3981,7 +3951,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ea8e0305-b08d-4a8b-a64f-b175c1f4cd80")
+		(uuid "4b802318-14cb-4f6d-b0e4-36480cf814b8")
+	)
+	(label "LED0"
+		(at 54.61 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8791e6fb-c149-40b0-ad43-266dba13839c")
 	)
 	(label "LED1"
 		(at 54.61 76.2 180)
@@ -3991,7 +3971,60 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f029a511-8ab5-4614-960b-5d501e0717cb")
+		(uuid "ce3bebfd-4cf6-45d9-b40b-ef9fc3b70b9f")
+	)
+	(label "LED0"
+		(at 57.15 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4b3fc52-444c-47f7-9e13-7092a50b19ce")
+	)
+	(label "RESET"
+		(at 50.8 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7c50076-f0f0-42af-9a55-c1bc47cab202")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 52.07 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0de0259d-5ec4-40c0-9cc1-e7edd03bddb1")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 109.22 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1257504a-711b-4b83-b82f-dbc44b981687")
+	)
+	(hierarchical_label "CC2"
+		(shape passive)
+		(at 52.07 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c8e128f-99b4-441f-8e9e-339ab434bbde")
 	)
 	(hierarchical_label "VBUSOUT"
 		(shape input)
@@ -4002,7 +4035,7 @@
 			)
 			(justify left)
 		)
-		(uuid "02f46308-1799-466a-abfc-0797a3f293c6")
+		(uuid "1e05a7d2-b1d9-45c8-a145-8a50867be60f")
 		(property "Netclass" "Power"
 			(at 144.018 35.56 0)
 			(effects
@@ -4014,50 +4047,6 @@
 			)
 		)
 	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 88.9 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "102e4b6c-2089-4753-889a-0fa956389e89")
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 52.07 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1220b3b0-c1bd-475a-a62e-3e36076af123")
-	)
-	(hierarchical_label "GPIO4"
-		(shape bidirectional)
-		(at 53.34 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1afe5c36-4e0b-4f17-9137-69c6ecfebc1a")
-	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 52.07 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c971843-0f99-4ea8-adfe-76c7dc707257")
-	)
 	(hierarchical_label "CC1"
 		(shape passive)
 		(at 52.07 38.1 180)
@@ -4067,51 +4056,7 @@
 			)
 			(justify right)
 		)
-		(uuid "65f4a644-080b-42dc-b8fe-58304e370f57")
-	)
-	(hierarchical_label "CC2"
-		(shape passive)
-		(at 52.07 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f82594b-3bf7-4944-ae29-b901db36bcff")
-	)
-	(hierarchical_label "GPIO2"
-		(shape bidirectional)
-		(at 53.34 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb8eac57-61f8-409a-b642-cc1e04eddffd")
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 109.22 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d32b909c-ff81-47e8-a66a-a0ec0ac7f96f")
-	)
-	(hierarchical_label "GPIO1"
-		(shape bidirectional)
-		(at 53.34 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d91a795c-1069-454b-9626-1ff42e353f60")
+		(uuid "5ab81f83-7266-4485-abd1-f977a9f9b5eb")
 	)
 	(hierarchical_label "GPIO3"
 		(shape bidirectional)
@@ -4122,7 +4067,40 @@
 			)
 			(justify right)
 		)
-		(uuid "f91fdec4-8760-4620-b275-b30d273fd081")
+		(uuid "70b7c907-20ad-4a26-9cca-63e51dd79d1e")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 88.9 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bf2f7e6-f138-41a5-9bd4-926fa0e3f0e7")
+	)
+	(hierarchical_label "GPIO4"
+		(shape bidirectional)
+		(at 53.34 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a542d994-e8e4-4b9d-b44e-22f61d039742")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 52.07 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4b9d047-e0bf-4301-b225-5e476acf525c")
 	)
 	(hierarchical_label "PWR_BUTTON"
 		(shape bidirectional)
@@ -4133,1383 +4111,29 @@
 			)
 			(justify right)
 		)
-		(uuid "f93a2f4f-6db5-4beb-b570-4a026027f984")
+		(uuid "e6fc1d79-1bdc-45eb-ac60-03247b69520d")
 	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 181.61 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "022477df-75f9-4a63-a162-687f04338718")
-		(property "Reference" "#PWR050"
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(hierarchical_label "GPIO2"
+		(shape bidirectional)
+		(at 53.34 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "GND"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53baa84a-3cf3-4f86-8b6e-5adc3210a4d5")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "e8cbf30b-b95b-4dc6-a0a2-0962da39ea24")
 	)
-	(symbol
-		(lib_id "power-symbols:VSYS")
-		(at 181.61 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "0ed3f1e0-bd69-4f73-97b4-aa4ffcc05633")
-		(property "Reference" "SYS6"
-			(at 181.61 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SYS"
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description Value Pkg" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a30fdc9-b587-4a57-8f14-35683f5baf8d")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "SYS6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 36.83 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "147bf2c0-51c7-4a27-ba36-1ef1b29dceee")
-		(property "Reference" "#PWR043"
-			(at 36.83 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d68038b9-1dec-4406-8f7f-2345b3b7b550")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power-symbols:VSYS")
-		(at 119.38 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "279b9897-530f-4a79-bf94-62b4a87fc777")
-		(property "Reference" "SYS4"
-			(at 119.38 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SYS"
-			(at 114.808 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description Value Pkg" ""
-			(at 119.38 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" ""
-			(at 119.38 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" ""
-			(at 119.38 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abd6c7d2-5064-4e6a-a354-6423a3fcfa23")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "SYS4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 190.5 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c37f0fc-1350-4a74-8bc2-4cc66c83488a")
-		(property "Reference" "#PWR065"
-			(at 190.5 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43b71005-e37f-4137-baea-6053f0d422c5")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
-		(at 236.22 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fdc7779-3f5e-4e05-b52f-15e0354e9596")
-		(property "Reference" "TP1"
-			(at 236.22 48.26 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.75mm"
-			(at 236.22 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
-			(at 236.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 236.22 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" ""
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b3d10c1-077d-4c36-ab86-d610ef2aa045")
-		)
-		(instances
-			(project ""
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power-symbols:VSYS")
-		(at 22.86 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "41e7652a-bd6a-4f94-be68-a880a07322f9")
-		(property "Reference" "SYS5"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SYS"
-			(at 21.336 156.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description Value Pkg" ""
-			(at 22.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" ""
-			(at 22.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" ""
-			(at 22.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb5409ab-e961-48c9-89d1-88c8b7a3b4bb")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "SYS5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 100.33 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41ec52dc-fe64-4706-936e-91f9e7af12e7")
-		(property "Reference" "#PWR042"
-			(at 100.33 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 100.33 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf61a648-fc63-48e5-b6a9-b7fb8428d520")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 128.27 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4511c908-5261-4c68-9484-8e969abb0e2d")
-		(property "Reference" "#PWR037"
-			(at 128.27 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a710625b-7769-4079-b50d-f12019f858c4")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 181.61 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cfea43c-8ff0-4cb4-82d3-0d2e1334532e")
-		(property "Reference" "C11"
-			(at 175.768 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 175.768 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.5752 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "GRM155R61E105KA12D"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf2df454-d01b-429d-87f4-ab8153fb634e")
-		)
-		(pin "2"
-			(uuid "476977bb-6616-456b-ab52-6252334ce16c")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 228.6 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f755beb-b0a3-425d-98f0-1854489bb4a3")
-		(property "Reference" "#PWR066"
-			(at 228.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 52.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac0bf918-3ed1-46a8-8ee8-6ba5e56ed4f9")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 109.22 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52ed6f91-365f-4ffb-9e0d-e25fd7765c86")
-		(property "Reference" "#PWR017"
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23736799-0efb-4584-9429-e2ad952533d6")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 40.64 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60b6314f-d198-44b0-af99-5f8ea14b5ff4")
-		(property "Reference" "R12"
-			(at 40.64 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 40.64 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 40.894 164.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 40.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
-			(at 40.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "RC0402FR-072KL"
-			(at 40.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 40.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3703fb4f-eff5-4988-8300-108ff759a414")
-		)
-		(pin "2"
-			(uuid "d9f01df0-784b-4a75-abcd-821585c1150c")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 236.22 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6737c945-6370-41c3-9d55-773d875c4bc2")
-		(property "Reference" "R6"
-			(at 233.172 37.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 233.426 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 235.204 37.846 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 236.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1%  0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
-			(at 236.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description Value Pkg" ""
-			(at 236.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "RC0402FR-0710KL"
-			(at 236.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 236.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" "ERJ-2RKF1002X"
-			(at 236.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c93fad89-8ad6-4ef8-9c02-1f5ab1e0d5eb")
-		)
-		(pin "2"
-			(uuid "6848627d-b869-4150-afda-94a95f639d2e")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 26.67 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67f4479b-a146-4dc8-a4c7-d0f676160426")
-		(property "Reference" "C18"
-			(at 27.178 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 27.178 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 27.6352 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A104KP3NNNC_Spec.pdf"
-			(at 26.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 26.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "GRM155R6YA225KE11D"
-			(at 26.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 26.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a222651-36bd-461f-81dd-8e7837e7644a")
-		)
-		(pin "2"
-			(uuid "427148d8-c398-4bf5-8a6a-e9d005eb516f")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:DZ2S051X0L")
-		(at 190.5 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "685feb61-eb05-4159-90eb-dbe6e6cf692e")
-		(property "Reference" "D1"
-			(at 187.706 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DZ2S051X0L"
-			(at 178.308 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 186.055 101.6 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05100L_E.pdf"
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode 5.1 V 500 mW ±2% Surface Mount SOD-523"
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "MM5Z5V1ST1G"
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0a6e87f1-0a42-4c08-84de-aec09d83467d")
-		)
-		(pin "1"
-			(uuid "21438c98-02a1-4e44-a12b-a0f472095d55")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ENCHANTI_connectors:Battery_JST_2pin")
-		(at 196.85 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68998eba-596e-494b-be25-4da9275deadf")
-		(property "Reference" "BAT1"
-			(at 204.47 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_SMD_2.0"
-			(at 198.628 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ENCHANTI_connectors:Battery_JST_2pin"
-			(at 196.596 86.106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 197.104 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)"
-			(at 199.644 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "S2B-PH-SM4-TB"
-			(at 198.628 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 200.66 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "85293036-1399-4577-a5d6-21d24ebf789a")
-		)
-		(pin "1"
-			(uuid "93edd244-605c-4899-84ee-6acb202306aa")
-		)
-		(pin "2"
-			(uuid "faca823a-86f0-4dbd-a6e2-c8430163106c")
-		)
-		(instances
-			(project ""
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "BAT1")
-					(unit 1)
-				)
-			)
-		)
+	(hierarchical_label "GPIO1"
+		(shape bidirectional)
+		(at 53.34 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd292caf-1434-41e1-bb20-c50f46aa82ac")
 	)
 	(symbol
 		(lib_id "ENCHANTI_battery-management:NPM1300-QEAA-R7")
@@ -5520,7 +4144,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ed89fe5-a1d7-46d8-9553-2c927f559261")
+		(uuid "02fb9696-8a97-4c4d-a81b-d06f2207c777")
 		(property "Reference" "U7"
 			(at 81.28 27.94 0)
 			(effects
@@ -5694,6 +4318,202 @@
 		)
 	)
 	(symbol
+		(lib_id "power-symbols:VSYS")
+		(at 22.86 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "0d7cac22-236c-4eca-a0e5-f7600cf31e70")
+		(property "Reference" "SYS5"
+			(at 22.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYS"
+			(at 21.336 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description Value Pkg" ""
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" ""
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" ""
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb5409ab-e961-48c9-89d1-88c8b7a3b4bb")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "SYS5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 236.22 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fa8cc34-8ddd-4da5-b0b2-667f51abde48")
+		(property "Reference" "R6"
+			(at 233.172 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 233.426 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 235.204 37.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 236.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1%  0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 236.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description Value Pkg" ""
+			(at 236.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-0710KL"
+			(at 236.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 236.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "ERJ-2RKF1002X"
+			(at 236.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c93fad89-8ad6-4ef8-9c02-1f5ab1e0d5eb")
+		)
+		(pin "2"
+			(uuid "6848627d-b869-4150-afda-94a95f639d2e")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 26.67 59.69 0)
@@ -5702,7 +4522,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6f738ffa-fcdd-4c8b-b7da-37692de2beda")
+		(uuid "10d69ba4-11e2-43b6-b8c0-7fd80f503dd2")
 		(property "Reference" "#PWR04"
 			(at 26.67 66.04 0)
 			(effects
@@ -5760,1502 +4580,26 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 26.67 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71b58f20-6ad8-41cc-a872-7b04fc5a53a6")
-		(property "Reference" "#PWR041"
-			(at 26.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 26.67 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 26.67 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "767e0682-1236-46fb-ac08-af0a1f41661e")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 190.5 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74692a4a-85ab-4630-a4d9-dc9016901612")
-		(property "Reference" "#PWR044"
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be0edf01-ac11-4305-80ae-1b490f2b3cb4")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 194.31 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77f542ff-5d4b-49d5-a590-5e10645d80f9")
-		(property "Reference" "#PWR018"
-			(at 194.31 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7566d228-66ad-4913-852a-8837aa97f1a4")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 119.38 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78589f22-0381-45fc-85c5-362ac7f360c3")
-		(property "Reference" "#PWR036"
-			(at 119.38 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c39fae8-a0d7-4d05-9201-4b259e6d68a6")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 247.65 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79f1757d-86ed-40cf-8466-183900b80c89")
-		(property "Reference" "#PWR068"
-			(at 247.65 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f432d46c-5300-4b44-9313-b0fd39974eec")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 175.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dafc59d-8f63-4c45-ab2d-f4a8424bd375")
-		(property "Reference" "CHARGLED5"
-			(at 29.21 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "YELLOW_LED"
-			(at 29.21 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 29.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SYCK.pdf"
-			(at 29.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Yellow 590nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 29.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "APT1608SYCK"
-			(at 29.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 29.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b6bf06b-1518-4ad1-be46-e00c951a67df")
-		)
-		(pin "2"
-			(uuid "410523c7-3f98-47e8-8f60-0511cd216525")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "CHARGLED5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 36.83 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ddd4e58-9db3-4d89-9ab7-82f176fa282e")
-		(property "Reference" "#PWR08"
-			(at 36.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 33.02 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1535d170-8145-4042-b6aa-e9231a695355")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 17.78 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81c597cb-986c-4371-aded-627cf0fa012c")
-		(property "Reference" "C1"
-			(at 18.288 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 18.288 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 18.7452 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
-			(at 17.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 17.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "GRM155R61E105KA12D"
-			(at 17.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 17.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 17.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e321f1f-092b-4d2c-9707-7d5c60b69f9d")
-		)
-		(pin "2"
-			(uuid "806139d6-0f79-419f-bf00-e779646f21e2")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 17.78 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88cc2a81-fc35-4c69-827a-f0b08501e0fc")
-		(property "Reference" "#PWR013"
-			(at 17.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 17.78 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 17.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ced41ed9-9847-4dc6-9477-d2ca02a14afc")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bcefacd-e346-4a26-989c-2deaa8688e52")
-		(property "Reference" "R4"
-			(at 95.25 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 97.79 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 99.314 124.206 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description Value Pkg" ""
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "RC0402FR-072K2L"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" "ERJ-2RKF2201X"
-			(at 100.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "565fd757-608e-4eee-8026-45c7e06aae26")
-		)
-		(pin "2"
-			(uuid "831f6ded-e1f4-464b-8874-09c69f5e2bac")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95e5d0b9-276e-45af-8482-d288b7d55a10")
-		(property "Reference" "C4"
-			(at 128.778 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 128.778 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 129.2352 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
-			(at 128.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 128.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "GRM155R61E105KA12D"
-			(at 128.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 128.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 128.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dffd7dd2-8e73-47e1-8252-6ca253738be5")
-		)
-		(pin "2"
-			(uuid "8bbf1374-ebb8-4b73-90ed-1062e617fbaf")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 36.83 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "970e2b66-0f56-401a-afe3-452a638caac4")
-		(property "Reference" "C20"
-			(at 37.084 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 37.084 116.332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 37.7952 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A104KP3NNNC_Spec.pdf"
-			(at 36.83 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 36.83 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "GRM155R71C104KA88J"
-			(at 36.83 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 36.83 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 36.83 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8254d7bc-b1e0-44c2-86f4-16e169e71b83")
-		)
-		(pin "2"
-			(uuid "467f3aa4-6e36-4d08-b174-647d352e119d")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 247.65 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "994eb983-35db-4dbd-9837-4057fc3efa8a")
-		(property "Reference" "C10"
-			(at 247.904 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 247.904 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 248.6152 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf"
-			(at 247.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 247.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "GRT188R61C106KE13D"
-			(at 247.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 247.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98085e79-0bea-44fa-8bf1-b344f2ef7905")
-		)
-		(pin "2"
-			(uuid "e81d5515-574f-4f3e-9d71-52c10117cff3")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 40.64 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99571d36-edaa-4c78-a032-402808f85bc1")
-		(property "Reference" "R18"
-			(at 40.64 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 40.64 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 40.894 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 40.64 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
-			(at 40.64 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "RC0402FR-072KL"
-			(at 40.64 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 40.64 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32b669e5-df95-47a7-98aa-c51da74ba881")
-		)
-		(pin "2"
-			(uuid "f62a57b8-d677-46df-874d-51b2b185a3c7")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 165.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a2625d8-a8d6-4f73-9f92-8553b1a1973e")
-		(property "Reference" "CHARGLED4"
-			(at 29.21 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RED_LED"
-			(at 29.21 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 29.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608EC.pdf"
-			(at 29.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 617nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 29.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "APT1608EC"
-			(at 29.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 29.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba2414de-1fea-4576-b5c7-4a623ede940d")
-		)
-		(pin "2"
-			(uuid "54bd4daf-97fe-4f75-89fc-a49c692aae9a")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "CHARGLED4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 200.66 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ac84a57-b37d-4d1a-bf27-55ab6e18ef6d")
-		(property "Reference" "#PWR020"
-			(at 200.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "611eee00-3439-4956-97ac-17c79cd110c2")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 109.22 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0fc9e72-4863-4cb5-b819-a03e2e7fa6c0")
-		(property "Reference" "#PWR014"
-			(at 109.22 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ab1bd60-e925-4237-81e4-8fc5651e7e1f")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ENCHANTI_switches:PTS810")
-		(at 44.45 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6676e42-cb22-478c-adf7-820e374005ad")
-		(property "Reference" "SW3"
-			(at 44.45 53.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SYS_RST"
-			(at 45.466 53.594 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ENCHANTI_switches:SW_SPST_PTS810"
-			(at 44.704 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
-			(at 56.896 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 36.83 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "PTS810SJG250SMTRLFS"
-			(at 52.578 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
-			(at 43.434 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ae44cab-7705-4e0a-b1ac-d1cc4bc7be99")
-		)
-		(pin "2"
-			(uuid "cb61a5d0-5c7f-4b05-a7f8-a41f237bf1a3")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VUSB:VUSB")
-		(at 17.78 33.02 0)
+		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
+		(at 236.22 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "aecaeaa9-c832-4d83-bbfd-44cd0d65aedd")
-		(property "Reference" "#VUSB01"
-			(at 17.78 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 15.24 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 17.78 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9648766f-d16f-431d-8bf5-96472838063f")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#VUSB01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 190.5 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b010ee6f-10b5-4055-9ec0-44ec92f764bc")
-		(property "Reference" "#PWR029"
-			(at 190.5 99.06 0)
+		(uuid "1490fead-f237-468c-a52a-3653c55741ab")
+		(property "Reference" "TP1"
+			(at 236.22 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.75mm"
+			(at 236.22 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,16 +4607,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 190.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 95.25 0)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 236.22 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,8 +4616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 190.5 95.25 0)
+		(property "Datasheet" "~"
+			(at 236.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,8 +4625,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 95.25 0)
+		(property "Description" "Test Point"
+			(at 236.22 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7298,30 +4634,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2ed4fe37-97ba-49a6-8734-1081251b1d72")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 36.83 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6b963eb-43f7-4361-8b9e-2df270dcc2e0")
-		(property "Reference" "#PWR019"
-			(at 36.83 125.73 0)
+		(property "Mfg Part #" ""
+			(at 236.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,34 +4643,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 119.38 0)
+		(property "Manufacturer" ""
+			(at 236.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,335 +4653,236 @@
 			)
 		)
 		(pin "1"
-			(uuid "319364cb-56c8-4c72-ba0a-304efd27d0ff")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 119.38 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be408190-fd93-4eb9-898f-1e3c2ade1492")
-		(property "Reference" "C5"
-			(at 119.634 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 119.634 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 120.3452 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf"
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "GRT188R61C106KE13D"
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "620ae19e-cdd4-4f78-bfdc-dd775d04c4d1")
-		)
-		(pin "2"
-			(uuid "e48993ed-f175-4ff9-924b-1faec10e23fe")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 247.65 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4b9dd04-389d-445e-b521-c2a4ff2f390f")
-		(property "Reference" "#PWR067"
-			(at 247.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 247.65 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "917196b1-9c5a-45df-adbc-6244698a1e9d")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 81.28 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5ec4250-8aca-4563-ac8b-acf5ae8c936e")
-		(property "Reference" "#PWR039"
-			(at 81.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 81.28 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d1a0ce1-137d-46a4-8b03-5bffb26d1324")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ENCHANTI_regulators:NCP187")
-		(at 209.55 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8b7b765-864c-4f42-9c38-e9cbfda9be71")
-		(property "Reference" "U2"
-			(at 209.55 26.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NCP187"
-			(at 209.55 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ENCHANTI_regulators:NCV8187_ONS"
-			(at 213.106 20.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp187-d.pdf"
-			(at 211.582 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3V Linear Voltage Regulator IC Positive Fixed 1 Output 1.2A 6-WDFN (2x2)"
-			(at 197.358 18.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg Part #" "NCP187AMT330TAG"
-			(at 209.296 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 209.55 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "7c60e63c-d559-4c50-a174-a409bf416f91")
-		)
-		(pin "4"
-			(uuid "ca572e54-2c6c-41ae-a344-24ecfa31193d")
-		)
-		(pin "7"
-			(uuid "89330794-8570-46d9-b98c-69d5844e9d61")
-		)
-		(pin "6"
-			(uuid "73509f58-2893-4afe-bc70-3afe728a8632")
-		)
-		(pin "3"
-			(uuid "e0c45dfe-be2f-4c9c-8e07-5e196ef3f22a")
-		)
-		(pin "1"
-			(uuid "03ba5d49-9b68-4dc8-bca9-326aa60451f1")
-		)
-		(pin "2"
-			(uuid "64d4374f-4a55-4a1d-8c3e-6176d61c0b23")
+			(uuid "8b3d10c1-077d-4c36-ab86-d610ef2aa045")
 		)
 		(instances
 			(project ""
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "U2")
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ENCHANTI_connectors:Battery_JST_2pin")
+		(at 196.85 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cfd3756-6c7f-4fc0-baea-702274f496ac")
+		(property "Reference" "BAT1"
+			(at 204.47 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SMD_2.0"
+			(at 198.628 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ENCHANTI_connectors:Battery_JST_2pin"
+			(at 196.596 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+			(at 197.104 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)"
+			(at 199.644 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "S2B-PH-SM4-TB"
+			(at 198.628 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 200.66 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "85293036-1399-4577-a5d6-21d24ebf789a")
+		)
+		(pin "1"
+			(uuid "93edd244-605c-4899-84ee-6acb202306aa")
+		)
+		(pin "2"
+			(uuid "faca823a-86f0-4dbd-a6e2-c8430163106c")
+		)
+		(instances
+			(project ""
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "BAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 190.5 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e0ca433-498c-42b3-93eb-5df25823c693")
+		(property "Reference" "#PWR065"
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43b71005-e37f-4137-baea-6053f0d422c5")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 181.61 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee226f1-a273-4e52-b314-cb3005bfbaeb")
+		(property "Reference" "#PWR050"
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53baa84a-3cf3-4f86-8b6e-5adc3210a4d5")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7707,7 +4896,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de7a6be8-fd46-449b-b063-6c540997bef9")
+		(uuid "2a08722b-fbb0-4a4f-aa81-6e1265c945e1")
 		(property "Reference" "R3"
 			(at 76.2 124.46 90)
 			(effects
@@ -7805,15 +4994,15 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 50.8 87.63 0)
+		(at 36.83 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e8fcb6c1-ae9a-4992-8c3f-c64c69c6dbf5")
-		(property "Reference" "#PWR01"
-			(at 50.8 93.98 0)
+		(uuid "2fc41e0a-f95b-4364-bb20-3c997aea0188")
+		(property "Reference" "#PWR019"
+			(at 36.83 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7822,7 +5011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.102 89.154 0)
+			(at 36.83 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,7 +5019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 87.63 0)
+			(at 36.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +5028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 87.63 0)
+			(at 36.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7848,7 +5037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 87.63 0)
+			(at 36.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,12 +5046,335 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b8c87fb-e7b0-4db0-ad85-a3722bb069b1")
+			(uuid "319364cb-56c8-4c72-ba0a-304efd27d0ff")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR01")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 40.64 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "326b7320-8284-4d6a-b8a7-5f3842b73ebd")
+		(property "Reference" "R18"
+			(at 40.64 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 40.64 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 40.894 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 40.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 40.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-072KL"
+			(at 40.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 40.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32b669e5-df95-47a7-98aa-c51da74ba881")
+		)
+		(pin "2"
+			(uuid "f62a57b8-d677-46df-874d-51b2b185a3c7")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34545eaa-fee9-4901-966d-fb7075562dad")
+		(property "Reference" "C5"
+			(at 119.634 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 119.634 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 120.3452 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf"
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "GRT188R61C106KE13D"
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "620ae19e-cdd4-4f78-bfdc-dd775d04c4d1")
+		)
+		(pin "2"
+			(uuid "e48993ed-f175-4ff9-924b-1faec10e23fe")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 26.67 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34cded8c-821b-4d3b-b65a-b2b88f1f2295")
+		(property "Reference" "#PWR041"
+			(at 26.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 26.67 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "767e0682-1236-46fb-ac08-af0a1f41661e")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3912e163-97cd-41c2-b1d5-c4c88f685b70")
+		(property "Reference" "CHARGLED4"
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RED_LED"
+			(at 29.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 29.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608EC.pdf"
+			(at 29.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 617nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 29.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "APT1608EC"
+			(at 29.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 29.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba2414de-1fea-4576-b5c7-4a623ede940d")
+		)
+		(pin "2"
+			(uuid "54bd4daf-97fe-4f75-89fc-a49c692aae9a")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "CHARGLED4")
 					(unit 1)
 				)
 			)
@@ -7877,7 +5389,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f34fdd58-a757-4f8c-960f-7ec37bd25b9e")
+		(uuid "3f510c55-c06e-475e-8299-7ce19554bfad")
 		(property "Reference" "#PWR040"
 			(at 50.8 57.15 0)
 			(effects
@@ -7935,6 +5447,1231 @@
 		)
 	)
 	(symbol
+		(lib_id "power-symbols:VSYS")
+		(at 181.61 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "59a8e498-6b05-4d37-96aa-baab85fc60d7")
+		(property "Reference" "SYS6"
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYS"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description Value Pkg" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" ""
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a30fdc9-b587-4a57-8f14-35683f5baf8d")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "SYS6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 17.78 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59ff3444-5d6a-49b1-8132-9862e33eb1a3")
+		(property "Reference" "C1"
+			(at 18.288 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 18.288 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 18.7452 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
+			(at 17.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 17.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "GRM155R61E105KA12D"
+			(at 17.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 17.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 17.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e321f1f-092b-4d2c-9707-7d5c60b69f9d")
+		)
+		(pin "2"
+			(uuid "806139d6-0f79-419f-bf00-e779646f21e2")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 36.83 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d387215-64bb-4931-b738-34c17c0f5d55")
+		(property "Reference" "#PWR08"
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 33.02 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1535d170-8145-4042-b6aa-e9231a695355")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 190.5 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6baa48-078c-4480-9588-7499e94f3e06")
+		(property "Reference" "#PWR029"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ed4fe37-97ba-49a6-8734-1081251b1d72")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 119.38 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6493a634-b73a-4b59-b133-18eb328fd9f7")
+		(property "Reference" "#PWR036"
+			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c39fae8-a0d7-4d05-9201-4b259e6d68a6")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 109.22 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "697cfc89-ae65-4e90-8600-7b64aa64bafa")
+		(property "Reference" "#PWR017"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23736799-0efb-4584-9429-e2ad952533d6")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ENCHANTI_switches:PTS810")
+		(at 44.45 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cc8a4d0-8432-4ffe-8599-ccb4343f2606")
+		(property "Reference" "SW3"
+			(at 44.45 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SYS_RST"
+			(at 45.466 53.594 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ENCHANTI_switches:SW_SPST_PTS810"
+			(at 44.704 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 56.896 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 36.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "PTS810SJG250SMTRLFS"
+			(at 52.578 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
+			(at 43.434 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ae44cab-7705-4e0a-b1ac-d1cc4bc7be99")
+		)
+		(pin "2"
+			(uuid "cb61a5d0-5c7f-4b05-a7f8-a41f237bf1a3")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 109.22 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8593a41d-2599-40c4-9e34-ffdf8faa3b74")
+		(property "Reference" "#PWR014"
+			(at 109.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ab1bd60-e925-4237-81e4-8fc5651e7e1f")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 200.66 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "882560cb-9c98-4f09-91cb-2f8803b0a456")
+		(property "Reference" "#PWR020"
+			(at 200.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "611eee00-3439-4956-97ac-17c79cd110c2")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 128.27 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cd170db-4531-4237-8e78-0e5b594765cd")
+		(property "Reference" "#PWR037"
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a710625b-7769-4079-b50d-f12019f858c4")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 40.64 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a158cfbb-a16b-483c-a02f-718d17acd73a")
+		(property "Reference" "R12"
+			(at 40.64 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 40.64 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 40.894 164.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-072KL"
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3703fb4f-eff5-4988-8300-108ff759a414")
+		)
+		(pin "2"
+			(uuid "d9f01df0-784b-4a75-abcd-821585c1150c")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 247.65 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a60803bc-2df9-4abd-bc67-5840973d3602")
+		(property "Reference" "C10"
+			(at 247.904 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 247.904 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 248.6152 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf"
+			(at 247.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 247.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "GRT188R61C106KE13D"
+			(at 247.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 247.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98085e79-0bea-44fa-8bf1-b344f2ef7905")
+		)
+		(pin "2"
+			(uuid "e81d5515-574f-4f3e-9d71-52c10117cff3")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 194.31 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac466c79-e0e7-49a2-a5f4-416e12c0e16d")
+		(property "Reference" "#PWR018"
+			(at 194.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7566d228-66ad-4913-852a-8837aa97f1a4")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbols:VSYS")
+		(at 119.38 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "b197c26f-e0bf-48a7-9228-3116381a7c16")
+		(property "Reference" "SYS4"
+			(at 119.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYS"
+			(at 114.808 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description Value Pkg" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abd6c7d2-5064-4e6a-a354-6423a3fcfa23")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "SYS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 50.8 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3185362-462f-4f1c-9cc7-ab525b0f014e")
+		(property "Reference" "#PWR01"
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.102 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b8c87fb-e7b0-4db0-ad85-a3722bb069b1")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7ef0932-8d5a-491d-ab7d-a3dcd2383ab8")
+		(property "Reference" "CHARGLED5"
+			(at 29.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "YELLOW_LED"
+			(at 29.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SYCK.pdf"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow 590nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "APT1608SYCK"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b6bf06b-1518-4ad1-be46-e00c951a67df")
+		)
+		(pin "2"
+			(uuid "410523c7-3f98-47e8-8f60-0511cd216525")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "CHARGLED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 109.22 83.82 0)
@@ -7943,7 +6680,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f3b1793f-0616-4376-b7eb-8801932d4358")
+		(uuid "b9f15b12-5741-410a-8773-5d216ba73347")
 		(property "Reference" "#PWR03"
 			(at 109.22 90.17 0)
 			(effects
@@ -7995,6 +6732,1269 @@
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba74aba5-1987-4d9a-96d1-14dd982dba64")
+		(property "Reference" "C4"
+			(at 128.778 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 128.778 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 129.2352 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
+			(at 128.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 128.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "GRM155R61E105KA12D"
+			(at 128.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 128.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 128.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dffd7dd2-8e73-47e1-8252-6ca253738be5")
+		)
+		(pin "2"
+			(uuid "8bbf1374-ebb8-4b73-90ed-1062e617fbaf")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 81.28 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5573a30-32c0-4d90-94b6-36ca8a9e07a1")
+		(property "Reference" "#PWR039"
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d1a0ce1-137d-46a4-8b03-5bffb26d1324")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca2fe2ed-7958-450a-b318-623e9c6a5571")
+		(property "Reference" "C11"
+			(at 175.768 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 175.768 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.5752 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "GRM155R61E105KA12D"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf2df454-d01b-429d-87f4-ab8153fb634e")
+		)
+		(pin "2"
+			(uuid "476977bb-6616-456b-ab52-6252334ce16c")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 247.65 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc7bceb3-1a24-4bf7-b622-c47df8481a9c")
+		(property "Reference" "#PWR068"
+			(at 247.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f432d46c-5300-4b44-9313-b0fd39974eec")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 26.67 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd0d9df6-c50e-430f-b991-f6141b177b81")
+		(property "Reference" "C18"
+			(at 27.178 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 27.178 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 27.6352 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A104KP3NNNC_Spec.pdf"
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "GRM155R6YA225KE11D"
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a222651-36bd-461f-81dd-8e7837e7644a")
+		)
+		(pin "2"
+			(uuid "427148d8-c398-4bf5-8a6a-e9d005eb516f")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd4c8f3f-372b-4a07-8659-c717c33964e7")
+		(property "Reference" "C20"
+			(at 37.084 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 37.084 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 37.7952 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A104KP3NNNC_Spec.pdf"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "GRM155R71C104KA88J"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8254d7bc-b1e0-44c2-86f4-16e169e71b83")
+		)
+		(pin "2"
+			(uuid "467f3aa4-6e36-4d08-b174-647d352e119d")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 36.83 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdd4c75d-7823-41b5-b46c-fd6b5fedef54")
+		(property "Reference" "#PWR043"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d68038b9-1dec-4406-8f7f-2345b3b7b550")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:DZ2S051X0L")
+		(at 190.5 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8706996-18ae-4188-b6ea-93dbf6eddc26")
+		(property "Reference" "D1"
+			(at 187.706 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DZ2S051X0L"
+			(at 178.308 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 186.055 101.6 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05100L_E.pdf"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Diode 5.1 V 500 mW ±2% Surface Mount SOD-523"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "MM5Z5V1ST1G"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a6e87f1-0a42-4c08-84de-aec09d83467d")
+		)
+		(pin "1"
+			(uuid "21438c98-02a1-4e44-a12b-a0f472095d55")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 100.33 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e127c4f8-5aa3-4f0c-9ade-b59966752295")
+		(property "Reference" "#PWR042"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf61a648-fc63-48e5-b6a9-b7fb8428d520")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 17.78 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e52ae7f5-9c75-4ba5-b4e9-e67a9cdcd093")
+		(property "Reference" "#PWR013"
+			(at 17.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ced41ed9-9847-4dc6-9477-d2ca02a14afc")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 228.6 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb2e6e9d-54d2-494a-bc15-dd27b8c2564f")
+		(property "Reference" "#PWR066"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac0bf918-3ed1-46a8-8ee8-6ba5e56ed4f9")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VUSB:VUSB")
+		(at 17.78 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ed37a4e4-82bf-4138-8cd0-64298b9b4e41")
+		(property "Reference" "#VUSB01"
+			(at 17.78 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 15.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9648766f-d16f-431d-8bf5-96472838063f")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#VUSB01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 247.65 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee5647c4-bc9e-41bc-a1c0-95f04a6ff867")
+		(property "Reference" "#PWR067"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 247.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917196b1-9c5a-45df-adbc-6244698a1e9d")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ENCHANTI_regulators:NCP187")
+		(at 209.55 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7b74b51-73f2-4c4e-8ec2-f8f0333e2507")
+		(property "Reference" "U2"
+			(at 209.55 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NCP187"
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ENCHANTI_regulators:NCV8187_ONS"
+			(at 213.106 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp187-d.pdf"
+			(at 211.582 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V Linear Voltage Regulator IC Positive Fixed 1 Output 1.2A 6-WDFN (2x2)"
+			(at 197.358 18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "NCP187AMT330TAG"
+			(at 209.296 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 209.55 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7c60e63c-d559-4c50-a174-a409bf416f91")
+		)
+		(pin "4"
+			(uuid "ca572e54-2c6c-41ae-a344-24ecfa31193d")
+		)
+		(pin "7"
+			(uuid "89330794-8570-46d9-b98c-69d5844e9d61")
+		)
+		(pin "6"
+			(uuid "73509f58-2893-4afe-bc70-3afe728a8632")
+		)
+		(pin "3"
+			(uuid "e0c45dfe-be2f-4c9c-8e07-5e196ef3f22a")
+		)
+		(pin "1"
+			(uuid "03ba5d49-9b68-4dc8-bca9-326aa60451f1")
+		)
+		(pin "2"
+			(uuid "64d4374f-4a55-4a1d-8c3e-6176d61c0b23")
+		)
+		(instances
+			(project ""
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 190.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f81668ab-99ca-4bdd-b0b7-3ba51799d967")
+		(property "Reference" "#PWR044"
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be0edf01-ac11-4305-80ae-1b490f2b3cb4")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f90bb7c7-592d-4914-8be7-bd9600f82c81")
+		(property "Reference" "R4"
+			(at 95.25 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 97.79 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.314 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description Value Pkg" ""
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-072K2L"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "ERJ-2RKF2201X"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "565fd757-608e-4eee-8026-45c7e06aae26")
+		)
+		(pin "2"
+			(uuid "831f6ded-e1f4-464b-8874-09c69f5e2bac")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "R4")
 					(unit 1)
 				)
 			)

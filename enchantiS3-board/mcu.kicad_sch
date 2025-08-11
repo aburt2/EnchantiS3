@@ -719,7 +719,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Espressif:ESP32-S3-WROOM-2"
+		(symbol "PCM_Espressif:ESP32-S3-WROOM-1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -735,7 +735,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-S3-WROOM-2"
+			(property "Value" "ESP32-S3-WROOM-1"
 				(at -43.18 40.64 0)
 				(effects
 					(font
@@ -744,7 +744,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Espressif:ESP32-S3-WROOM-2"
+			(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1"
 				(at 2.54 -48.26 0)
 				(effects
 					(font
@@ -753,7 +753,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf"
+			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
 				(at 2.54 -50.8 0)
 				(effects
 					(font
@@ -771,8 +771,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_0_0"
-				(text "ESP32-S3-WROOM-2"
+			(symbol "ESP32-S3-WROOM-1_0_0"
+				(text "ESP32-S3-WROOM-1"
 					(at -20.32 0 0)
 					(effects
 						(font
@@ -906,18 +906,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -43.18 -30.48 0)
+				(pin bidirectional line
+					(at -45.72 -30.48 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "SPIIO6/GPIO35/FSPID/SUBSPID"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "30"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -925,11 +924,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -43.18 -33.02 0)
+				(pin bidirectional line
+					(at -45.72 -33.02 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "SPIIO7/GPIO36/FSPICLK/SUBSPICLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -944,18 +942,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -43.18 -35.56 0)
+				(pin bidirectional line
+					(at -45.72 -35.56 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "SPIDQS/GPIO37/FSPIQ/SUBSPIQ"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -982,7 +979,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -38.1 270)
+					(at 0 -40.64 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1000,7 +997,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -38.1 270)
+					(at 0 -40.64 90)
 					(length 2.54)
 					(hide yes)
 					(name "GND"
@@ -1019,7 +1016,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -38.1 270)
+					(at 0 -40.64 90)
 					(length 2.54)
 					(hide yes)
 					(name "GND"
@@ -1524,7 +1521,7 @@
 					)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_0_1"
+			(symbol "ESP32-S3-WROOM-1_0_1"
 				(rectangle
 					(start -43.18 38.1)
 					(end 43.18 -38.1)
@@ -1649,7 +1646,7 @@
 		)
 		(uuid "292b3027-31b3-42b6-ae3d-56495184936b")
 	)
-	(text "ESP32 WROOM 2 MODULE N32R8V"
+	(text "ESP32 WROOM 1 MODULE N8R8"
 		(exclude_from_sim no)
 		(at 90.17 30.48 0)
 		(effects
@@ -1709,12 +1706,24 @@
 		(uuid "5d3c3a37-b225-4819-99bb-1f29e9b505da")
 	)
 	(no_connect
+		(at 100.33 114.3)
+		(uuid "7ed5724e-c516-4049-a75c-6d7ba9b2b053")
+	)
+	(no_connect
 		(at 191.77 68.58)
 		(uuid "8c06fcd5-8816-4889-8d2f-b36b0a51ab3a")
 	)
 	(no_connect
+		(at 100.33 111.76)
+		(uuid "92b7539a-ae8a-460f-9376-aa91403ea0ee")
+	)
+	(no_connect
 		(at 191.77 109.22)
 		(uuid "a4debf0f-c045-4049-850f-3ded079ddff0")
+	)
+	(no_connect
+		(at 100.33 116.84)
+		(uuid "caad100d-09a5-42d7-a075-ad5c48fe9f57")
 	)
 	(no_connect
 		(at 191.77 111.76)
@@ -2052,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 119.38) (xy 146.05 123.19)
+			(xy 146.05 121.92) (xy 146.05 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3220,7 +3229,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 146.05 123.19 0)
+		(at 146.05 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3229,7 +3238,7 @@
 		(fields_autoplaced yes)
 		(uuid "7759cd49-ee59-4d30-9e59-5c8758961926")
 		(property "Reference" "#PWR0101"
-			(at 146.05 129.54 0)
+			(at 146.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 128.27 0)
+			(at 146.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 123.19 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 123.19 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3273,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 123.19 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Espressif:ESP32-S3-WROOM-2")
+		(lib_id "PCM_Espressif:ESP32-S3-WROOM-1")
 		(at 146.05 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3918,15 +3927,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-2"
-			(at 160.02 121.92 0)
+		(property "Value" "ESP32-S3-WROOM-1"
+			(at 102.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-2"
+		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1"
 			(at 148.59 129.54 0)
 			(effects
 				(font
@@ -3935,7 +3945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf"
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
 			(at 148.59 132.08 0)
 			(effects
 				(font
@@ -3944,7 +3954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount"
+		(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -3953,7 +3963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part #" "ESP32-S3-WROOM-2-N32R16V"
+		(property "Mfg Part #" "ESP32-S3-WROOM-1-N8R8"
 			(at 146.05 81.28 0)
 			(effects
 				(font
