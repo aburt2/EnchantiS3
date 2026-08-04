@@ -118,7 +118,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.15,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -136,20 +136,8 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|141615000|60919100|4feb93b7-643d-4ae1-80cc-e13776a8d96b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "missing_courtyard|134060000|49515000|dac435cb-1665-4e94-b64b-84495c08b24e|00000000-0000-0000-0000-000000000000",
           "No courtyard needed"
-        ],
-        [
-          "silk_edge_clearance|148590000|51919100|08bfb40b-77a0-4138-a7a7-2f539fcb2250|d72782a4-21ba-4696-9b19-d41001555694",
-          ""
-        ],
-        [
-          "silk_edge_clearance|148590000|69919100|08bfb40b-77a0-4138-a7a7-2f539fcb2250|079528b3-29b7-4e71-bd65-2c0d30bab743",
-          ""
         ]
       ],
       "meta": {
@@ -802,11 +790,23 @@
       "/Motion Sensing/VIO_MAG": [
         "Power"
       ],
+      "/Peripherals/RXD": [
+        "Signal"
+      ],
       "/Peripherals/SCL2": [
         "Signal"
       ],
       "/Peripherals/SDA2": [
         "Signal"
+      ],
+      "/Peripherals/TXD": [
+        "Signal"
+      ],
+      "/Peripherals/VCC": [
+        "Power"
+      ],
+      "/Peripherals/VIO": [
+        "Power"
       ],
       "/Power System/VBUS": [
         "Power"
@@ -825,6 +825,9 @@
       ],
       "/USB/USBD-": [
         "USB"
+      ],
+      "SYS": [
+        "Power"
       ]
     },
     "netclass_patterns": [
@@ -990,7 +993,7 @@
           "visible": false
         }
       ],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1039,7 +1042,7 @@
         "uuid": "1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
       }
     ],
-    "used_designators": "R5,C9,C19,#PWR25-26,#PWR101,#PWR109,U4",
+    "used_designators": "D1,BAT1,#PWR18,#PWR20,#PWR29,#PWR44,#PWR62,TP5",
     "variants": []
   },
   "sheets": [

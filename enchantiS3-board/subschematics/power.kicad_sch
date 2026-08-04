@@ -144,6 +144,401 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "+BATT_1"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+BATT_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+BATT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "+BATT_3"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+BATT_3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+BATT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -843,7 +1238,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ENCHANTI_battery-management:NPM1300-QEAA-R7"
+		(symbol "ENCHANTI_battery-management:BQ25185DLHR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -853,7 +1248,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 13.97 0)
+				(at 0 8.636 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -862,8 +1257,8 @@
 					)
 				)
 			)
-			(property "Value" "NPM1300-QEAA-R7"
-				(at 0 11.43 0)
+			(property "Value" "BQ25185DLHR"
+				(at 0.508 6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -872,8 +1267,8 @@
 					)
 				)
 			)
-			(property "Footprint" "ENCHANTI_battery-management:QFN32_5X5_NOR"
-				(at 20.828 21.082 0)
+			(property "Footprint" "ENCHANTI_battery-management:WSON10_DLH_TEX"
+				(at -3.556 17.018 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -884,8 +1279,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6443/NPM1300-QEAA-R.pdf"
-				(at 21.59 28.448 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25185.pdf?ts=1701339761812&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ25185"
+				(at 3.81 19.558 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -896,8 +1291,8 @@
 					)
 				)
 			)
-			(property "Description" "Battery Power Management IC Lithium Ion/Polymer 32-QFN (5x5)"
-				(at 1.016 18.542 0)
+			(property "Description" "Charger IC Multi-Chemistry 10-WSON (2.2x2)"
+				(at -6.604 15.494 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -907,8 +1302,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Nordic Semiconductor ASA"
-				(at 1.778 19.304 0)
+			(property "Mfg Part #" "BQ25185DLHR"
+				(at -1.27 18.542 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -918,8 +1313,8 @@
 					)
 				)
 			)
-			(property "Mfg Part #" "NPM1300-QEAA-R7"
-				(at 1.524 16.002 0)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0.254 14.478 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -929,7 +1324,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "NPM1300-QEAA-R7"
+			(property "ki_keywords" "BQ25185DLHR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -940,7 +1335,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "QFN32_5X5_NOR QFN32_5X5_NOR-M QFN32_5X5_NOR-L"
+			(property "ki_fp_filters" "WSON10_DLH_TEX WSON10_DLH_TEX-M WSON10_DLH_TEX-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -951,11 +1346,11 @@
 					)
 				)
 			)
-			(symbol "NPM1300-QEAA-R7_0_1"
+			(symbol "BQ25185DLHR_0_1"
 				(pin power_in line
-					(at 25.4 -7.62 180)
-					(length 7.62)
-					(name "VOUT1"
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "SYS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -970,10 +1365,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 25.4 -20.32 180)
-					(length 7.62)
-					(name "PVSS1"
+				(pin power_in line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "BAT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -988,10 +1383,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -17.78 180)
-					(length 7.62)
-					(name "SW1"
+				(pin output line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "STAT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1006,28 +1401,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -1.27 180)
-					(length 7.62)
-					(name "PVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -38.1 180)
-					(length 7.62)
-					(name "SW2"
+				(pin power_out line
+					(at 1.27 -21.59 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1042,10 +1419,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 25.4 -40.64 180)
-					(length 7.62)
-					(name "PVSS2"
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "TS/MR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1061,9 +1438,45 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 -20.32 0)
-					(length 7.62)
-					(name "GPIO2"
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "ILIM/VSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "STAT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1078,10 +1491,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -25.4 -22.86 0)
-					(length 7.62)
-					(name "GPIO3"
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1096,10 +1509,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -25.4 -25.4 0)
-					(length 7.62)
-					(name "GPIO4"
+				(pin unspecified line
+					(at -1.27 -21.59 90)
+					(length 2.54)
+					(name "EPAD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1114,323 +1527,30 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -25.4 -66.04 0)
-					(length 7.62)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(symbol "BQ25185DLHR_1_1"
+				(rectangle
+					(start -12.7 5.08)
+					(end 12.7 -19.05)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -57.15 0)
-					(length 7.62)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type background)
 					)
 				)
 				(pin input line
-					(at -25.4 -59.69 0)
-					(length 7.62)
-					(name "SCL"
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "~{CE}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 -50.8 0)
-					(length 7.62)
-					(name "SHPHLD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -25.4 -44.45 0)
-					(length 7.62)
-					(name "VSET2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -25.4 -41.91 0)
-					(length 7.62)
-					(name "VSET1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -25.4 -8.89 0)
-					(length 7.62)
-					(name "NTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -25.4 -6.35 0)
-					(length 7.62)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 1.27 180)
-					(length 7.62)
-					(name "VSYS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -25.4 6.35 0)
-					(length 7.62)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 25.4 6.35 180)
-					(length 7.62)
-					(name "VBUSOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -25.4 3.81 0)
-					(length 7.62)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -25.4 1.27 0)
-					(length 7.62)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -25.4 -31.75 0)
-					(length 7.62)
-					(name "LED0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -25.4 -34.29 0)
-					(length 7.62)
-					(name "LED1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -25.4 -36.83 0)
-					(length 7.62)
-					(name "LED2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 7.62)
-					(name "VOUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 25.4 -66.04 180)
-					(length 7.62)
-					(name "AVSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1439,131 +1559,292 @@
 					)
 				)
 			)
-			(symbol "NPM1300-QEAA-R7_1_1"
+			(embedded_fonts no)
+		)
+		(symbol "ENCHANTI_battery-management:MAX17262REWL+T"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MAX17262REWL+T"
+				(at 0 7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "ENCHANTI_battery-management:MAX17262"
+				(at 6.858 13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17262.pdf"
+				(at 12.446 14.478 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "Battery Fuel Gauge IC LiFePO4/Li-ion 9-WLP (1.47x1.45)"
+				(at 5.08 16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfg Part #" "MAX17262REWL+T"
+				(at -20.32 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+				(at 2.54 20.574 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MAX17262REWL+T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "21-100221A_W91G1+3_MXM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MAX17262REWL+T_0_1"
+				(pin input line
+					(at -13.97 0 0)
+					(length 5.08)
+					(name "TH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 3.81 0)
+					(length 5.08)
+					(name "BATT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -2.54 0)
+					(length 5.08)
+					(name "ALRT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 3.81 180)
+					(length 5.08)
+					(name "SYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -8.89 180)
+					(length 5.08)
+					(name "REG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX17262REWL+T_1_1"
 				(rectangle
-					(start -17.78 8.89)
-					(end 17.78 -68.58)
+					(start -8.89 6.35)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at -25.4 -15.24 0)
-					(length 7.62)
-					(name "GPIO0"
+				(pin no_connect line
+					(at -13.97 -6.35 0)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(alternate "RESET" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -25.4 -17.78 0)
-					(length 7.62)
-					(name "GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "INT" bidirectional line)
-				)
-				(pin power_in line
-					(at 25.4 -48.26 180)
-					(length 7.62)
-					(name "LSIN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "VINLDO1" power_in line)
-				)
-				(pin power_out line
-					(at 25.4 -57.15 180)
-					(length 7.62)
-					(name "LSOUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "VOUTLDO1" power_out line)
-				)
-				(pin power_in line
-					(at 25.4 -50.8 180)
-					(length 7.62)
-					(name "LSIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "VINLDO2" power_in line)
-				)
-				(pin power_out line
-					(at 25.4 -59.69 180)
-					(length 7.62)
-					(name "LSOUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "VOUTLDO2" power_out line)
 				)
 			)
 			(embedded_fonts no)
@@ -2046,205 +2327,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ENCHANTI_switches:PTS810"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "PTS810"
-				(at 1.016 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "ENCHANTI_switches:SW_SPST_PTS810"
-				(at 0.254 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
-				(at 12.446 9.652 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-				(at -7.62 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mfg Part #" "PTS810SJG250SMTRLFS"
-				(at 8.128 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Omron Electronics Inc-EMC Div"
-				(at -1.016 13.462 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "button switch tactile"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "PTS810"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PTS810_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PTS810_0_1"
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PTS810_1_1"
-				(rectangle
-					(start -1.27 -3.81)
-					(end -1.27 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_1"
 			(power global)
 			(pin_names
@@ -2704,6 +2786,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power-symbols:CHARGE+"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CHARGE+"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CHARGE+_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CHARGE+_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "CHRG+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power-symbols:VSYS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2964,7 +3168,7 @@
 	)
 	(text "JST Connector for battery\n"
 		(exclude_from_sim no)
-		(at 188.722 85.344 0)
+		(at 197.612 96.774 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2985,6 +3189,29 @@
 		)
 		(uuid "123521fa-ff54-43c3-9bcf-792c445f8015")
 	)
+	(text "MAX17262 Fuel Gauge"
+		(exclude_from_sim no)
+		(at 58.42 114.808 0)
+		(effects
+			(font
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4076cb7f-fbed-4e63-94bf-e5ed52d7b7e4")
+	)
+	(text "Bypass Capacitors\n\n\n"
+		(exclude_from_sim no)
+		(at 57.658 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58863808-0d0b-421f-bf37-167e49f81a28")
+	)
 	(text "3.3V Regulator\n\n\n"
 		(exclude_from_sim no)
 		(at 203.2 27.94 0)
@@ -2996,16 +3223,29 @@
 		)
 		(uuid "9bae5d03-0e2b-4be9-bcf3-94b75ab411c3")
 	)
-	(text "NPM1300\nPowerpath Management + Battery Charger + Fuel Gauge + Load Switch"
+	(text "BQ25185 Battery Charger + PowerPath"
 		(exclude_from_sim no)
-		(at 46.228 25.908 0)
+		(at 43.18 25.654 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1be24e4-07b7-4812-a442-618f0863030a")
+	)
+	(text "LED For Battery charging status, \nTable 8.2 in BQ25185 \ndatasheet for outputs"
+		(exclude_from_sim no)
+		(at 14.732 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ce2e25e9-3ccb-48be-88ce-454383482888")
+		(uuid "a765eb79-1c0e-4359-b8ca-7d14b88f0fdb")
 	)
 	(text "SYSTEM REGULATORS"
 		(exclude_from_sim no)
@@ -3019,9 +3259,29 @@
 		)
 		(uuid "e02731ca-abe5-4c8d-8f3b-afdcb1f99221")
 	)
+	(text_box "fast charge 0.7A"
+		(exclude_from_sim no)
+		(at 68.58 85.09 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "113ce781-f151-4b73-94a9-b0163979e517")
+	)
 	(text_box "Fix PCBWay Solder Paster Issue with this footprint"
 		(exclude_from_sim no)
-		(at 224.79 153.67 0)
+		(at 191.77 57.15 0)
 		(size 40.64 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3055,18 +3315,6 @@
 		(uuid "08981491-9d73-462a-9623-b8555631c9c3")
 	)
 	(junction
-		(at 109.22 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c4f42a3-816d-4ecb-aeef-99613938b204")
-	)
-	(junction
-		(at 22.86 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1005fd2c-2444-4755-83c8-f4f29eaa87f8")
-	)
-	(junction
 		(at 232.41 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3079,34 +3327,40 @@
 		(uuid "3098a85b-f734-481e-95b6-17fc5b538f1d")
 	)
 	(junction
+		(at 93.98 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33596761-a2d4-4cf1-bf45-077e160845fe")
+	)
+	(junction
 		(at 236.22 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3609f55b-927b-4f06-add4-0454d8061145")
 	)
 	(junction
-		(at 113.03 43.18)
+		(at 46.99 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43bd378a-c5d2-4ad3-a628-f13271dc6c51")
+		(uuid "37e4ed6d-5975-4637-8e91-288559b0473c")
 	)
 	(junction
-		(at 128.27 35.56)
+		(at 119.38 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50e53d64-b1bc-44e7-8ca4-ea1d1c7e8db2")
+		(uuid "48513a71-86b0-4bdc-8b49-669a842c2c7b")
 	)
 	(junction
-		(at 109.22 99.06)
+		(at 26.67 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "52c15427-e669-4833-9447-1deb6ab16680")
+		(uuid "5408ad61-8cea-4787-8da6-489044b8efa1")
 	)
 	(junction
-		(at 119.38 40.64)
+		(at 111.76 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a5e1105-6649-4fa9-bd5e-adee32928103")
+		(uuid "64083a58-3318-439e-a8ba-a71ef270895d")
 	)
 	(junction
 		(at 189.23 34.29)
@@ -3115,70 +3369,56 @@
 		(uuid "73869302-ef0d-4964-ae7c-d7d549d41bfe")
 	)
 	(junction
-		(at 109.22 107.95)
+		(at 58.42 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75c2a817-56dd-4c05-8355-c841677781b6")
+		(uuid "7ad213f9-d51b-4076-ae9d-7459e3e65767")
 	)
 	(junction
-		(at 50.8 86.36)
+		(at 93.98 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9fedbee7-064f-4d85-8f80-85776c639eaa")
+		(uuid "b676b45f-8b0c-45a9-9f6b-d21a7cfb937d")
 	)
 	(junction
-		(at 190.5 97.79)
+		(at 207.01 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0b2632e-fdc8-47df-9bbf-16519f4895ac")
+		(uuid "bf91a3b8-4e1e-4fd3-a191-00e2c88efa1e")
 	)
 	(junction
-		(at 36.83 107.95)
+		(at 115.57 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bfe182a3-1358-4445-90e1-3436dda8fd09")
+		(uuid "c1fe5b67-88ff-4d04-a5ab-83a2527f4277")
 	)
 	(junction
-		(at 26.67 48.26)
+		(at 88.9 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0f9dea4-af08-44b9-9fff-3e1aa4008e76")
+		(uuid "cad442d4-7301-493e-a9e8-38c69f5c5c16")
 	)
 	(junction
-		(at 109.22 92.71)
+		(at 59.69 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb5b2ad7-1f6e-4b53-a094-c0486af1c44e")
+		(uuid "e44e0f94-5db7-4fdb-bd31-2e3f3b73df03")
 	)
 	(junction
-		(at 113.03 40.64)
+		(at 119.38 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf87d048-5d0b-4441-8601-04bce650a6a3")
+		(uuid "f3dde731-8d79-4818-a97e-9bacb0315a9a")
 	)
-	(junction
-		(at 17.78 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d12b0a9c-1290-4aca-96a8-e000c7767b6f")
-	)
-	(junction
-		(at 113.03 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db3daaa8-4093-4bfa-91a6-d3741feeae46")
-	)
-	(no_connect
-		(at 106.68 80.01)
-		(uuid "6a9efa70-5bd7-4895-a1d5-3ceeed1dca39")
-	)
-	(no_connect
-		(at 55.88 78.74)
-		(uuid "71356156-1d58-4eea-8b88-40cd66929520")
-	)
-	(no_connect
-		(at 106.68 59.69)
-		(uuid "f9bbf0d3-41b0-432e-b201-0a78c29c3a5d")
+	(wire
+		(pts
+			(xy 57.15 71.12) (xy 71.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0126ffba-a7fa-43a5-bce0-71a053be2236")
 	)
 	(wire
 		(pts
@@ -3192,23 +3432,33 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 200.66 105.41)
+			(xy 59.69 147.32) (xy 59.69 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06acc3bd-0945-4b86-aac4-ab1aef38ae02")
+		(uuid "04dff7be-4f3a-4f2b-855e-7475b1529cd4")
 	)
 	(wire
 		(pts
-			(xy 17.78 43.18) (xy 17.78 44.45)
+			(xy 207.01 106.68) (xy 210.82 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07a2d105-e785-4272-a2ca-8d393d0934fd")
+		(uuid "06be7170-2bbd-4d7a-81b8-42fce5a6ae99")
+	)
+	(wire
+		(pts
+			(xy 91.44 147.32) (xy 99.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d01fda-5c00-4856-b38e-5f8d233e7687")
 	)
 	(wire
 		(pts
@@ -3222,6 +3472,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b00a2fa-9af6-4102-a0db-2272aecc5391")
+	)
+	(wire
+		(pts
 			(xy 181.61 44.45) (xy 181.61 45.72)
 		)
 		(stroke
@@ -3232,23 +3492,43 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 35.56) (xy 128.27 41.91)
+			(xy 119.38 59.69) (xy 119.38 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e27f40e-3f06-48e9-b8a6-63e8a960ee2e")
+		(uuid "0d7a726b-8242-4086-b356-b00cf138f577")
 	)
 	(wire
 		(pts
-			(xy 33.02 175.26) (xy 36.83 175.26)
+			(xy 97.79 130.81) (xy 97.79 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f9c098c-d7a2-45cf-ac01-b3d6934b197b")
+		(uuid "0fb2f43c-856a-494e-9315-ff061855d0ab")
+	)
+	(wire
+		(pts
+			(xy 111.76 39.37) (xy 119.38 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d0ac8c-beb4-4128-aa25-eceedd7ead0c")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfcff70-8e49-43fe-bdc4-98c7c9cde212")
 	)
 	(wire
 		(pts
@@ -3262,6 +3542,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 148.59) (xy 46.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c56704-9c60-40aa-96da-b93d18674f61")
+	)
+	(wire
+		(pts
 			(xy 226.06 36.83) (xy 232.41 36.83)
 		)
 		(stroke
@@ -3272,23 +3562,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 118.11) (xy 36.83 119.38)
+			(xy 26.67 54.61) (xy 30.48 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25513ae1-9562-4ee1-9d4b-6f97f8e24b42")
+		(uuid "2a60a5af-e3ae-45fa-9f34-09344e0288e1")
 	)
 	(wire
 		(pts
-			(xy 50.8 83.82) (xy 50.8 86.36)
+			(xy 93.98 140.97) (xy 91.44 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2aadcf60-51c5-44ad-b307-7084076b84a8")
+		(uuid "2cb42c22-ff5f-4a89-8ad9-3edcb6ee1616")
 	)
 	(wire
 		(pts
@@ -3302,16 +3592,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 109.22 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2c6664-2fcf-4447-a05d-7eaf499925b5")
-	)
-	(wire
-		(pts
 			(xy 190.5 45.72) (xy 193.04 45.72)
 		)
 		(stroke
@@ -3319,16 +3599,6 @@
 			(type default)
 		)
 		(uuid "2f3ea652-bc95-41a9-bf44-f4b6ab6cb265")
-	)
-	(wire
-		(pts
-			(xy 109.22 82.55) (xy 109.22 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "305d5842-2478-4e88-965d-a9a087abd867")
 	)
 	(wire
 		(pts
@@ -3342,153 +3612,53 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 35.56) (xy 128.27 35.56)
+			(xy 53.34 54.61) (xy 54.61 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3594637f-4a13-411c-89d3-a27fe1250661")
+		(uuid "37057a30-422c-40a2-9901-a3c6ffafd494")
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 55.88 92.71)
+			(xy 119.38 60.96) (xy 106.68 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36d26cae-d5c1-4f85-ae1c-3a92d74e4ba9")
+		(uuid "3b24669a-63f3-41b2-a69c-097cadb2945d")
 	)
 	(wire
 		(pts
-			(xy 119.38 50.8) (xy 119.38 49.53)
+			(xy 91.44 138.43) (xy 93.98 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37e36c9c-500d-4a4c-807f-85e1c17e4563")
+		(uuid "3fcba0c7-6504-41f5-ae23-b719d33fbea4")
 	)
 	(wire
 		(pts
-			(xy 128.27 35.56) (xy 133.35 35.56)
+			(xy 26.67 54.61) (xy 26.67 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37eb595d-9f8d-49c3-94a6-6766d6fce032")
+		(uuid "4b25eba7-009a-4772-b0c9-ccba9cde34cb")
 	)
 	(wire
 		(pts
-			(xy 49.53 57.15) (xy 55.88 57.15)
+			(xy 66.04 87.63) (xy 66.04 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39925f8a-f8fd-4ba0-9506-ce0c032f0547")
-	)
-	(wire
-		(pts
-			(xy 109.22 101.6) (xy 109.22 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bcb69ba-403e-4222-a11e-c63b03ab399f")
-	)
-	(wire
-		(pts
-			(xy 190.5 97.79) (xy 194.31 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2738df-3d74-4ded-bd0a-d71c2f68bd05")
-	)
-	(wire
-		(pts
-			(xy 106.68 62.23) (xy 109.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3df215f8-a89e-4de1-a19e-7119e854e6a7")
-	)
-	(wire
-		(pts
-			(xy 106.68 99.06) (xy 109.22 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3da424-abb7-47b2-a380-5cf369a7ffbe")
-	)
-	(wire
-		(pts
-			(xy 81.28 120.65) (xy 81.28 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc8dd0b-5813-4ac9-8b46-9d2ccb8e1fa9")
-	)
-	(wire
-		(pts
-			(xy 113.03 69.85) (xy 113.03 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5082a523-466b-4f6f-a6b9-0985b933562d")
-	)
-	(wire
-		(pts
-			(xy 53.34 64.77) (xy 55.88 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51e2e33f-666f-4019-ae40-e88dfeae466b")
-	)
-	(wire
-		(pts
-			(xy 119.38 41.91) (xy 119.38 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f09996-9bb9-45e9-85df-bf6291d2c4cb")
-	)
-	(wire
-		(pts
-			(xy 50.8 76.2) (xy 55.88 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58ebac25-67b1-45c7-a5bb-c55875c8425e")
-	)
-	(wire
-		(pts
-			(xy 50.8 73.66) (xy 55.88 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5902b997-b872-46cc-9db1-33543e5e3cfa")
+		(uuid "4dc47473-0a66-4651-8c00-2a0dc2792dc3")
 	)
 	(wire
 		(pts
@@ -3502,93 +3672,63 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 109.22 92.71)
+			(xy 88.9 81.28) (xy 88.9 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c69a2f5-bd2e-4d61-a530-5772065d154d")
+		(uuid "5bcff478-f1b7-4c87-bba2-3ebae5aac051")
 	)
 	(wire
 		(pts
-			(xy 128.27 50.8) (xy 128.27 49.53)
+			(xy 119.38 49.53) (xy 119.38 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6096b687-8ad0-4802-8c72-4881de2c04a1")
+		(uuid "5d91b1fa-4a44-4d8c-84d4-4849697b0209")
 	)
 	(wire
 		(pts
-			(xy 52.07 101.6) (xy 55.88 101.6)
+			(xy 71.12 55.88) (xy 66.04 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62ca206e-b503-44b5-9cc2-4dd73e49c953")
+		(uuid "634e8aa7-5aea-4f6b-9f97-968665afd536")
 	)
 	(wire
 		(pts
-			(xy 109.22 107.95) (xy 109.22 110.49)
+			(xy 66.04 73.66) (xy 71.12 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62dcef4a-0d17-4f63-99a3-52052b5b07dd")
+		(uuid "635aa620-571d-46a1-93da-ad24a2b23ee6")
 	)
 	(wire
 		(pts
-			(xy 109.22 92.71) (xy 109.22 99.06)
+			(xy 58.42 39.37) (xy 58.42 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64f314cd-8a1f-47e4-957d-ae3878170ac6")
+		(uuid "670beebc-ce35-40fc-8c4a-ff8cce0a9bd7")
 	)
 	(wire
 		(pts
-			(xy 17.78 33.02) (xy 17.78 35.56)
+			(xy 119.38 71.12) (xy 119.38 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65cb0e8c-b98b-48a1-bd83-e71a27ceab60")
-	)
-	(wire
-		(pts
-			(xy 113.03 40.64) (xy 113.03 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6669c7af-82bb-4f64-b6f2-a42be344ead7")
-	)
-	(wire
-		(pts
-			(xy 50.8 83.82) (xy 55.88 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "671b74c9-5275-4cf0-9dd4-fad0483d0bd5")
-	)
-	(wire
-		(pts
-			(xy 100.33 120.65) (xy 100.33 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f98604-6fdd-4a2e-a19d-b21fdda6af10")
+		(uuid "67420b8d-7c42-4470-9a1e-75899f62fea6")
 	)
 	(wire
 		(pts
@@ -3602,33 +3742,53 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 128.27) (xy 100.33 130.81)
+			(xy 58.42 49.53) (xy 58.42 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ac9e694-a17b-4c7c-9346-a8cade6b57e4")
+		(uuid "68c57c5a-efd8-4512-b7da-b14987565507")
 	)
 	(wire
 		(pts
-			(xy 100.33 130.81) (xy 109.22 130.81)
+			(xy 119.38 39.37) (xy 124.46 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f0db676-0b21-4d05-81e3-343f8dae80b5")
+		(uuid "69409ec6-fc9f-4cff-b0c2-85b885bdcaf7")
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 109.22 92.71)
+			(xy 119.38 39.37) (xy 119.38 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7005b706-75cf-4e91-b0e1-bf46ed293652")
+		(uuid "69586018-d1a3-44e3-8213-b8286b258141")
+	)
+	(wire
+		(pts
+			(xy 111.76 39.37) (xy 111.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7e4c81-3170-4d49-9a3f-fe916fe84ed8")
+	)
+	(wire
+		(pts
+			(xy 59.69 140.97) (xy 62.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e595b96-7aea-40b7-a2fa-486de7721d58")
 	)
 	(wire
 		(pts
@@ -3642,33 +3802,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 107.95) (xy 55.88 107.95)
+			(xy 49.53 66.04) (xy 49.53 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "711b7a64-5178-44f3-ab0e-f182b1d16d59")
-	)
-	(wire
-		(pts
-			(xy 26.67 48.26) (xy 55.88 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75a4bb37-dbd5-46c2-a006-71a4ed7c275a")
-	)
-	(wire
-		(pts
-			(xy 53.34 62.23) (xy 55.88 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76705c37-968b-4aab-b4cc-9e82b4cb670a")
+		(uuid "732c3c73-4cbe-4b01-89d7-8ac5f9020176")
 	)
 	(wire
 		(pts
@@ -3682,6 +3822,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 156.21) (xy 99.06 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8ff853-d2fc-4f7b-ae3b-784c6de4be87")
+	)
+	(wire
+		(pts
 			(xy 236.22 34.29) (xy 247.65 34.29)
 		)
 		(stroke
@@ -3692,63 +3842,93 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 175.26) (xy 25.4 175.26)
+			(xy 111.76 81.28) (xy 111.76 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f37e2f3-9ecd-43fa-9fc2-d540a138b826")
+		(uuid "7edc24b3-2085-492c-9e48-4da320597071")
 	)
 	(wire
 		(pts
-			(xy 36.83 107.95) (xy 36.83 106.68)
+			(xy 111.76 72.39) (xy 111.76 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80a2d63b-c0a4-4d1d-b3a9-f21bfb58a491")
+		(uuid "81a13b87-3bce-4545-86e0-6bd429f36ca8")
 	)
 	(wire
 		(pts
-			(xy 106.68 90.17) (xy 109.22 90.17)
+			(xy 91.44 134.62) (xy 97.79 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "815f145f-cf3d-437d-a519-39a9aaf84c8b")
+		(uuid "841d171d-814b-4714-8b06-13483fcbd7b4")
 	)
 	(wire
 		(pts
-			(xy 22.86 165.1) (xy 22.86 175.26)
+			(xy 111.76 138.43) (xy 115.57 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8242d15d-c8a6-469d-8bfa-cea0bcaf7771")
+		(uuid "84c47503-01e7-4435-ac82-0fbfe589e331")
 	)
 	(wire
 		(pts
-			(xy 52.07 40.64) (xy 55.88 40.64)
+			(xy 119.38 36.83) (xy 119.38 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a0a147e-cc64-4ef9-8d81-b48322ef7263")
+		(uuid "89360aa6-79ae-4dc4-90c4-a67c97bc504a")
 	)
 	(wire
 		(pts
-			(xy 26.67 48.26) (xy 26.67 49.53)
+			(xy 207.01 104.14) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96e1ddd0-43b1-480b-8300-5ead54b83e3d")
+		(uuid "8ab2476d-67ce-4ecf-acf6-4e1f6ccb7c46")
+	)
+	(wire
+		(pts
+			(xy 115.57 138.43) (xy 115.57 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb5576f-0372-4aee-8f73-0938cb3934d6")
+	)
+	(wire
+		(pts
+			(xy 125.73 60.96) (xy 119.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0d3ac0-32e4-4bca-bc0a-68a4f08c7188")
+	)
+	(wire
+		(pts
+			(xy 93.98 140.97) (xy 104.14 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920f39e9-6544-43da-b41d-f4ce5c75be38")
 	)
 	(wire
 		(pts
@@ -3762,73 +3942,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 100.33) (xy 194.31 106.68)
+			(xy 54.61 60.96) (xy 71.12 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99f99819-6161-4363-a2ac-6ca36eb9773c")
-	)
-	(wire
-		(pts
-			(xy 53.34 67.31) (xy 55.88 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a424dad-3f36-48fc-b7bf-ca0fa6c66db1")
-	)
-	(wire
-		(pts
-			(xy 36.83 110.49) (xy 36.83 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac536b6-9d43-4ae3-8d46-de6907e8b91c")
-	)
-	(wire
-		(pts
-			(xy 55.88 86.36) (xy 50.8 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bf72c41-1a54-4310-b9d4-1d07f38c724b")
-	)
-	(wire
-		(pts
-			(xy 119.38 39.37) (xy 119.38 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bfbb529-d5c6-4538-9104-7bdcce87696a")
-	)
-	(wire
-		(pts
-			(xy 50.8 50.8) (xy 55.88 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0107096-b3f2-4b97-b974-6d034c8fb16e")
-	)
-	(wire
-		(pts
-			(xy 52.07 38.1) (xy 55.88 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a05c1cd3-e792-44d6-aec6-69461f67a0ee")
+		(uuid "a0fc239e-8cd0-4d3a-9739-6b9077f63f0c")
 	)
 	(wire
 		(pts
@@ -3842,173 +3962,153 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 43.18) (xy 113.03 43.18)
+			(xy 46.99 132.08) (xy 46.99 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9dbef90-6662-4fe4-8423-cd4b2ba5779a")
+		(uuid "a44a1794-06bf-434f-b4b7-b312863d5eae")
 	)
 	(wire
 		(pts
-			(xy 53.34 59.69) (xy 55.88 59.69)
+			(xy 54.61 60.96) (xy 54.61 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa27ef57-90cb-46e8-8494-1fa28b0347d6")
+		(uuid "a69fd78d-5ce5-4dba-891f-cfe9c5fd8c96")
 	)
 	(wire
 		(pts
-			(xy 26.67 57.15) (xy 26.67 59.69)
+			(xy 210.82 109.22) (xy 210.82 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aafc0360-be8d-44f0-b824-f58bd2fadb63")
+		(uuid "a6ae2476-2cb0-47e5-8872-0de4defaa9c0")
 	)
 	(wire
 		(pts
-			(xy 50.8 86.36) (xy 50.8 87.63)
+			(xy 119.38 62.23) (xy 119.38 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac5ad158-4f60-4bee-a46b-b0b59ee62c9e")
+		(uuid "adb89779-e5b0-463a-b7b3-5af0f8312db6")
 	)
 	(wire
 		(pts
-			(xy 81.28 130.81) (xy 88.9 130.81)
+			(xy 115.57 132.08) (xy 115.57 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b419cc52-346b-4a2d-bd2e-02798a6ee42b")
+		(uuid "afbf4507-d280-4d66-aece-50a7c25903b4")
 	)
 	(wire
 		(pts
-			(xy 22.86 160.02) (xy 22.86 165.1)
+			(xy 109.22 39.37) (xy 111.76 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4e1a985-a0e6-4ff4-a891-78f2e5726077")
+		(uuid "b20b53ce-24a0-47b9-b9e4-bc8c1bc3c95a")
 	)
 	(wire
 		(pts
-			(xy 44.45 165.1) (xy 59.69 165.1)
+			(xy 57.15 39.37) (xy 58.42 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b73eaaa4-b5e0-420c-bb7f-34d3a2a41664")
+		(uuid "b76fad4a-409e-4393-8060-d9d9df75ff86")
 	)
 	(wire
 		(pts
-			(xy 81.28 130.81) (xy 81.28 128.27)
+			(xy 87.63 81.28) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbf1ef60-0416-4707-b516-3c5b6aec33ff")
+		(uuid "b871847f-044c-4f79-92ad-aec337f0513e")
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 109.22 101.6)
+			(xy 111.76 140.97) (xy 115.57 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be884911-e59f-47d1-a1a5-ea468257ade3")
+		(uuid "bc2359e8-2dc8-4542-beb3-6be4c105473c")
 	)
 	(wire
 		(pts
-			(xy 113.03 49.53) (xy 113.03 43.18)
+			(xy 207.01 114.3) (xy 207.01 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2e463b5-cca6-4450-8dd1-aa72fd539302")
+		(uuid "bc299f90-87a7-4449-88e5-af1ca08e075b")
 	)
 	(wire
 		(pts
-			(xy 44.45 175.26) (xy 59.69 175.26)
+			(xy 66.04 73.66) (xy 66.04 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6779de9-f812-4b97-be5e-9cdbfe93dee7")
+		(uuid "bff38132-ab4b-4a9c-a3b7-53495de2e301")
 	)
 	(wire
 		(pts
-			(xy 106.68 40.64) (xy 113.03 40.64)
+			(xy 59.69 134.62) (xy 62.23 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c68817f7-1f1d-4fbd-a37d-0df90ef0095c")
+		(uuid "c42d7878-d31f-431d-9bae-5f193ea12770")
 	)
 	(wire
 		(pts
-			(xy 33.02 165.1) (xy 36.83 165.1)
+			(xy 93.98 138.43) (xy 104.14 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c88f30a5-f734-4726-9f4e-450f08a2921b")
+		(uuid "cc56a416-e853-4b99-9c39-cf9fbdb7298e")
 	)
 	(wire
 		(pts
-			(xy 36.83 57.15) (xy 36.83 59.69)
+			(xy 59.69 147.32) (xy 62.23 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca18f1df-da8e-481d-baac-849b09a0df04")
+		(uuid "cf0843c2-6454-49ae-ba2f-7907764209b6")
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 106.68 101.6)
+			(xy 46.99 134.62) (xy 59.69 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb8767bb-4491-4378-bb4c-a7f41965a18f")
-	)
-	(wire
-		(pts
-			(xy 113.03 40.64) (xy 119.38 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d03cbc7d-24f5-494a-84d9-0e71717284ef")
-	)
-	(wire
-		(pts
-			(xy 106.68 107.95) (xy 109.22 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d41eaea9-c378-4fc5-a9d1-1d1d961a2209")
+		(uuid "d1907f55-1138-47fb-b66d-898331e787cb")
 	)
 	(wire
 		(pts
@@ -4022,13 +4122,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 105.41) (xy 190.5 106.68)
+			(xy 49.53 66.04) (xy 71.12 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7cfdd47-468a-4c29-b0ca-c353b31efe6e")
+		(uuid "d79ab6ef-43a3-4f34-9d9e-5e84d0156dd5")
+	)
+	(wire
+		(pts
+			(xy 57.15 71.12) (xy 57.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ea1e26-0388-4fd3-a9b0-b7a6f7913f1f")
 	)
 	(wire
 		(pts
@@ -4042,13 +4152,13 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 165.1) (xy 25.4 165.1)
+			(xy 66.04 39.37) (xy 66.04 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc7e86c1-a727-486f-8b58-8452208f0404")
+		(uuid "db0afca5-a036-4a15-8056-68c49926277a")
 	)
 	(wire
 		(pts
@@ -4062,33 +4172,63 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 99.06) (xy 55.88 99.06)
+			(xy 87.63 81.28) (xy 88.9 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e19e16fc-c2f9-44e9-a8dc-1b054e4831ea")
+		(uuid "dd8ef834-4312-4841-933c-ca0b3c67c119")
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 113.03 49.53)
+			(xy 58.42 38.1) (xy 58.42 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1e6bcbe-fa2c-4c28-b6ab-cf61c4f02998")
+		(uuid "dfc65bf6-6bb8-4e9f-a02e-4dfdc7d1c1c4")
 	)
 	(wire
 		(pts
-			(xy 26.67 45.72) (xy 26.67 48.26)
+			(xy 57.15 87.63) (xy 57.15 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2641ac7-6a15-4cab-a06f-6f127af0a6ba")
+		(uuid "e0f3a791-f077-479e-9491-dd61514717f5")
+	)
+	(wire
+		(pts
+			(xy 74.93 167.64) (xy 74.93 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12beefb-5f20-486c-b04c-db28e698cb9e")
+	)
+	(wire
+		(pts
+			(xy 46.99 140.97) (xy 46.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1aab1e8-3e06-4546-af00-588de291d79c")
+	)
+	(wire
+		(pts
+			(xy 93.98 143.51) (xy 93.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d733a1-103a-4331-a268-6d1290d53fd0")
 	)
 	(wire
 		(pts
@@ -4102,33 +4242,113 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 35.56) (xy 55.88 35.56)
+			(xy 30.48 63.5) (xy 26.67 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e536de1a-23e5-42da-9897-a03e17575e56")
+		(uuid "e68f1dde-8581-455f-b097-02eda2eb5d68")
 	)
 	(wire
 		(pts
-			(xy 109.22 62.23) (xy 109.22 63.5)
+			(xy 62.23 138.43) (xy 59.69 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5d90580-93ee-4d19-91c2-c994794861ff")
+		(uuid "e7ec5056-4490-4b32-a151-4fab87bbee9b")
 	)
 	(wire
 		(pts
-			(xy 39.37 57.15) (xy 36.83 57.15)
+			(xy 217.17 115.57) (xy 217.17 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebf2e18a-ff09-4bf9-9ed2-d1cef668188f")
+		(uuid "e7fe5c8d-b64f-4f57-ab63-11615847e888")
+	)
+	(wire
+		(pts
+			(xy 26.67 50.8) (xy 26.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e872b3a6-b01c-41c6-92a5-25d1fb3441f8")
+	)
+	(wire
+		(pts
+			(xy 93.98 135.89) (xy 93.98 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b00b99-24a5-4bce-91ab-15d9dc36fb70")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 90.17 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cea6cd-1efc-4cd6-8e16-355bf776dd50")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdf043d-4db8-4e0f-82eb-aac0a0992358")
+	)
+	(wire
+		(pts
+			(xy 99.06 147.32) (xy 99.06 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ca70bd-4548-44e3-b688-7814b8498aee")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 125.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e33876-aeb1-485d-b422-548f88d30778")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 45.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c4173a-14ca-4231-9ec9-c9be1bbc69e7")
+	)
+	(wire
+		(pts
+			(xy 38.1 54.61) (xy 45.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bf221b-4b6e-4800-914d-3db5513350ee")
 	)
 	(wire
 		(pts
@@ -4142,16 +4362,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 95.25) (xy 190.5 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f65f685b-9674-4a25-899c-18675a771568")
-	)
-	(wire
-		(pts
 			(xy 181.61 33.02) (xy 181.61 34.29)
 		)
 		(stroke
@@ -4162,53 +4372,113 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 69.85) (xy 113.03 69.85)
+			(xy 106.68 55.88) (xy 111.76 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe4c52c8-aab0-43e2-afa6-af4dab948a60")
+		(uuid "fa754c61-4bdc-406f-acff-a3736592ddbc")
 	)
-	(label "RESET"
-		(at 50.8 57.15 0)
+	(wire
+		(pts
+			(xy 90.17 81.28) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7c025f-33e9-4df7-a697-2d32f5326aaa")
+	)
+	(wire
+		(pts
+			(xy 59.69 138.43) (xy 59.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8b4e00-e5c0-4e03-917c-cb12c661aae1")
+	)
+	(label "LED0"
+		(at 39.37 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6d6bbb1d-648e-49b2-8bcb-d57b2cd22fb4")
+		(uuid "1858b736-3342-4b42-a955-6a0ccce6583b")
+	)
+	(label "ISET"
+		(at 66.04 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f86792f-4ac3-4cff-9cac-20f0c2d876f7")
+	)
+	(label "STAT1"
+		(at 63.5 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43f718cc-4a06-48d9-99e1-eb1ca224b943")
+	)
+	(label "VSET"
+		(at 66.04 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d1c3bf3-cc3b-448d-b12f-e0c303bac508")
 	)
 	(label "LED1"
-		(at 57.15 175.26 180)
+		(at 39.37 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "84054317-68a6-4e4e-b9d7-ad92cf2d0c51")
+		(uuid "91b31559-3ce0-4c34-8a85-713ba340ea86")
 	)
-	(label "LED0"
-		(at 54.61 73.66 180)
+	(label "REG"
+		(at 93.218 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "8adc5110-9ae2-4e2e-8f9b-849bc609ce92")
+		(uuid "9a1a6959-0909-4cd9-ac9c-4ca6c921bbf0")
 	)
-	(label "LED0"
-		(at 57.15 165.1 180)
+	(label "STAT2"
+		(at 63.5 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "a7dfbff9-e48c-44de-945a-721846842d1e")
+		(uuid "bbab3061-3d7d-47b2-820b-0802448a50d6")
+	)
+	(label "TS"
+		(at 109.22 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb13c81b-40d7-48d1-abdb-7ac697ba7da3")
 	)
 	(label "PG"
 		(at 228.6 43.18 0)
@@ -4220,28 +4490,42 @@
 		)
 		(uuid "ea8e0305-b08d-4a8b-a64f-b175c1f4cd80")
 	)
-	(label "LED1"
-		(at 54.61 76.2 180)
+	(hierarchical_label "FG_ALRT"
+		(shape output)
+		(at 59.69 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "f029a511-8ab5-4614-960b-5d501e0717cb")
+		(uuid "09fec739-209b-46e3-bb0f-e5f7a7fb234c")
 	)
-	(hierarchical_label "VBUSOUT"
+	(hierarchical_label "FG_SCL"
 		(shape input)
-		(at 133.35 35.56 0)
+		(at 93.98 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "02f46308-1799-466a-abfc-0797a3f293c6")
+		(uuid "13ffff4b-07a4-4c48-a15b-b4ba5978d26e")
+	)
+	(hierarchical_label "VSYS"
+		(shape output)
+		(at 124.46 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4da4036a-0d64-4288-a39d-45a22e5aa2fd")
 		(property "Net Class" "Power"
-			(at 144.018 35.56 0)
+			(at 124.46 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4253,126 +4537,16 @@
 			)
 		)
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "FG_SDA"
 		(shape bidirectional)
-		(at 88.9 130.81 0)
+		(at 93.98 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "102e4b6c-2089-4753-889a-0fa956389e89")
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 52.07 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1220b3b0-c1bd-475a-a62e-3e36076af123")
-	)
-	(hierarchical_label "GPIO4"
-		(shape bidirectional)
-		(at 53.34 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1afe5c36-4e0b-4f17-9137-69c6ecfebc1a")
-	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 52.07 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c971843-0f99-4ea8-adfe-76c7dc707257")
-	)
-	(hierarchical_label "CC1"
-		(shape passive)
-		(at 52.07 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65f4a644-080b-42dc-b8fe-58304e370f57")
-	)
-	(hierarchical_label "CC2"
-		(shape passive)
-		(at 52.07 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f82594b-3bf7-4944-ae29-b901db36bcff")
-	)
-	(hierarchical_label "GPIO2"
-		(shape bidirectional)
-		(at 53.34 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb8eac57-61f8-409a-b642-cc1e04eddffd")
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 109.22 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d32b909c-ff81-47e8-a66a-a0ec0ac7f96f")
-	)
-	(hierarchical_label "GPIO1"
-		(shape bidirectional)
-		(at 53.34 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d91a795c-1069-454b-9626-1ff42e353f60")
-	)
-	(hierarchical_label "GPIO3"
-		(shape bidirectional)
-		(at 53.34 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f91fdec4-8760-4620-b275-b30d273fd081")
-	)
-	(hierarchical_label "PWR_BUTTON"
-		(shape bidirectional)
-		(at 52.07 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f93a2f4f-6db5-4beb-b570-4a026027f984")
+		(uuid "ccf93ff3-25e0-48e0-9cd4-7bd913c0e3a6")
 	)
 	(symbol
 		(lib_name "GND_2")
@@ -4447,6 +4621,91 @@
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 99.06 157.48 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "043206b4-6d06-4e24-bed1-8b36dbdd7b6c")
+		(property "Reference" "#PWR059"
+			(at 99.06 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61fe082d-b681-45e8-be18-ccc3e0664997")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4564,19 +4823,18 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 36.83 59.69 0)
+		(lib_id "power-symbols:CHARGE+")
+		(at 119.38 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "147bf2c0-51c7-4a27-ba36-1ef1b29dceee")
-		(property "Reference" "#PWR043"
-			(at 36.83 66.04 0)
+		(uuid "12c18702-af56-42a6-a0b4-622e14af3413")
+		(property "Reference" "#PWR062"
+			(at 119.38 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4586,8 +4844,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 36.83 63.5 0)
+		(property "Value" "CHRG+"
+			(at 119.38 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4597,7 +4855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 59.69 0)
+			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4608,7 +4866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 59.69 0)
+			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +4877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 59.69 0)
+			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,12 +4888,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d68038b9-1dec-4406-8f7f-2345b3b7b550")
+			(uuid "546db2c2-c1c7-4d18-854e-83a0ca4c8692")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR043")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4901,7 @@
 	)
 	(symbol
 		(lib_id "power-symbols:VSYS")
-		(at 119.38 39.37 0)
+		(at 119.38 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4651,9 +4909,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "279b9897-530f-4a79-bf94-62b4a87fc777")
-		(property "Reference" "SYS4"
-			(at 119.38 33.02 0)
+		(uuid "162ab24c-f7a6-4b3d-9247-59facba2f942")
+		(property "Reference" "SYS3"
+			(at 119.38 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,7 +4922,7 @@
 			)
 		)
 		(property "Value" "SYS"
-			(at 114.808 38.1 0)
+			(at 117.856 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4675,7 +4933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 39.37 0)
+			(at 119.38 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,7 +4944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 39.37 0)
+			(at 119.38 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4697,7 +4955,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 39.37 0)
+			(at 119.38 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4708,7 +4966,7 @@
 			)
 		)
 		(property "Description Value Pkg" ""
-			(at 119.38 39.37 0)
+			(at 119.38 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4977,7 @@
 			)
 		)
 		(property "Mfg Part #" ""
-			(at 119.38 39.37 0)
+			(at 119.38 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4730,7 +4988,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 119.38 39.37 0)
+			(at 119.38 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4741,12 +4999,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "abd6c7d2-5064-4e6a-a354-6423a3fcfa23")
+			(uuid "158f4b8a-129c-4f9c-83c8-12c60e6b31f3")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "SYS4")
+					(reference "SYS3")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "SYS2")
 					(unit 1)
 				)
 			)
@@ -4826,6 +5090,659 @@
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VUSB:VUSB")
+		(at 58.42 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f565e65-d501-4bc1-9a6b-ba1ac48da137")
+		(property "Reference" "#VUSB01"
+			(at 58.42 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 55.88 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "233ba085-a84d-4885-b009-a0f3110f432f")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#VUSB01")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "#VUSB02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ENCHANTI_battery-management:BQ25185DLHR")
+		(at 88.9 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fea1adc-e48d-428c-aa3d-0ccd6a06675a")
+		(property "Reference" "U5"
+			(at 88.9 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "BQ25185DLHR"
+			(at 88.9 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ENCHANTI_battery-management:WSON10_DLH_TEX"
+			(at 85.344 41.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25185.pdf?ts=1701339761812&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ25185"
+			(at 92.71 38.862 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "Charger IC Multi-Chemistry 10-WSON (2.2x2)"
+			(at 82.296 42.926 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "BQ25185DLHR"
+			(at 87.63 39.878 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 89.154 43.942 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fac6c14a-e448-4382-961e-a08723c38d93")
+		)
+		(pin "6"
+			(uuid "46f8b68d-fc07-45b6-bbc9-e8e2adfc0a95")
+		)
+		(pin "10"
+			(uuid "78ff17fc-ddd0-4017-8fd4-53304aefbc52")
+		)
+		(pin "11"
+			(uuid "c5cad98a-45b4-4fc1-ad5b-ac36b765bf54")
+		)
+		(pin "1"
+			(uuid "e9f07a5c-fc69-4788-baaf-155b89bc3bdc")
+		)
+		(pin "2"
+			(uuid "82c22d89-50ec-4287-95ba-e95ef64c0fe5")
+		)
+		(pin "4"
+			(uuid "2d8b6d85-b263-4855-8217-02b3c2a14fa3")
+		)
+		(pin "5"
+			(uuid "831ca059-8dc3-48d4-800f-52ef0ef596a9")
+		)
+		(pin "8"
+			(uuid "9c2ddbff-8720-4191-af81-c704f01ba9a7")
+		)
+		(pin "9"
+			(uuid "2f4a700a-c59b-4955-b2c2-1043e2b450d6")
+		)
+		(pin "7"
+			(uuid "ab0ef2f3-3ad1-41e8-a4d4-8ede827f9e60")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 57.15 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3026cf31-50e8-4002-b002-6fb1c119f71b")
+		(property "Reference" "#PWR03"
+			(at 57.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2aef4ca0-e269-454f-b9b4-545042bb1ddc")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ENCHANTI_battery-management:MAX17262REWL+T")
+		(at 76.2 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38599307-f0ff-43b4-9218-143215287cb9")
+		(property "Reference" "U6"
+			(at 76.835 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MAX17262REWL+T"
+			(at 76.835 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ENCHANTI_battery-management:MAX17262"
+			(at 83.058 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17262.pdf"
+			(at 88.646 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "Battery Fuel Gauge IC LiFePO4/Li-ion 9-WLP (1.47x1.45)"
+			(at 81.28 121.666 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "MAX17262REWL+T"
+			(at 55.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+			(at 78.74 117.856 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C1"
+			(uuid "38dfdd80-3115-415b-9d1d-dab65be0348a")
+		)
+		(pin "B1"
+			(uuid "ce0d78a1-0a7a-4121-b7b5-1fe2f743ac2b")
+		)
+		(pin "C2"
+			(uuid "fe937909-7e81-4241-946d-85c4ae8cf92d")
+		)
+		(pin "A2"
+			(uuid "8d92e167-d676-4037-81f2-837197359ec5")
+		)
+		(pin "B2"
+			(uuid "e8907faa-36f4-4989-af14-30938ee8633f")
+		)
+		(pin "C3"
+			(uuid "65573a2f-81c5-452e-a653-cd95aae6d5b4")
+		)
+		(pin "B3"
+			(uuid "2941bffb-80f3-4ef0-bb72-e0d211828443")
+		)
+		(pin "A1"
+			(uuid "1bb7ada4-efa3-4985-999d-e74479c244d5")
+		)
+		(pin "A3"
+			(uuid "0da28174-9183-4dfa-a39d-8c3183af9c0e")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c91a85c-2a08-46c2-b754-1cfb096eac3f")
+		(property "Reference" "C15"
+			(at 39.37 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 39.37 146.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 47.9552 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A104KP3NNNC_Spec.pdf"
+			(at 46.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 46.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "CL05B104KO5NNNC"
+			(at 46.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 46.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4891e10-bd15-4cf3-ac6c-d3dfd4d592c0")
+		)
+		(pin "2"
+			(uuid "0f5b3814-61a9-487f-b62f-b098e60ddf35")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 34.29 54.61 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ecd2853-76d3-4965-b719-3d7c0d6f4952")
+		(property "Reference" "LED3"
+			(at 34.29 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 34.29 51.562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SECK-J4-PRV.pdf"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Yellow 588nm LED Indication - Discrete 2.1V 0603 (1608 Metric)"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "APT1608YC"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c48e037a-089a-4ae9-b630-60ee25a0c4e6")
+		)
+		(pin "2"
+			(uuid "252fa43f-9802-4ed2-b750-0fde739d2d1e")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -4932,8 +5849,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power-symbols:VSYS")
-		(at 22.86 160.02 0)
+		(lib_id "power-symbols:CHARGE+")
+		(at 97.79 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4941,9 +5858,10 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "41e7652a-bd6a-4f94-be68-a880a07322f9")
-		(property "Reference" "SYS5"
-			(at 22.86 153.67 0)
+		(fields_autoplaced yes)
+		(uuid "417866fd-3c2c-45e2-88a1-a2f0b0b5abcb")
+		(property "Reference" "#PWR058"
+			(at 97.79 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4953,19 +5871,18 @@
 				)
 			)
 		)
-		(property "Value" "SYS"
-			(at 21.336 156.718 0)
+		(property "Value" "CHRG+"
+			(at 97.79 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 160.02 0)
+			(at 97.79 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4976,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 160.02 0)
+			(at 97.79 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4987,7 +5904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 160.02 0)
+			(at 97.79 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4997,8 +5914,296 @@
 				)
 			)
 		)
-		(property "Description Value Pkg" ""
-			(at 22.86 160.02 0)
+		(pin "1"
+			(uuid "3b421cb6-03e5-4396-8e83-6bb07f1642bc")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 49.53 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "440520c9-fb91-4e43-90bb-e4a5f918ad4f")
+		(property "Reference" "R4"
+			(at 49.53 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 49.53 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.784 62.484 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 49.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 49.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-072KL"
+			(at 49.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 49.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f256cfc0-c457-47ad-b6cf-d04001f27ef8")
+		)
+		(pin "2"
+			(uuid "f9a6786a-bd01-4419-a5e8-2c11702ed94a")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 49.53 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "491e0169-3a58-45b0-8f7b-36dd5ff7fd13")
+		(property "Reference" "R3"
+			(at 49.53 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 49.53 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.784 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-072KL"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de8d83f2-db5c-485b-8fcc-756a43ae68f1")
+		)
+		(pin "2"
+			(uuid "ff64c892-51da-4c83-be61-84d925e58b2f")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c1ea40b-7ffd-4094-91d0-fb58b3a0b5ab")
+		(property "Reference" "TP4"
+			(at 124.206 52.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 128.27 56.3879 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 130.81 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,7 +6214,7 @@
 			)
 		)
 		(property "Mfg Part #" ""
-			(at 22.86 160.02 0)
+			(at 125.73 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,86 +6224,8 @@
 				)
 			)
 		)
-		(property "mpn" ""
-			(at 22.86 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb5409ab-e961-48c9-89d1-88c8b7a3b4bb")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "SYS5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 100.33 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "41ec52dc-fe64-4706-936e-91f9e7af12e7")
-		(property "Reference" "#PWR042"
-			(at 100.33 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 100.33 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 118.11 0)
+		(property "Manufacturer" ""
+			(at 125.73 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5109,21 +6236,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf61a648-fc63-48e5-b6a9-b7fb8428d520")
+			(uuid "08c17467-ae28-457f-b22e-e7a72f3f0a05")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR042")
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
+		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 128.27 50.8 0)
+		(at 207.01 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5131,9 +6264,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4511c908-5261-4c68-9484-8e969abb0e2d")
-		(property "Reference" "#PWR037"
-			(at 128.27 57.15 0)
+		(fields_autoplaced yes)
+		(uuid "4cd340ee-37be-497e-9648-0c3a9328bb7d")
+		(property "Reference" "#PWR044"
+			(at 207.01 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5144,7 +6278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 54.356 0)
+			(at 207.01 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5154,7 +6288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 50.8 0)
+			(at 207.01 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5165,7 +6299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 50.8 0)
+			(at 207.01 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5176,7 +6310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 50.8 0)
+			(at 207.01 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5187,12 +6321,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a710625b-7769-4079-b50d-f12019f858c4")
+			(uuid "4e24be59-c4d5-4fa6-85a7-928ef45928b6")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR037")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5390,86 +6524,9 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 109.22 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "52ed6f91-365f-4ffb-9e0d-e25fd7765c86")
-		(property "Reference" "#PWR017"
-			(at 109.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 67.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23736799-0efb-4584-9429-e2ad952533d6")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 40.64 165.1 90)
+		(at 107.95 140.97 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5477,9 +6534,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "60b6314f-d198-44b0-af99-5f8ea14b5ff4")
-		(property "Reference" "R12"
-			(at 40.64 160.02 90)
+		(uuid "50c9460e-62bb-4409-b44d-ca03d5b446fa")
+		(property "Reference" "R18"
+			(at 107.95 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5488,8 +6545,8 @@
 				)
 			)
 		)
-		(property "Value" "2k"
-			(at 40.64 162.56 90)
+		(property "Value" "2k2"
+			(at 107.95 143.002 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5499,7 +6556,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 40.894 164.084 90)
+			(at 107.696 139.954 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5509,8 +6566,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 40.64 165.1 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 107.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,8 +6577,8 @@
 				)
 			)
 		)
-		(property "Description" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
-			(at 40.64 165.1 0)
+		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 107.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,8 +6588,19 @@
 				)
 			)
 		)
-		(property "Mfg Part #" "RC0402FR-072KL"
-			(at 40.64 165.1 0)
+		(property "Description Value Pkg" ""
+			(at 107.95 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-072K2L"
+			(at 107.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5543,7 +6611,18 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 40.64 165.1 0)
+			(at 107.95 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "ERJ-2RKF2201X"
+			(at 107.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,15 +6633,486 @@
 			)
 		)
 		(pin "1"
-			(uuid "3703fb4f-eff5-4988-8300-108ff759a414")
+			(uuid "a105713b-7f7e-42fd-b5d0-ebc06521289a")
 		)
 		(pin "2"
-			(uuid "d9f01df0-784b-4a75-abcd-821585c1150c")
+			(uuid "8943abb8-1416-4da1-851e-b897c212845a")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "R12")
+					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56d0390d-23bc-4eab-aa81-b34c252df334")
+		(property "Reference" "C4"
+			(at 119.634 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 119.634 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 120.3452 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1021/CL05A106MP8NUB8_Spec.pdf"
+			(at 119.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 119.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "CL05A106MP8NUB8"
+			(at 119.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 119.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0ce8968-160f-4843-9f25-d0fde1eac044")
+		)
+		(pin "2"
+			(uuid "cd7e9c95-6bc0-465e-9b48-f4da29c83c08")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 58.42 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f67c39d-6b10-4c65-8bec-5e72d29c8c57")
+		(property "Reference" "#PWR04"
+			(at 58.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd86886d-a920-4990-ace8-449b327825cd")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ENCHANTI_connectors:Battery_JST_2pin")
+		(at 213.36 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f8342c1-29a6-4331-bd1d-3c67b29deabe")
+		(property "Reference" "BAT1"
+			(at 220.98 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SMD_2.0"
+			(at 215.138 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ENCHANTI_connectors:Battery_JST_2pin"
+			(at 213.106 94.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+			(at 213.614 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)"
+			(at 216.154 94.488 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "S2B-PH-SM4-TB"
+			(at 215.138 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 217.17 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb0c712d-5125-477f-9d2a-57fd104afbe8")
+		)
+		(pin "2"
+			(uuid "419f8c19-84ac-43e2-a8ca-8b9f72893bdd")
+		)
+		(pin "MP"
+			(uuid "789ca410-70e0-4696-ac5d-70999bab4af3")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "BAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 210.82 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63dc9bd7-24d8-434a-b08a-727c9f4aa8a2")
+		(property "Reference" "#PWR018"
+			(at 210.82 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2407d61a-d457-4e67-8d15-1059d8209732")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 115.57 132.08 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66ff6e76-1c74-4b42-a922-19c7b4fb1ec7")
+		(property "Reference" "#PWR060"
+			(at 115.57 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 115.57 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b83be5ee-b95b-4e30-9097-e249df9ae254")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5692,908 +7242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 26.67 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "67f4479b-a146-4dc8-a4c7-d0f676160426")
-		(property "Reference" "C18"
-			(at 27.178 51.308 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 27.178 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 27.6352 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A104KP3NNNC_Spec.pdf"
-			(at 26.67 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.2 µF ±10% 35V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 26.67 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "GRM155R6YA225KE11D"
-			(at 26.67 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 26.67 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a222651-36bd-461f-81dd-8e7837e7644a")
-		)
-		(pin "2"
-			(uuid "427148d8-c398-4bf5-8a6a-e9d005eb516f")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:DZ2S051X0L")
-		(at 190.5 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "685feb61-eb05-4159-90eb-dbe6e6cf692e")
-		(property "Reference" "D1"
-			(at 187.706 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DZ2S051X0L"
-			(at 178.308 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 186.055 101.6 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05100L_E.pdf"
-			(at 190.5 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener Diode 5.1 V 500 mW ±2% Surface Mount SOD-523"
-			(at 190.5 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "MM5Z5V1ST1G"
-			(at 190.5 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 190.5 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0a6e87f1-0a42-4c08-84de-aec09d83467d")
-		)
-		(pin "1"
-			(uuid "21438c98-02a1-4e44-a12b-a0f472095d55")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ENCHANTI_connectors:Battery_JST_2pin")
-		(at 196.85 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68998eba-596e-494b-be25-4da9275deadf")
-		(property "Reference" "BAT1"
-			(at 204.47 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_SMD_2.0"
-			(at 198.628 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ENCHANTI_connectors:Battery_JST_2pin"
-			(at 196.596 86.106 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 197.104 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)"
-			(at 199.644 85.598 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "S2B-PH-SM4-TB"
-			(at 198.628 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 200.66 89.916 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "MP"
-			(uuid "85293036-1399-4577-a5d6-21d24ebf789a")
-		)
-		(pin "1"
-			(uuid "93edd244-605c-4899-84ee-6acb202306aa")
-		)
-		(pin "2"
-			(uuid "faca823a-86f0-4dbd-a6e2-c8430163106c")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "BAT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ENCHANTI_battery-management:NPM1300-QEAA-R7")
-		(at 81.28 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ed89fe5-a1d7-46d8-9553-2c927f559261")
-		(property "Reference" "U7"
-			(at 81.28 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NPM1300-QEAA-R7"
-			(at 81.28 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ENCHANTI_battery-management:QFN32_5X5_NOR"
-			(at 102.108 20.828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6443/NPM1300-QEAA-R.pdf"
-			(at 102.87 13.462 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "Battery Power Management IC Lithium Ion/Polymer 32-QFN (5x5)"
-			(at 81.28 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nordic Semiconductor ASA"
-			(at 81.28 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "NPM1300-QEAA-R7"
-			(at 81.28 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "01d341f1-d2fe-4194-baec-96633dbf8277")
-		)
-		(pin "24"
-			(uuid "15d3567a-7832-4afa-9a4a-fa5436e5cba8")
-		)
-		(pin "4"
-			(uuid "27440377-c69c-4700-afe0-d9fb9f179e9f")
-		)
-		(pin "18"
-			(uuid "f52d0fa4-5eac-4196-b0f3-7957a39e66e3")
-		)
-		(pin "3"
-			(uuid "82a57525-3fe7-4c4c-83ab-d663fb1f8fc2")
-		)
-		(pin "2"
-			(uuid "e45eeb90-16ef-4e61-85ad-07474f0372e1")
-		)
-		(pin "17"
-			(uuid "e05391b2-3a01-4d30-99c3-10bccdad0497")
-		)
-		(pin "31"
-			(uuid "442218a8-57e0-478d-a348-4d8f6f344370")
-		)
-		(pin "25"
-			(uuid "f89b4a21-d639-40f2-8fc5-50acd758fdd9")
-		)
-		(pin "21"
-			(uuid "f79a7d72-03cd-4c50-b0cc-259f0cd61615")
-		)
-		(pin "1"
-			(uuid "38d2177d-ee1d-4482-991d-762f6dc4daee")
-		)
-		(pin "14"
-			(uuid "3bc252a5-8956-4843-9c8e-7b94d35022cb")
-		)
-		(pin "12"
-			(uuid "7d9ace18-cdd1-40c6-9c70-188b0f5838d4")
-		)
-		(pin "13"
-			(uuid "f48dcc92-17f4-4718-9f4e-35a2e8ebb859")
-		)
-		(pin "15"
-			(uuid "8dfa433a-3fd0-4e2d-bd50-44bf24243b42")
-		)
-		(pin "27"
-			(uuid "c33f6384-6318-4208-b449-493a4fdd76a4")
-		)
-		(pin "20"
-			(uuid "1a6767d4-f4b8-4017-b12d-b14d9ca17a26")
-		)
-		(pin "16"
-			(uuid "bd6b741f-0f5c-4384-a354-9bfdebdb0db3")
-		)
-		(pin "22"
-			(uuid "b82559e3-584b-403d-b01f-88b98f2f1410")
-		)
-		(pin "26"
-			(uuid "110ae60e-5bbe-487c-a0e7-9ab369b8b9ff")
-		)
-		(pin "30"
-			(uuid "0e14b5ad-36db-4caa-80a4-1ec5fb317054")
-		)
-		(pin "29"
-			(uuid "c824f27f-0879-4dbd-9a53-994ba11ca280")
-		)
-		(pin "11"
-			(uuid "3bf62314-0bed-469e-87cb-c125d39bd065")
-		)
-		(pin "23"
-			(uuid "6bdd588a-1f67-491c-aee5-339d97a63d38")
-		)
-		(pin "28"
-			(uuid "e6a0c0ee-eaba-497d-87ae-0155c1255b99")
-		)
-		(pin "32"
-			(uuid "89c25d1b-5953-4b59-90d5-33d1b3d52556")
-		)
-		(pin "6"
-			(uuid "d3c54273-5c47-478e-98ec-e0db37f2b1a0")
-		)
-		(pin "33"
-			(uuid "c477f842-6f8a-47f8-80bf-1f2319a261a8")
-		)
-		(pin "8"
-			(uuid "f7f00d80-f905-49a9-b4b5-a04269e94b66")
-		)
-		(pin "5"
-			(uuid "a3192ca6-e477-4f25-82c9-a45c483ec6d9")
-		)
-		(pin "7"
-			(uuid "d04e689b-6b94-49d5-aaaf-54afee27c3ba")
-			(alternate "RESET")
-		)
-		(pin "9"
-			(uuid "581fdf89-abd3-4012-8036-540b6b607868")
-		)
-		(pin "19"
-			(uuid "1b257759-f6ef-4c81-aa4f-3d4ad88c8951")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 26.67 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f738ffa-fcdd-4c8b-b7da-37692de2beda")
-		(property "Reference" "#PWR04"
-			(at 26.67 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdb8b6e9-0a6b-48aa-b64a-9ad74064e488")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 26.67 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "71b58f20-6ad8-41cc-a872-7b04fc5a53a6")
-		(property "Reference" "#PWR041"
-			(at 26.67 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 26.67 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 26.67 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "767e0682-1236-46fb-ac08-af0a1f41661e")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 190.5 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74692a4a-85ab-4630-a4d9-dc9016901612")
-		(property "Reference" "#PWR044"
-			(at 190.5 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be0edf01-ac11-4305-80ae-1b490f2b3cb4")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 194.31 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77f542ff-5d4b-49d5-a590-5e10645d80f9")
-		(property "Reference" "#PWR018"
-			(at 194.31 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7566d228-66ad-4913-852a-8837aa97f1a4")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 119.38 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78589f22-0381-45fc-85c5-362ac7f360c3")
-		(property "Reference" "#PWR036"
-			(at 119.38 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 54.356 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c39fae8-a0d7-4d05-9201-4b259e6d68a6")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 247.65 46.99 0)
@@ -6673,303 +7321,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 175.26 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7dafc59d-8f63-4c45-ab2d-f4a8424bd375")
-		(property "Reference" "CHARGLED5"
-			(at 29.21 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YELLOW_LED"
-			(at 29.21 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 29.21 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SYCK.pdf"
-			(at 29.21 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yellow 590nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 29.21 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "APT1608SYCK"
-			(at 29.21 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 29.21 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b6bf06b-1518-4ad1-be46-e00c951a67df")
-		)
-		(pin "2"
-			(uuid "410523c7-3f98-47e8-8f60-0511cd216525")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "CHARGLED5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 36.83 106.68 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7ddd4e58-9db3-4d89-9ab7-82f176fa282e")
-		(property "Reference" "#PWR08"
-			(at 36.83 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 33.02 105.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1535d170-8145-4042-b6aa-e9231a695355")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 17.78 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81c597cb-986c-4371-aded-627cf0fa012c")
-		(property "Reference" "C1"
-			(at 18.288 37.084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 18.288 41.656 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 18.7452 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
-			(at 17.78 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 17.78 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "GRM155R61E105KA12D"
-			(at 17.78 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 17.78 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 17.78 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e321f1f-092b-4d2c-9707-7d5c60b69f9d")
-		)
-		(pin "2"
-			(uuid "806139d6-0f79-419f-bf00-e779646f21e2")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 17.78 44.45 0)
+		(at 66.04 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6977,9 +7331,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "88cc2a81-fc35-4c69-827a-f0b08501e0fc")
-		(property "Reference" "#PWR013"
-			(at 17.78 50.8 0)
+		(fields_autoplaced yes)
+		(uuid "81780ff0-5c00-4dfa-8460-6220662742f7")
+		(property "Reference" "#PWR08"
+			(at 66.04 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,7 +7345,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 48.006 0)
+			(at 66.04 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7000,7 +7355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 44.45 0)
+			(at 66.04 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7011,7 +7366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 44.45 0)
+			(at 66.04 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7022,7 +7377,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 17.78 44.45 0)
+			(at 66.04 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7033,50 +7388,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "ced41ed9-9847-4dc6-9477-d2ca02a14afc")
+			(uuid "097b65ee-76d8-47c9-8e5e-0d9dbf3ec116")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR013")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 124.46 180)
+		(lib_id "Connector:TestPoint")
+		(at 74.93 167.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8bcefacd-e346-4a26-989c-2deaa8688e52")
-		(property "Reference" "R4"
-			(at 95.25 124.46 90)
+		(uuid "86c42ec7-dc8f-49ea-9dd2-62574d11b5c9")
+		(property "Reference" "TP5"
+			(at 76.454 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2k2"
-			(at 97.79 124.46 90)
+		(property "Value" "TestPoint"
+			(at 72.39 169.6721 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 99.314 124.206 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 69.85 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7086,8 +7450,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 100.33 124.46 0)
+		(property "Datasheet" ""
+			(at 69.85 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7097,8 +7461,8 @@
 				)
 			)
 		)
-		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
-			(at 100.33 124.46 0)
+		(property "Description" "test point"
+			(at 74.93 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7108,8 +7472,8 @@
 				)
 			)
 		)
-		(property "Description Value Pkg" ""
-			(at 100.33 124.46 0)
+		(property "Mfg Part #" ""
+			(at 74.93 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7119,30 +7483,8 @@
 				)
 			)
 		)
-		(property "Mfg Part #" "RC0402FR-072K2L"
-			(at 100.33 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 100.33 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "ERJ-2RKF2201X"
-			(at 100.33 124.46 0)
+		(property "Manufacturer" ""
+			(at 74.93 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,15 +7495,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "565fd757-608e-4eee-8026-45c7e06aae26")
-		)
-		(pin "2"
-			(uuid "831f6ded-e1f4-464b-8874-09c69f5e2bac")
+			(uuid "da7e2c7c-77f9-48d3-bef7-0bd4ecfc6764")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "R4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7169,7 +7508,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 128.27 45.72 0)
+		(at 58.42 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7177,9 +7516,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "95e5d0b9-276e-45af-8482-d288b7d55a10")
-		(property "Reference" "C4"
-			(at 128.778 43.434 0)
+		(uuid "8e4bdc5f-03de-484f-b885-78009c339663")
+		(property "Reference" "C1"
+			(at 58.928 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7190,7 +7529,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 128.778 48.006 0)
+			(at 58.928 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7201,7 +7540,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 129.2352 49.53 0)
+			(at 59.3852 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7212,7 +7551,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
-			(at 128.27 45.72 0)
+			(at 58.42 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,8 +7561,8 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 128.27 45.72 0)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 58.42 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7233,8 +7572,8 @@
 				)
 			)
 		)
-		(property "Mfg Part #" "GRM155R61E105KA12D"
-			(at 128.27 45.72 0)
+		(property "Mfg Part #" "GRM155R61H105KE05D"
+			(at 58.42 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7584,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 128.27 45.72 0)
+			(at 58.42 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,34 +7594,31 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
-			(at 128.27 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "dffd7dd2-8e73-47e1-8252-6ca253738be5")
+			(uuid "67cbdee7-6ea9-46af-b69e-4b6a4373c60d")
 		)
 		(pin "2"
-			(uuid "8bbf1374-ebb8-4b73-90ed-1062e617fbaf")
+			(uuid "7d8ca163-cab5-4242-8c4b-8f170a5b9d16")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C4")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 36.83 114.3 0)
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 88.9 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7290,31 +7626,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "970e2b66-0f56-401a-afe3-452a638caac4")
-		(property "Reference" "C20"
-			(at 37.084 112.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 37.084 116.332 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 37.7952 118.11 0)
+		(fields_autoplaced yes)
+		(uuid "8ff91a32-9bf6-4ba0-9f58-9c66cc284f32")
+		(property "Reference" "#PWR013"
+			(at 88.9 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7324,8 +7639,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A104KP3NNNC_Spec.pdf"
-			(at 36.83 114.3 0)
+		(property "Value" "GND"
+			(at 88.9 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7335,8 +7660,8 @@
 				)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 36.83 114.3 0)
+		(property "Datasheet" ""
+			(at 88.9 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,30 +7671,9 @@
 				)
 			)
 		)
-		(property "Mfg Part #" "GRM155R71C104KA88J"
-			(at 36.83 114.3 0)
+		(property "Description" ""
+			(at 88.9 83.82 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 36.83 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 36.83 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7379,15 +7683,103 @@
 			)
 		)
 		(pin "1"
-			(uuid "8254d7bc-b1e0-44c2-86f4-16e169e71b83")
-		)
-		(pin "2"
-			(uuid "467f3aa4-6e36-4d08-b174-647d352e119d")
+			(uuid "b7ec5879-0fc8-4ca8-ab57-cbfbeb975b82")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C20")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 49.53 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "963339b3-ced1-4a68-b201-0ed476e7e632")
+		(property "Reference" "#PWR01"
+			(at 49.53 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de991646-a708-45c5-ae5a-5c37fb72bd8f")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7497,551 +7889,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 40.64 175.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99571d36-edaa-4c78-a032-402808f85bc1")
-		(property "Reference" "R18"
-			(at 40.64 170.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 40.64 172.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 40.894 174.244 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 40.64 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
-			(at 40.64 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "RC0402FR-072KL"
-			(at 40.64 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 40.64 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32b669e5-df95-47a7-98aa-c51da74ba881")
-		)
-		(pin "2"
-			(uuid "f62a57b8-d677-46df-874d-51b2b185a3c7")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 165.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a2625d8-a8d6-4f73-9f92-8553b1a1973e")
-		(property "Reference" "CHARGLED4"
-			(at 29.21 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED_LED"
-			(at 29.21 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 29.21 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608EC.pdf"
-			(at 29.21 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Red 617nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 29.21 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "APT1608EC"
-			(at 29.21 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 29.21 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba2414de-1fea-4576-b5c7-4a623ede940d")
-		)
-		(pin "2"
-			(uuid "54bd4daf-97fe-4f75-89fc-a49c692aae9a")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "CHARGLED4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 200.66 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ac84a57-b37d-4d1a-bf27-55ab6e18ef6d")
-		(property "Reference" "#PWR020"
-			(at 200.66 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "611eee00-3439-4956-97ac-17c79cd110c2")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 109.22 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0fc9e72-4863-4cb5-b819-a03e2e7fa6c0")
-		(property "Reference" "#PWR014"
-			(at 109.22 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 114.046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ab1bd60-e925-4237-81e4-8fc5651e7e1f")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ENCHANTI_switches:PTS810")
-		(at 44.45 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6676e42-cb22-478c-adf7-820e374005ad")
-		(property "Reference" "SW3"
-			(at 44.45 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SYS_RST"
-			(at 45.466 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ENCHANTI_switches:SW_SPST_PTS810"
-			(at 44.704 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
-			(at 56.896 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 36.83 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "PTS810SJG250SMTRLFS"
-			(at 52.578 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
-			(at 43.434 43.688 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ae44cab-7705-4e0a-b1ac-d1cc4bc7be99")
-		)
-		(pin "2"
-			(uuid "cb61a5d0-5c7f-4b05-a7f8-a41f237bf1a3")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VUSB:VUSB")
-		(at 17.78 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aecaeaa9-c832-4d83-bbfd-44cd0d65aedd")
-		(property "Reference" "#VUSB01"
-			(at 17.78 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 15.24 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 17.78 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9648766f-d16f-431d-8bf5-96472838063f")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#VUSB01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "+BATT_3")
 		(lib_id "power:+BATT")
-		(at 190.5 95.25 0)
+		(at 74.93 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8050,9 +7900,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b010ee6f-10b5-4055-9ec0-44ec92f764bc")
-		(property "Reference" "#PWR029"
-			(at 190.5 99.06 0)
+		(uuid "a02d8cc8-fd54-4326-87a1-7e63e8e70860")
+		(property "Reference" "#PWR057"
+			(at 74.93 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8063,7 +7913,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 190.5 90.17 0)
+			(at 74.93 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8073,7 +7923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 95.25 0)
+			(at 74.93 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8084,7 +7934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 95.25 0)
+			(at 74.93 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8094,8 +7944,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 95.25 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 74.93 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8106,7 +7956,282 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ed4fe37-97ba-49a6-8734-1081251b1d72")
+			(uuid "3c293240-b0c4-4140-a782-afd0c760985c")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 46.99 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a378d322-91d7-403e-82c7-6a3c18453c64")
+		(property "Reference" "#PWR053"
+			(at 46.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61ff3f67-dc95-44dd-9cb4-9a3338753789")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 34.29 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2628b95-0e02-406c-bf53-0ae64d106423")
+		(property "Reference" "LED4"
+			(at 34.29 66.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 34.29 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 34.29 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHD1608LQBC-D.pdf"
+			(at 34.29 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red 617nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 34.29 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "APT1608EC"
+			(at 34.29 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 34.29 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a76652b-83b2-46b9-aaa3-93d77e90265e")
+		)
+		(pin "2"
+			(uuid "8360e72b-3c98-40ba-9d97-d32c69698b5e")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 207.01 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5df2837-ed53-4e8a-8f0b-3671930baa4f")
+		(property "Reference" "#PWR029"
+			(at 207.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 207.01 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f05b050-88dd-448a-97c8-67aac41358aa")
 		)
 		(instances
 			(project "enchantiS3"
@@ -8120,7 +8245,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 36.83 119.38 0)
+		(at 111.76 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8128,9 +8253,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b6b963eb-43f7-4361-8b9e-2df270dcc2e0")
-		(property "Reference" "#PWR019"
-			(at 36.83 125.73 0)
+		(fields_autoplaced yes)
+		(uuid "bac330fd-5557-40ad-ba4e-8f7e7b6812d7")
+		(property "Reference" "#PWR014"
+			(at 111.76 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8141,7 +8267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 123.19 0)
+			(at 111.76 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8151,7 +8277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 119.38 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8162,7 +8288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 119.38 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8173,7 +8299,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 119.38 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8184,20 +8310,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "319364cb-56c8-4c72-ba0a-304efd27d0ff")
+			(uuid "62d2c5ba-9b49-49fa-a4a6-581423534fe3")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR019")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 119.38 45.72 0)
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 59.69 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8205,31 +8338,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "be408190-fd93-4eb9-898f-1e3c2ade1492")
-		(property "Reference" "C5"
-			(at 119.634 43.688 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 119.634 48.006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 120.3452 49.53 0)
+		(uuid "baf7a1df-fcaa-4cec-8edc-c1ab49a820be")
+		(property "Reference" "#PWR056"
+			(at 59.69 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8239,8 +8350,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf"
-			(at 119.38 45.72 0)
+		(property "Value" "GND"
+			(at 59.69 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8250,8 +8371,8 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 119.38 45.72 0)
+		(property "Datasheet" ""
+			(at 59.69 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8261,19 +8382,8 @@
 				)
 			)
 		)
-		(property "Mfg Part #" "GRT188R61C106KE13D"
-			(at 119.38 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 119.38 45.72 0)
+		(property "Description" ""
+			(at 59.69 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8284,15 +8394,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "620ae19e-cdd4-4f78-bfdc-dd775d04c4d1")
-		)
-		(pin "2"
-			(uuid "e48993ed-f175-4ff9-924b-1faec10e23fe")
+			(uuid "1b2c1c43-b5ef-48a2-b01f-ff08039c161f")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "C5")
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8372,84 +8485,6 @@
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 81.28 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c5ec4250-8aca-4563-ac8b-acf5ae8c936e")
-		(property "Reference" "#PWR039"
-			(at 81.28 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 81.28 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d1a0ce1-137d-46a4-8b03-5bffb26d1324")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8575,38 +8610,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 81.28 124.46 180)
+		(lib_id "power-symbols:VSYS")
+		(at 26.67 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "de7a6be8-fd46-449b-b063-6c540997bef9")
-		(property "Reference" "R3"
-			(at 76.2 124.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 78.74 124.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.264 124.206 90)
+		(uuid "ca72b1d2-48b5-4bfe-8afc-486db47d20d3")
+		(property "Reference" "SYS1"
+			(at 26.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8616,8 +8631,19 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 81.28 124.46 0)
+		(property "Value" "SYS"
+			(at 25.146 47.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8627,8 +8653,19 @@
 				)
 			)
 		)
-		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
-			(at 81.28 124.46 0)
+		(property "Datasheet" ""
+			(at 26.67 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8639,7 +8676,396 @@
 			)
 		)
 		(property "Description Value Pkg" ""
-			(at 81.28 124.46 0)
+			(at 26.67 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" ""
+			(at 26.67 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 26.67 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e21ef7e9-caf2-496a-b12c-4799eb685f9e")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "SYS1")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "SYS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbef2a91-006d-4505-ab44-66a57619e012")
+		(property "Reference" "C5"
+			(at 119.888 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 119.888 68.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 120.3452 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
+			(at 119.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 119.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GRM155R61H105KE05D"
+			(at 119.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 119.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77e23a2c-555f-4500-877d-0387e87eb1f2")
+		)
+		(pin "2"
+			(uuid "3ec688e3-214a-46ea-8f85-e98352181f21")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 217.17 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0984190-f069-4a08-a427-3b35fa48f2b5")
+		(property "Reference" "#PWR020"
+			(at 217.17 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23c5c989-0805-485e-9ca0-5b7beb429987")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+BATT_1")
+		(lib_id "power:+BATT")
+		(at 46.99 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d717b3a2-e20c-4d85-91b0-f616d4f97ddc")
+		(property "Reference" "#PWR049"
+			(at 46.99 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 46.99 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 46.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a37aae86-8a74-4488-b060-e43a787f3110")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 107.95 138.43 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de9ae794-94f1-4d1f-b482-bf851ae6bd63")
+		(property "Reference" "R17"
+			(at 107.95 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 107.95 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.696 137.414 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 107.95 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 107.95 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Value Pkg" ""
+			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8650,7 +9076,7 @@
 			)
 		)
 		(property "Mfg Part #" "RC0402FR-072K2L"
-			(at 81.28 124.46 0)
+			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8661,7 +9087,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 81.28 124.46 0)
+			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,7 +9098,7 @@
 			)
 		)
 		(property "mpn" "ERJ-2RKF2201X"
-			(at 81.28 124.46 0)
+			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8683,15 +9109,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "28d2c29b-644e-448d-9863-cfc340ca77ed")
+			(uuid "0ce96219-adb4-48c6-93d7-d5fb0fa21887")
 		)
 		(pin "2"
-			(uuid "7eb1800b-8114-4455-b184-5ee0801c4b0b")
+			(uuid "05d3483f-fa98-42d6-91b4-f27b8468c714")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "R3")
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -8700,7 +9132,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 50.8 87.63 0)
+		(at 119.38 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8708,9 +9140,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e8fcb6c1-ae9a-4992-8c3f-c64c69c6dbf5")
-		(property "Reference" "#PWR01"
-			(at 50.8 93.98 0)
+		(uuid "dee1916f-535e-4474-a658-8a0cb21989f3")
+		(property "Reference" "#PWR017"
+			(at 119.38 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8721,7 +9153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.102 89.154 0)
+			(at 119.38 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8731,7 +9163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 87.63 0)
+			(at 119.38 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8742,7 +9174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 87.63 0)
+			(at 119.38 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8753,7 +9185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 87.63 0)
+			(at 119.38 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8764,12 +9196,128 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b8c87fb-e7b0-4db0-ad85-a3722bb069b1")
+			(uuid "58534016-1778-4ce0-891d-2ea2cac2d029")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR01")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 152.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df5353fc-8de6-4096-ae36-c38c0549a99b")
+		(property "Reference" "C17"
+			(at 96.52 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47uF"
+			(at 96.52 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 98.0948 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A474KQ3NNNC_Spec.pdf"
+			(at 99.06 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.47 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 99.06 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "GRT155R61C474KE01D"
+			(at 99.06 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 99.06 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "853f5d15-b9fb-47f0-afc3-22a02f7c7d6e")
+		)
+		(pin "2"
+			(uuid "e3c40183-b314-47db-9380-88982f4a6888")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/d5b8aa9e-ffab-4fec-87f3-aa09217e8e70"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -8778,7 +9326,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 50.8 50.8 0)
+		(at 119.38 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8786,9 +9334,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f34fdd58-a757-4f8c-960f-7ec37bd25b9e")
-		(property "Reference" "#PWR040"
-			(at 50.8 57.15 0)
+		(uuid "e05301bc-dd2c-4b1a-8bf2-6aca98d65368")
+		(property "Reference" "#PWR036"
+			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8799,7 +9347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 54.61 0)
+			(at 119.38 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8809,7 +9357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 50.8 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8820,7 +9368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 50.8 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8831,7 +9379,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 50.8 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8842,21 +9390,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "753a49b7-9ef8-489d-bb23-236a47b69854")
+			(uuid "c6e1b724-096b-4228-b2f7-c878c751b9ca")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR040")
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 109.22 83.82 0)
+		(lib_id "Diode:DZ2S051X0L")
+		(at 207.01 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8864,9 +9417,42 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f3b1793f-0616-4376-b7eb-8801932d4358")
-		(property "Reference" "#PWR03"
-			(at 109.22 90.17 0)
+		(uuid "e5f24b2b-eb58-456a-aa62-53712f635be9")
+		(property "Reference" "D1"
+			(at 204.216 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DZ2S051X0L"
+			(at 203.2 123.444 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 202.565 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05100L_E.pdf"
+			(at 207.01 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8876,18 +9462,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 109.22 87.376 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 83.82 0)
+		(property "Description" "Zener Diode 5.1 V 500 mW ±2% Surface Mount SOD-523"
+			(at 207.01 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8897,8 +9473,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 109.22 83.82 0)
+		(property "Mfg Part #" "MM5Z5V1ST1G"
+			(at 207.01 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8908,8 +9484,120 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 83.82 0)
+		(property "Manufacturer" "onsemi"
+			(at 207.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "45e95db9-41aa-45c6-936c-c3256a904df7")
+		)
+		(pin "1"
+			(uuid "1abca7de-6c28-489e-80b4-09371be3a669")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 57.15 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb843ca6-9b5d-428f-a8b7-073f864e2ce7")
+		(property "Reference" "R12"
+			(at 62.23 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13k"
+			(at 59.69 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 58.166 80.264 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "13 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-0713KL"
+			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "ERJ-2RKF2201X"
+			(at 57.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8920,12 +9608,460 @@
 			)
 		)
 		(pin "1"
-			(uuid "62cbf244-1258-4e21-baf2-49cc5d437f0e")
+			(uuid "d0162b01-e695-4554-a522-a0ccc8ed238f")
+		)
+		(pin "2"
+			(uuid "c0dec1ea-2d1b-4909-a340-44a7a93965da")
 		)
 		(instances
 			(project "enchantiS3"
 				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
-					(reference "#PWR03")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb750bdb-82d0-442d-935d-daa336cd59b0")
+		(property "Reference" "TP3"
+			(at 104.394 39.116 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.1879 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 109.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" ""
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c16685c2-30c3-4d8a-b3c8-494eae1a9722")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe2cbaae-3e27-4d5b-8495-db5484f75cb3")
+		(property "Reference" "TP2"
+			(at 52.578 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.1179 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 57.15 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" ""
+			(at 57.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 57.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea2842be-4221-47c1-b295-9c03a35d827b")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 66.04 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe8f97ce-588a-44ef-be1b-d5a2d3c2d467")
+		(property "Reference" "R14"
+			(at 71.12 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.43k"
+			(at 68.58 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 67.056 81.534 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 66.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "430 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 66.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-07430RL"
+			(at 66.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 66.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "639796b7-f9dc-4c04-9226-3ec7eea756de")
+		)
+		(pin "2"
+			(uuid "77cf0c08-2950-4f11-83d5-00c3dd2dc945")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 111.76 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fec87ef2-255b-4533-928c-a56130c277bc")
+		(property "Reference" "R15"
+			(at 106.68 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.22 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 110.744 75.946 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-0710KL"
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "ERJ-2RKF1001X"
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd60b127-4966-401d-9337-a0f72d4e84e9")
+		)
+		(pin "2"
+			(uuid "58574187-d361-4574-bddc-4cc0fd5125e5")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "BadMicrophone"
+				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
+					(reference "R6")
 					(unit 1)
 				)
 			)

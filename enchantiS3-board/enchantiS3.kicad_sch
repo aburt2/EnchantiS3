@@ -742,7 +742,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mcu.kicad_sch"
+		(property "Sheetfile" "subschematics/mcu.kicad_sch"
 			(at 106.68 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1088,7 +1088,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb.kicad_sch"
+		(property "Sheetfile" "subschematics/usb.kicad_sch"
 			(at 62.23 67.8946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1174,7 +1174,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "peripherals.kicad_sch"
+		(property "Sheetfile" "subschematics/peripherals.kicad_sch"
 			(at 195.58 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1340,7 +1340,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "imu.kicad_sch"
+		(property "Sheetfile" "subschematics/imu.kicad_sch"
 			(at 195.58 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1536,7 +1536,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
+		(property "Sheetfile" "subschematics/power.kicad_sch"
 			(at 62.23 109.8046 0)
 			(show_name no)
 			(do_not_autoplace no)
