@@ -3276,12 +3276,20 @@
 		(uuid "a573ada4-bf41-4470-821e-fb9b14a657e6")
 	)
 	(no_connect
-		(at 60.96 88.9)
-		(uuid "63315074-e11e-4b3a-9754-a4622823e3a7")
+		(at 165.1 114.3)
+		(uuid "02cd36be-27a2-4730-a1c8-77347c8815cf")
+	)
+	(no_connect
+		(at 162.56 114.3)
+		(uuid "06d9be7b-dc41-4645-b5c5-ffb9285d184f")
 	)
 	(no_connect
 		(at 60.96 129.54)
 		(uuid "6d2b51a1-c22b-4ff4-af66-7b1c6c651367")
+	)
+	(no_connect
+		(at 193.04 41.91)
+		(uuid "765a80e6-f875-492f-875a-8bdfc863ac3b")
 	)
 	(no_connect
 		(at 60.96 91.44)
@@ -3613,6 +3621,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 39.37) (xy 198.12 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b70d547-392a-4979-acf2-8141a81a302f")
+	)
+	(wire
+		(pts
 			(xy 193.04 46.99) (xy 195.58 46.99)
 		)
 		(stroke
@@ -3811,6 +3829,16 @@
 		)
 		(uuid "fe812c70-3a79-48e9-b37a-c37780fcc520")
 	)
+	(label "BOOT"
+		(at 195.58 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "654a10a0-3115-4128-9524-146af4eeae6b")
+	)
 	(label "EN"
 		(at 138.43 179.07 0)
 		(effects
@@ -3821,7 +3849,7 @@
 		)
 		(uuid "a332a66e-e1a7-456b-a56a-51864235bca2")
 	)
-	(label "IO0"
+	(label "BOOT"
 		(at 85.09 181.61 0)
 		(effects
 			(font
@@ -4352,6 +4380,40 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 165.1 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "451dccf7-577c-4ed6-834b-4f4e509d4693")
+		(property "Net Class" ""
+			(at 233.68 -114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Strapping Pin"
+			(at 165.1 117.602 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 60.96 132.08 270)
 		(effects
 			(font
@@ -4386,6 +4448,108 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 162.56 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cf5ec70-fb63-40bd-9b25-b2efe6c84293")
+		(property "Net Class" ""
+			(at 231.14 -114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Strapping Pin"
+			(at 162.56 117.602 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 198.12 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "858a602f-40fb-4cba-a988-3c57e64860e2")
+		(property "Net Class" ""
+			(at -30.48 -29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Strapping Pin"
+			(at 201.422 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 193.04 41.91 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c06c85f8-a8e1-426a-8556-64a8270aabaf")
+		(property "Net Class" ""
+			(at -35.56 -26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Strapping Pin"
+			(at 196.342 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 60.96 129.54 270)
 		(effects
 			(font
@@ -4406,40 +4570,6 @@
 		)
 		(property "Component Class" "Strapping Pin"
 			(at 64.262 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 60.96 88.9 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e05459cd-3646-4cf7-b95b-f3542e8b3041")
-		(property "Net Class" ""
-			(at -167.64 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Class" "Strapping Pin"
-			(at 64.262 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

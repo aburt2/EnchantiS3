@@ -3369,6 +3369,12 @@
 		(uuid "73869302-ef0d-4964-ae7c-d7d549d41bfe")
 	)
 	(junction
+		(at 49.53 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754e36df-f791-4b59-8dde-c8a8b24a2235")
+	)
+	(junction
 		(at 58.42 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3385,6 +3391,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf91a3b8-4e1e-4fd3-a191-00e2c88efa1e")
+	)
+	(junction
+		(at 59.69 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03e178b-60fd-4962-bbb0-a28e7e16f648")
 	)
 	(junction
 		(at 115.57 138.43)
@@ -3479,6 +3491,16 @@
 			(type default)
 		)
 		(uuid "0b00a2fa-9af6-4102-a0db-2272aecc5391")
+	)
+	(wire
+		(pts
+			(xy 45.72 66.04) (xy 49.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b12f8e6-88c2-4431-8ac0-4090c0ae8750")
 	)
 	(wire
 		(pts
@@ -3609,6 +3631,16 @@
 			(type default)
 		)
 		(uuid "30813da9-1644-41ad-a174-60137c481aaa")
+	)
+	(wire
+		(pts
+			(xy 49.53 83.82) (xy 49.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32266ac2-6c9a-4a60-8153-1391f4b685b6")
 	)
 	(wire
 		(pts
@@ -3802,7 +3834,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 66.04) (xy 49.53 87.63)
+			(xy 49.53 66.04) (xy 49.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3922,6 +3954,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 66.04) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c0e546-9e38-47be-888c-adc5e2df78ff")
+	)
+	(wire
+		(pts
 			(xy 93.98 140.97) (xy 104.14 140.97)
 		)
 		(stroke
@@ -3939,6 +3981,16 @@
 			(type default)
 		)
 		(uuid "99ab89e4-8acd-4ac8-9aa0-80cf189dc836")
+	)
+	(wire
+		(pts
+			(xy 59.69 140.97) (xy 59.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a41b90c-eb56-420c-9381-9c414f386fd4")
 	)
 	(wire
 		(pts
@@ -4119,16 +4171,6 @@
 			(type default)
 		)
 		(uuid "d4e8c85d-8ec0-4ffc-b818-2ee165cc348c")
-	)
-	(wire
-		(pts
-			(xy 49.53 66.04) (xy 71.12 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d79ab6ef-43a3-4f34-9d9e-5e84d0156dd5")
 	)
 	(wire
 		(pts
@@ -4490,17 +4532,6 @@
 		)
 		(uuid "ea8e0305-b08d-4a8b-a64f-b175c1f4cd80")
 	)
-	(hierarchical_label "FG_ALRT"
-		(shape output)
-		(at 59.69 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09fec739-209b-46e3-bb0f-e5f7a7fb234c")
-	)
 	(hierarchical_label "FG_SCL"
 		(shape input)
 		(at 93.98 143.51 0)
@@ -4511,6 +4542,17 @@
 			(justify left)
 		)
 		(uuid "13ffff4b-07a4-4c48-a15b-b4ba5978d26e")
+	)
+	(hierarchical_label "~{CE}"
+		(shape input)
+		(at 45.72 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47cc400c-d429-4ac5-b1df-0903c581a5af")
 	)
 	(hierarchical_label "VSYS"
 		(shape output)
@@ -9623,6 +9665,118 @@
 			(project "BadMicrophone"
 				(path "/a66779c6-ea44-4602-abcb-8bca3f9291bb/bb8b17f5-bca4-465c-8d10-b60cccfe8446"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 49.53 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3297505-c66a-4847-bca2-c42588d68980")
+		(property "Reference" "R19"
+			(at 44.45 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 46.99 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 48.514 79.756 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 49.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)"
+			(at 49.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" "RC0402FR-0710KL"
+			(at 49.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 49.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "ERJ-2RKF1001X"
+			(at 49.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb7a6592-4605-447f-b823-8c0fed03a16f")
+		)
+		(pin "2"
+			(uuid "afe648d2-3e0e-4369-9b17-196918e11f8c")
+		)
+		(instances
+			(project "enchantiS3"
+				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/ee30c7d7-fa17-4757-a347-33eaa73dc899"
+					(reference "R19")
 					(unit 1)
 				)
 			)

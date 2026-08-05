@@ -120,10 +120,10 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.15,
           "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.15,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -210,7 +210,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1524,
+        "min_clearance": 0.11,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
@@ -223,7 +223,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1524,
+        "min_track_width": 0.11,
         "min_via_annular_width": 0.1016,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -624,9 +624,9 @@
       {
         "bus_width": 12,
         "clearance": 0.1524,
-        "diff_pair_gap": 0.254,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2794,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
@@ -634,7 +634,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
+        "track_width": 0.1524,
         "tuning_profile": "",
         "via_diameter": 0.508,
         "via_drill": 0.3,
@@ -643,14 +643,14 @@
       {
         "bus_width": 12,
         "clearance": 0.1524,
-        "diff_pair_gap": 0.254,
-        "diff_pair_width": 0.2794,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3048,
         "tuning_profile": "",
@@ -659,18 +659,59 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.1524,
+        "name": "RF_Feed",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.508,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1778,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "RF_MN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3302,
+        "tuning_profile": "",
+        "via_diameter": 0.508,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "SDIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.305,
+        "tuning_profile": "",
+        "via_diameter": 0.508,
+        "via_drill": 0.3
+      },
+      {
         "bus_width": 12,
         "clearance": 0.1524,
-        "diff_pair_gap": 0.254,
-        "diff_pair_width": 0.2794,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
+        "track_width": 0.1524,
         "tuning_profile": "",
         "via_diameter": 0.508,
         "via_drill": 0.3,
@@ -684,7 +725,7 @@
         "microvia_drill": 0.254,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2794,
         "tuning_profile": "",
@@ -802,12 +843,6 @@
       "/Peripherals/TXD": [
         "Signal"
       ],
-      "/Peripherals/VCC": [
-        "Power"
-      ],
-      "/Peripherals/VIO": [
-        "Power"
-      ],
       "/Power System/VBUS": [
         "Power"
       ],
@@ -837,11 +872,35 @@
       },
       {
         "netclass": "Power",
+        "pattern": "VIN"
+      },
+      {
+        "netclass": "Power",
         "pattern": "VUSB"
       },
       {
         "netclass": "Power",
-        "pattern": "+BATT"
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+1V8_AUX"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+1V8A"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+1V8_AON"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDDA"
       },
       {
         "netclass": "Power",
@@ -849,7 +908,15 @@
       },
       {
         "netclass": "Power",
-        "pattern": "GND"
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDD_UWB"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "CHRG+"
       }
     ]
   },
@@ -1042,7 +1109,7 @@
         "uuid": "1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1"
       }
     ],
-    "used_designators": "D1,BAT1,#PWR18,#PWR20,#PWR29,#PWR44,#PWR62,TP5",
+    "used_designators": "#PWR10,#PWR19,#PWR27,#PWR30,#PWR64,#PWR69-71,J2-3,R19,CON1",
     "variants": []
   },
   "sheets": [

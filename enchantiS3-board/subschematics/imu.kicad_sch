@@ -1028,28 +1028,16 @@
 		(uuid "5b85865e-4247-47e4-bdde-d5cbfa19b7b9")
 	)
 	(junction
-		(at 115.57 104.14)
+		(at 132.08 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7266e217-1e46-4857-8327-155ad2e02791")
-	)
-	(junction
-		(at 115.57 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbb6ca53-2acc-4be8-a4e3-01d03a1d2f6f")
+		(uuid "e2fe2eb8-daee-4025-9e58-ad83f1a8a180")
 	)
 	(junction
 		(at 121.92 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d18506c8-3dac-4278-90cf-75bb4f22532c")
-	)
-	(junction
-		(at 132.08 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2fe2eb8-daee-4025-9e58-ad83f1a8a180")
+		(uuid "f065c3d9-d723-4882-bd7c-490497b0334e")
 	)
 	(wire
 		(pts
@@ -1113,16 +1101,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 123.19) (xy 140.97 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b09501-67c0-4f0e-970a-b782052cbe44")
-	)
-	(wire
-		(pts
 			(xy 83.82 67.31) (xy 83.82 69.85)
 		)
 		(stroke
@@ -1153,7 +1131,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 105.41) (xy 132.08 102.87)
+			(xy 132.08 104.14) (xy 132.08 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1223,7 +1201,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 104.14) (xy 115.57 105.41)
+			(xy 121.92 102.87) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1243,27 +1221,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 104.14) (xy 121.92 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a2de7af-7c80-4a31-814f-1433cbfadbae")
-	)
-	(wire
-		(pts
-			(xy 125.73 92.71) (xy 121.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a4e0479-114f-4e88-ab30-fe38b90fda61")
-	)
-	(wire
-		(pts
-			(xy 115.57 92.71) (xy 115.57 95.25)
+			(xy 121.92 92.71) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1333,16 +1291,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 104.14) (xy 115.57 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f636419-0ebb-406c-a20c-0735fb9ab020")
-	)
-	(wire
-		(pts
 			(xy 148.59 53.34) (xy 152.4 53.34)
 		)
 		(stroke
@@ -1350,16 +1298,6 @@
 			(type default)
 		)
 		(uuid "857e0fdc-43cd-4e60-9647-68b061768313")
-	)
-	(wire
-		(pts
-			(xy 121.92 92.71) (xy 121.92 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "870601ed-d187-4ca7-ac1d-d114fb483ce4")
 	)
 	(wire
 		(pts
@@ -1403,6 +1341,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 123.19) (xy 140.97 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cafa5c1-763c-47ab-aea0-61383b3fd397")
+	)
+	(wire
+		(pts
 			(xy 83.82 48.26) (xy 83.82 57.15)
 		)
 		(stroke
@@ -1413,13 +1361,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 102.87) (xy 115.57 104.14)
+			(xy 121.92 92.71) (xy 125.73 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b32b9317-c9a4-4624-b6c3-880c6e4a61d2")
+		(uuid "a7b967a7-c40b-443a-9919-59c8f9ddea47")
 	)
 	(wire
 		(pts
@@ -1473,23 +1421,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 92.71) (xy 115.57 92.71)
+			(xy 118.11 92.71) (xy 121.92 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f12b8eef-d660-40ff-b348-4f375516914d")
-	)
-	(wire
-		(pts
-			(xy 115.57 92.71) (xy 121.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8adf8b-52fd-4099-b26a-725932447e2c")
 	)
 	(label "IMU_INT2"
 		(at 97.79 54.61 180)
@@ -1520,6 +1458,16 @@
 			(justify right bottom)
 		)
 		(uuid "5ccd6aef-33da-4281-bfa5-40f5642c1585")
+	)
+	(label "C1"
+		(at 139.7 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d12507a5-5703-424f-9c82-1e74881c7311")
 	)
 	(label "MAG_INT"
 		(at 139.7 118.11 0)
@@ -1690,7 +1638,7 @@
 	)
 	(hierarchical_label "VDD_MAG"
 		(shape input)
-		(at 111.76 92.71 180)
+		(at 118.11 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1699,7 +1647,7 @@
 		)
 		(uuid "837ece0a-9bb0-40b6-8403-9358640c4f04")
 		(property "Net Class" "Power"
-			(at 98.552 92.71 0)
+			(at 104.902 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2149,7 +2097,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 132.08 105.41 0)
+		(at 132.08 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2159,7 +2107,7 @@
 		(dnp no)
 		(uuid "2fead599-b2af-4f2b-a87a-effb6beefc0c")
 		(property "Reference" "#PWR052"
-			(at 132.08 111.76 0)
+			(at 132.08 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2170,7 +2118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 108.966 0)
+			(at 132.08 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2180,7 +2128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 105.41 0)
+			(at 132.08 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2191,7 +2139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 105.41 0)
+			(at 132.08 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2202,7 +2150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 105.41 0)
+			(at 132.08 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2468,120 +2416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 121.92 99.06 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51cc91c4-6d8c-4921-9409-5d0be33a5ebf")
-		(property "Reference" "C18"
-			(at 121.666 97.028 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 121.666 101.092 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 120.9548 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A104KP3NNNC_Spec.pdf"
-			(at 121.92 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 121.92 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" "GRM155R71C104KA88J"
-			(at 121.92 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 121.92 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 121.92 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e4f5816-207d-4729-8a75-b02ea14e9b0f")
-		)
-		(pin "2"
-			(uuid "31a4abab-eb39-4415-9840-98bb0ed068b0")
-		)
-		(instances
-			(project "enchantiS3"
-				(path "/1e57a4ff-0c95-4e2b-9e56-d9bf8e99c9a1/bd129300-83b3-4f49-b419-55e8d0985e15"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 83.82 73.66 0)
@@ -2785,7 +2619,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 115.57 105.41 0)
+		(at 121.92 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2795,7 +2629,7 @@
 		(dnp no)
 		(uuid "860635c9-3a80-4e48-a5fe-08a793a7a5e3")
 		(property "Reference" "#PWR051"
-			(at 115.57 111.76 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2806,7 +2640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 108.966 0)
+			(at 121.92 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2816,7 +2650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 105.41 0)
+			(at 121.92 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2827,7 +2661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 105.41 0)
+			(at 121.92 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2838,7 +2672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 105.41 0)
+			(at 121.92 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3078,7 +2912,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 99.06 0)
+		(at 121.92 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3088,7 +2922,7 @@
 		(dnp no)
 		(uuid "cf832944-77f8-4cfd-8f2b-4e1f50e5b5d8")
 		(property "Reference" "C16"
-			(at 111.506 96.52 0)
+			(at 117.856 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3099,7 +2933,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 111.76 101.346 0)
+			(at 118.11 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3110,7 +2944,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 116.5352 102.87 0)
+			(at 122.8852 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3121,7 +2955,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL03A105KQ3CSNC_Spec.pdf"
-			(at 115.57 99.06 0)
+			(at 121.92 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +2966,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 115.57 99.06 0)
+			(at 121.92 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +2977,7 @@
 			)
 		)
 		(property "Mfg Part #" "GRM155R61E105KA12D"
-			(at 115.57 99.06 0)
+			(at 121.92 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3154,7 +2988,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 115.57 99.06 0)
+			(at 121.92 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,7 +2999,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 115.57 99.06 0)
+			(at 121.92 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
